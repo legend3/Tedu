@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\workspace\spring\day05_all\springcase-netctoss"/>
+			<item value="E:\workspace\spring\day01_all\springcase-day01"/>
+			<item value="E:\workspace\spring\day03_all\springcase-day03"/>
+			<item value="E:\workspace\spring\day03_all\springcase-day02\src\main\resources\app.xml"/>
+			<item value="E:\workspace\spring\day03_all\springcase-day02"/>
+			<item value="E:\workspace\spring\day04_all\springcase-day04"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

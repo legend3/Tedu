@@ -1,0 +1,10 @@
+练习1:
+  使用自动装配将AdminDAO注入到LoginService。
+  (byName)。
+练习2:
+  使用注解的方式为MessageBean添加初始化
+  方法与销毁方法。
+练习3:
+  写一个bean,完成各种集合类型值的注入。
+  
+　	

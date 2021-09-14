@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="springcase-day02"/>
+<aop-project name="springcase-day03"/>
+<aop-project name="springcase-day01"/>
+<aop-project name="springcase-day04"/>
+<aop-project name="springcase-netctoss"/>
+</aop-reference-model>

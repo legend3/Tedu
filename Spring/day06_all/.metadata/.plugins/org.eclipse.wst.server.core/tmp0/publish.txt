@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sun Aug 01 18:07:31 CST 2021
+org.eclipse.jst.jee.server\:springcase-netctoss=E\:\\Apache\\apache-tomcat-9.0.41\\webapps\\springcase-netctoss
+org.eclipse.jst.jee.server\:/binary\:E\:\\apache-maven-3.8.1\\repository\\org\\springframework\\spring-web\\5.2.8.RELEASE\\spring-web-5.2.8.RELEASE.jar=E\:\\Apache\\apache-tomcat-9.0.41\\webapps\\springcase-netctoss\\WEB-INF\\lib\\spring-web-5.2.8.RELEASE.jar

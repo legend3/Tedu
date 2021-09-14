@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://JAVA.sun.com/xml/ns/javaee http://JAVA.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>Servlet1</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- 1.注册别名(小名) -->
+  <servlet>
+  	 <servlet-name>time</servlet-name>
+  	 <servlet-class>web.TimeServlet</servlet-class>
+  </servlet>
+  
+  <!-- 2.注册访问路径(网名) -->
+  <servlet-mapping>
+  	 <servlet-name>time</servlet-name>
+  	 <url-pattern>/ts</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
+
+

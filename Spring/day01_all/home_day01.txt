@@ -1,0 +1,7 @@
+练习：
+(1)分别使用set方式和构造器方式
+将AdminDAO注入到LoginService。
+
+(2)为SomeBean添加初始化方法和销毁方法。
+
+

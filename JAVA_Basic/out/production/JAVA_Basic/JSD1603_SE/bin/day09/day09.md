@@ -1,0 +1,248 @@
+# IO 流
+
+## 节点流
+
+从特定的数据源开始读写数据，只提供最基本的byte读写方法，功能简单。
+
+## 过滤流（处理流，高级流，扩展流）
+
+必须依赖低级流（包含节点流），过滤流不能单独工作，在低级流的基础之上扩展了丰富的数据类型读写功能。功能复杂，使用方便。
+
+## 文件流
+
+文件是节点流，以文件作为数据源读写数据，只提供简单byte读写功能，很少直接使用。
+
+
+## 缓冲流
+
+过滤流，是高级流，不能单独工作，必须依赖低级流（低级流做为构造器参数）提供了自动化缓冲区管理，使用缓冲流可以提供软件的IO性能。不会改变原有的软件逻辑。在读写文件时候都会加上缓冲流提高性能。
+
+![](1.png)
+
+代码：利用缓冲流提高文件复制的性能
+
+	FileInputStream fis = 
+		new FileInputStream("moive.flv");
+	FileOutputStream fos = 
+		new FileOutputStream("new.flv");
+	BufferedInputStream in=
+		new BufferedInputStream(fis);
+	BufferedOutputStream out=
+		new BufferedOutputStream(fos);
+	int b;
+	while((b = in.read())!=-1){
+		out.write(b);
+	}
+	in.close();
+	out.close();
+
+原理：
+
+![](2.png)
+
+
+## 对象流
+
+对象流是高级流，不能单独工作，必须依赖低级流（低级流做为构造器参数），对象流提供了对象的序列化和反序列化功能，可以将对象序列化为byte数据，或将byte数据反序列化为对象。
+
+> 对象流要求被序列化的对象必须实现序列化接口，如果不实现序列化接口，在序列化时候会出现运行异常。
+
+![](3.png)
+
+### 序列化接口
+
+- 对象流要求 被序列化的对象实现Serializable接口！
+- Java编译器在编译实现Serializable接口
+对象时候会自动的插入序列化（反序列化）方法！这些方法将被对象流调用，用于对象序列化。
+- 实现Serializable时候建议添加序列化版本号属性。序列化版本号要保持稳定，可以避免序列化时候遇到的问题。
+
+案例：
+
+	public class Foo 
+		implements Serializable {
+		private static final long 
+			serialVersionUID = -43858545680L;
+		int n;
+		String s;
+		public Foo() {
+		}
+		public Foo(int n, String s) {
+			this.n = n;
+			this.s = s;
+		}
+		public String toString() {
+			return "Foo [n=" + n + ", s=" + s + "]";
+		}
+	}
+
+### 对象输出流
+
+- 对象输出流必须依赖低级byte输出流
+- 对象输出流可以将对象序列化为byte数据。
+
+案例：
+
+	Foo foo = new Foo(3, "Tom");
+	/*
+	 * 先创建低级流（节点流）
+	 */
+	FileOutputStream fos = 
+		new FileOutputStream("obj.dat");
+	/*
+	 * 创建对象输出流,是一种高级流，需要
+	 * 依赖低级流。
+	 */
+	ObjectOutputStream out = 
+		new ObjectOutputStream(fos);
+	/*
+	 * 使用高级流提供的算法（方法）将
+	 * 对象序列化写到文件中
+	 */
+	out.writeObject(foo);
+	out.close();	
+
+### 对象输入流
+
+- 对象输入流必须依赖低级byte输入流
+- 对象输入流可以将byte数据反序列化对象
+
+案例:
+
+	FileInputStream fis = 
+		new FileInputStream("obj.dat");
+	ObjectInputStream in =
+		new ObjectInputStream(fis);
+	/*
+	 * 调用对象的反序列化方法读取对象
+	 */
+	Foo f = (Foo)in.readObject();
+	in.close();
+	System.out.println(f); 
+
+
+### transient 关键字
+
+用于忽略不需要序列化的属性，这样就可以保存必须的属性，减少文件的大小。
+
+案例：
+	
+	class Person{
+		String name;
+		transient Set<Person> mate;
+	}
+
+## 字符流
+
+字符流是高级流，必须依赖低级的byte流，字符流封装了字符的编码和解码功能，能够将字符数据编码序列化为byte写到低级流中，或将byte字符数据解码为字符数据。
+
+### Reader 和 Writer
+
+是抽象类，定义了字符的读写方法，所有的字符流都继承于Reader 和 Writer。
+
+### 转换流  
+
+- InputStreamReader 字符输入流
+- OutputStreamWriter 字符输出流
+
+是高级流必须依赖于低级byte流，字符转换流继承于Reader 和 Writer，封装了字符编码的处理算法，简化的字符数据的读写。
+
+![](4.png)
+
+案例：将文本输出到文件中。
+
+	String s = "你吃了吗？";
+	FileOutputStream fos = 
+		new FileOutputStream("d.txt");
+	OutputStreamWriter writer = 
+		new OutputStreamWriter(fos,"UTF-8");
+	//字符流将字符数据编码为byte写到低级流
+	writer.write(s);
+	writer.close();
+
+	
+案例：读取文件中的文字信息
+
+	FileInputStream fis = 
+		new FileInputStream("d.txt");
+	InputStreamReader reader = 
+		new InputStreamReader(fis, "UTF-8");
+	int c;
+	while((c = reader.read())!=-1){
+		char ch = (char)c;
+		System.out.print(ch);
+	}
+	reader.close();
+
+> 注意：使用字符流时候最好指定字符的编码！文件流打开时候最好套用缓冲流
+
+### 文本文件读写
+
+- PrintWriter 用于写出文本文件
+- BufferedReader 用于读取文本文件
+
+这两个都是高级流，都必须依赖于低级byte流，提供了按行读写文本文件的方法。使用及其方便。是最常用的文本读写方法。
+
+![](5.png)
+
+### PrintWriter
+
+高级流，提供了非常方便的print println方法
+
+案例：
+
+	PrintWriter out = new PrintWriter(
+		new OutputStreamWriter(
+		new FileOutputStream("demo.txt", true), "utf-8"));
+	out.println("Hello World!");
+	out.println(1234);
+	out.println(3.1415926);
+	out.close();
+	可以简化为：
+	PrintWriter out=
+		new PrintWriter("demo.txt");
+	out.println("Hello World!");
+	out.close();
+
+### BufferedReader
+
+高级流，提供了非常方便的readLine方法
+
+案例：利用BufferedReader读取文本文件
+
+	BufferedReader in = 
+		new BufferedReader(
+		new InputStreamReader(
+		new FileInputStream(
+		"src/day01/DocDemo.java"),
+		"UTF-8"));
+	String str;
+	//每次从文件中读取一行文本，如果返回null表示读取到文件的末尾
+	while((str=in.readLine())!=null){
+		System.out.println(str);
+	}
+	in.close();
+
+
+## 作业：
+
+1. 使用文件流复制"myfile.txt"文件，并取名为"myfile1.txt"
+2. 使用缓冲流复制"myfile.txt"文件，并取名为"myfile2.txt"  
+3. 创建类:
+  public class Person{
+	private String name;
+	private int age;
+	private int salary;
+    //定义构造方法，以及属性get,set方法
+  }
+  实现序列化接口，并定义版本号。
+4. 创建一个Person对象，内容：张三,25,5000
+  然后将该对象写入到文件MyPerson.obj中。
+5. 读取MyPerson.obj文件，将Person对象读取出来并输出。  
+6. 使用字符流复制当前项目src目录中day07目录中随意一个课上写过的.java文件
+  到当前项目根目录下。
+3. 将控制台输入的每一行字符串使用缓冲字符流输出流PrintWriter按行写入到文件note.txt中
+4. 将note.txt文件中每一行字符串读取出来并输出到控制台。
+
+
+
+

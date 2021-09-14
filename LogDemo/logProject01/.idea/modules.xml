@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JCL_STUDY/JCL_STUDY.iml" filepath="$PROJECT_DIR$/JCL_STUDY/JCL_STUDY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JUL_STUDY/JUL_STUDY.iml" filepath="$PROJECT_DIR$/JUL_STUDY/JUL_STUDY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LOG4J2_STUDY/LOG4J2_STUDY.iml" filepath="$PROJECT_DIR$/LOG4J2_STUDY/LOG4J2_STUDY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LOG4J_STUDY/LOG4J_STUDY.iml" filepath="$PROJECT_DIR$/LOG4J_STUDY/LOG4J_STUDY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LOGBACK_STUDY/LOGBACK_STUDY.iml" filepath="$PROJECT_DIR$/LOGBACK_STUDY/LOGBACK_STUDY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SLF4J_STUDY/SLF4J_STUDY.iml" filepath="$PROJECT_DIR$/SLF4J_STUDY/SLF4J_STUDY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SPRINGBOOTLOG_STUDY/SPRINGBOOTLOG_STUDY.iml" filepath="$PROJECT_DIR$/SPRINGBOOTLOG_STUDY/SPRINGBOOTLOG_STUDY.iml" />
+    </modules>
+  </component>
+</project>

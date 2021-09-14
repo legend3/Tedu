@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="http://www.springframework.org/schema/data/jpa/spring-jpa.xsd http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+	<!-- 读取db.properties文件的内容 -->
+	<util:properties id="jdbc" 
+	location="classpath:db.properties" />
+	<!-- 配置DataSource -->
+	<bean id="ds" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="#{jdbc.driver}" />
+		<property name="url" value="#{jdbc.url}" />
+		<property name="username" value="#{jdbc.user}" />
+		<property name="password" value="#{jdbc.pwd}" />
+	</bean>
+	<!-- 配置SqlSessionFactoryBean -->
+	<bean id="ssfb" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!-- 注入DataSource -->
+		<property name="dataSource" ref="ds"/>
+		<!-- 注入映射文件的位置信息 -->
+		<property name="mapperLocations" 
+		value="classpath:com/tarena/oss/entity/*.xml"/>
+	</bean>
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<!-- 注入要扫描的包名 -->
+		<property name="basePackage" 
+		value="com.tarena.oss.dao"/>
+	</bean>
+	<!-- 配置组件扫描 -->
+	<context:component-scan 
+	base-package="com.tarena.oss"/>
+	<!-- 配置mvc注解扫描 -->
+	<mvc:annotation-driven/>
+	<!-- 配置视图解析器 -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	
+	
+	
+	
+</beans>

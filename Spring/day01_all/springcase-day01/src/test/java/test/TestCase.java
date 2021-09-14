@@ -1,0 +1,46 @@
+package test;
+
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import other.MessageBean;
+
+/**
+ * 测试类
+ *
+ */
+public class TestCase {
+	@Test
+	//演示作用域
+	public void test1(){
+		//启动spring容器
+		ApplicationContext ac = new ClassPathXmlApplicationContext(
+			"app2.xml");
+		//通过容器获得一个bean实例
+//		ExampleBean eb1 = 
+//				ac.getBean("eb",ExampleBean.class);
+//		
+//		ExampleBean eb2 = 
+//				ac.getBean("eb",ExampleBean.class);
+//		
+//		System.out.println(eb1 == eb2);
+		
+	}
+	
+	@Test
+	//测试生命周期相关的几个方法。
+	public void test2(){
+		//启动spring容器。
+		//因为ApplicationContext接口当中
+		//没有提供关闭容器相关的方法，所以
+		//使用其子接口。
+				AbstractApplicationContext ac = new ClassPathXmlApplicationContext("app2.xml");
+		MessageBean mb = ac.getBean("mb", MessageBean.class);
+		mb.sendMsg();
+		//关闭容器。
+		ac.close();
+		
+	}
+}

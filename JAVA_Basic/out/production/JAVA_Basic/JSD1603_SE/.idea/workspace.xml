@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0d661d2-0ca2-4322-91fb-fd1e83d71d92" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\apache-maven-3.8.1\conf\settings.xml" />
+        <option name="mavenHome" value="E:/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1eFkfNtkrHV9d8id9lxeW64Hhqm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day06" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\JAVA_Basic\JSD1603_SE\src\day13_Thread" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Demo08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.Demo08" />
+      <module name="JSD1603_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.MapDemo1" />
+      <module name="JSD1603_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.MapDemo2" />
+      <module name="JSD1603_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadbasic.p3.Test" />
+      <module name="JSD1603_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadbasic.p3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadbasic.p1.Test" />
+      <module name="JSD1603_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadbasic.p1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="E:\Java\jdk1.8.0_271\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="threadbasic.p2.Test" />
+      <module name="JSD1603_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadbasic.p2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MapDemo2" />
+      <item itemvalue="Application.MapDemo1" />
+      <item itemvalue="Application.Demo08" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Demo08" />
+        <item itemvalue="Application.MapDemo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0d661d2-0ca2-4322-91fb-fd1e83d71d92" name="Default Changelist" comment="" />
+      <created>1593924830618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593924830618</updated>
+      <workItem from="1593924832259" duration="249000" />
+      <workItem from="1593925096205" duration="2804000" />
+      <workItem from="1593928808693" duration="406000" />
+      <workItem from="1593929253894" duration="790000" />
+      <workItem from="1594466405601" duration="24413000" />
+      <workItem from="1594542308235" duration="1863000" />
+      <workItem from="1595071493164" duration="1984000" />
+      <workItem from="1595107325180" duration="4348000" />
+      <workItem from="1595646413178" duration="3538000" />
+      <workItem from="1595671613373" duration="3416000" />
+      <workItem from="1595748486484" duration="5983000" />
+      <workItem from="1595776340954" duration="10558000" />
+      <workItem from="1597567768371" duration="55000" />
+      <workItem from="1597569671706" duration="996000" />
+      <workItem from="1598401816652" duration="35000" />
+      <workItem from="1602004150715" duration="26682000" />
+      <workItem from="1602600885691" duration="600000" />
+      <workItem from="1602912206491" duration="25143000" />
+      <workItem from="1603203861762" duration="865000" />
+      <workItem from="1603290293152" duration="599000" />
+      <workItem from="1603904488463" duration="2514000" />
+      <workItem from="1603984942569" duration="651000" />
+      <workItem from="1604123272355" duration="1052000" />
+      <workItem from="1604344558926" duration="49000" />
+      <workItem from="1604415531292" duration="51000" />
+      <workItem from="1605194473118" duration="3417000" />
+      <workItem from="1605320837590" duration="759000" />
+      <workItem from="1607005326147" duration="15137000" />
+      <workItem from="1607152244340" duration="9175000" />
+      <workItem from="1607246364433" duration="7422000" />
+      <workItem from="1607253816828" duration="44000" />
+      <workItem from="1607253877672" duration="7655000" />
+      <workItem from="1607438933094" duration="5706000" />
+      <workItem from="1608133658134" duration="217000" />
+      <workItem from="1609565806659" duration="45159000" />
+      <workItem from="1610027947687" duration="75000" />
+      <workItem from="1610168077686" duration="1224000" />
+      <workItem from="1610197790158" duration="613000" />
+      <workItem from="1610383593897" duration="1093000" />
+      <workItem from="1610892441169" duration="2047000" />
+      <workItem from="1611476229167" duration="5000" />
+      <workItem from="1611757217015" duration="28000" />
+      <workItem from="1612116198996" duration="1450000" />
+      <workItem from="1612221040049" duration="2189000" />
+      <workItem from="1612538019486" duration="717000" />
+      <workItem from="1613521442639" duration="140000" />
+      <workItem from="1614184994944" duration="1377000" />
+      <workItem from="1614274450273" duration="537000" />
+      <workItem from="1614353445923" duration="2394000" />
+      <workItem from="1616829546236" duration="2440000" />
+      <workItem from="1617299038069" duration="1827000" />
+      <workItem from="1621062109076" duration="11389000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621100861162">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1621100861162" />
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1621091920601">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1621091920601" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1621103363402">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1621103363402" />
+    <state width="1002" height="276" key="GridCell.Tab.0.bottom" timestamp="1621103250108">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1002" height="276" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621103250108" />
+    <state width="1002" height="276" key="GridCell.Tab.0.center" timestamp="1621103250107">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1002" height="276" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621103250107" />
+    <state width="1002" height="276" key="GridCell.Tab.0.left" timestamp="1621103250107">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1002" height="276" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621103250107" />
+    <state width="1002" height="276" key="GridCell.Tab.0.right" timestamp="1621103250108">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1002" height="276" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621103250108" />
+    <state x="146" y="0" key="SettingsEditor" timestamp="1621086290279">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="146" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1621086290279" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1621089988730">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1621089988730" />
+  </component>
+</project>

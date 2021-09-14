@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+    <Appenders>
+
+        <!-- 配置控制台输出 -->
+        <Console name="consoleAppender" target="SYSTEM_ERR">
+
+        </Console>
+
+    </Appenders>
+
+
+    <!-- 配置logger -->
+    <Loggers>
+
+        <Root level="trace">
+
+            <AppenderRef ref="consoleAppender"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

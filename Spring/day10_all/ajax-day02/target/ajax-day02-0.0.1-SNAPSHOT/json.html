@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	/*
+		使用json语法来创建一个对象。
+	*/
+	function f1(){
+		var obj = {"code":"600015",
+				"name":"山东高速","price":10};
+		alert(obj.name);
+	}
+	
+	function f2(){
+		var obj = {"name":"苍老师",
+				"address":{
+					"city":"北京",
+					"street":"长安街",
+					"room":1898
+				}
+		};
+		alert(obj.address.room);
+	}
+	
+	/*
+		使用json语法创建一个由对象组成的数组。
+	*/
+	function f3(){
+		var arr = [{"code":"600015",
+			"name":"山东高速","price":10},
+			{"code":"300002",
+				"name":"深万科","price":20}];
+		alert(arr[1].name);
+	}
+</script>
+</head>
+<body style="font-size:30px;">
+		<a href="javascript:;" 
+		onclick="f3();">ClickMe</a>
+</body>
+
+
+
+
+
+</html>

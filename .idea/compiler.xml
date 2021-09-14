@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jdbc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01JAVA_BASIC_JSD1603" target="8" />
+      <module name="jdbc" target="8" />
+      <module name="JSD1603_SE" target="8" />
+      <module name="JSD1603_XML" target="8" />
+      <module name="TETRIS" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
