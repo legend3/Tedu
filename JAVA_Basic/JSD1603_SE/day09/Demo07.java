@@ -12,7 +12,7 @@ public class Demo07 {
 			new BufferedReader(
 			new InputStreamReader(
 			new FileInputStream(
-			"src/day01/DocDemo.java"),
+			"Java/JSD1603_SE/day01/DocDemo.java"),
 			"GBK"));
 		String str;
 		//每次从文件中读取一行文本，如果返回null表示读取到文件的末尾
