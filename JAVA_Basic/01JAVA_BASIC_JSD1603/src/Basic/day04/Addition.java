@@ -24,11 +24,11 @@ public class Addition {
 		}
 		System.out.println("得分为:"+score);
 
-		//Math
-		System.out.println(Math.sqrt(2));//开方
-		System.out.println(Math.max(2,6));//比较最大值
-		System.out.println(Math.abs(-3));//绝对值
-		System.out.println(Math.round(3.44325325432f));//四舍五入
+		//Math: 类包含用于执行基本数学运算的方法(JAVA的内置高级计算器)
+		System.out.println("Math.sqrt()平方: " + Math.sqrt(2));//开方
+		System.out.println("Math.max()比较最大值: " + Math.max(2,6));//比较最大值
+		System.out.println("Math.abs()绝对值: " + Math.abs(-3));//绝对值
+		System.out.println("Math.round()四舍五入: " + Math.round(3.44325325432f));//四舍五入
 		System.out.println(Math.round(3.54325325432f));//四舍五入
 	}
 }

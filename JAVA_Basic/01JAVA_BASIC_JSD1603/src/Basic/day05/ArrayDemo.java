@@ -62,10 +62,10 @@ public class ArrayDemo {
 		* 5.数组的复制
 		*/
 //		int[] a = {10,20,30,40,50};
-////		System.out.println(a);
+//		System.out.println(a);
 //		//扩容/缩减(创建了一个新的数组，并把原始数组的数据复制过去了)
 //		a = Arrays.copyOf(a, a.length-2);
-////		System.out.println(a);//输出数组地址
+//		System.out.println(a);//输出数组地址
 //		for(int i=0;i<a.length;i++){
 //			System.out.println(a[i]);
 //		}
@@ -79,7 +79,7 @@ public class ArrayDemo {
 //			System.out.println(a1[i]);
 //		}
 
-
+		//数组间的复制
 		int[] a = {10,20,30,40,50};
 		int[] a1 = new int[6]; //0,0,0,0,0,0
 		//a:源数组

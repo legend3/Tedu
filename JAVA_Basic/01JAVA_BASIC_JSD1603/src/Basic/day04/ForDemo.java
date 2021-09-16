@@ -71,9 +71,9 @@ public class ForDemo {
 		 * 不一定是++ *
 		 */
 
-//		for(int i=0,j=6; i<5; i+=2,j-=2){
-//			System.out.println("i="+i + " " + "j="+j);
-//		}
+		for(int i=0,j=6; i<5; i+=2,j-=2){
+			System.out.println("i="+i + " " + "j="+j);
+		}
 
 
 		/**

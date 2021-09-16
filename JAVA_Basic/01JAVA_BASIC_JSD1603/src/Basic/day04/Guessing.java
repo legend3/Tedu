@@ -25,10 +25,7 @@ public class Guessing {
 		}else{
 			System.out.println("下次再来吧!");
 		}
-		
-		
-		
-		
+
 		/*
 		System.out.println("猜吧!");
 		int guess = scan.nextInt(); //1.
