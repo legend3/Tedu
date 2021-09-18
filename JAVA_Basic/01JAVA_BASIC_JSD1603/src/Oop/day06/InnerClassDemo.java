@@ -1,6 +1,6 @@
 package Oop.day06;
 
-//内部类的演示
+//成员内部类的演示
 public class InnerClassDemo {
 	public static void main(String[] args) {
 		Mama m = new Mama();
