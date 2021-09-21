@@ -3,6 +3,9 @@ package day08;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+/**
+ * 文件流
+ */
 public class Demo05 {
 
 	public static void main	(String[] args) throws Exception{

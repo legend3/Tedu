@@ -15,12 +15,14 @@
 	- System.out 控制台输出流
 	- 网络流
 - 扩展流（高级流）
-	- 对象流：对象读写
-	- 缓冲流：提供IO性能
-	- 字符流：扩展了字符编码
-		- 转换流
-		- PrintWriter  写文本
-		- BufferedReader 读文本
+    - 对象流：对象读写
+    - 缓冲流：提供IO性能
+    - 字符流：扩展了字符编码
+        - 转换流
+          - InputStreamReader 字符输入流
+          - OutputStreamWriter 字符输出流
+        - PrintWriter  写文本，依赖低级byte流-OutputStreamReader
+        - BufferedReader 读文本，依赖低级byte流-InputStreamReader
 
 控制台读写：
 

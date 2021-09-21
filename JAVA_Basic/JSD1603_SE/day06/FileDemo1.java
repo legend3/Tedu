@@ -25,8 +25,7 @@ public class FileDemo1 {
 		/*
 		 * 路径应当写相对路径。避免系统差异。
 		 */
-		File file = new File(
-			"."+File.separator+ "demo.txt"
+		File file = new File("."+File.separator+ "demo.txt"
 		);
 		//获取文件或目录的名字
 		String name = file.getName();

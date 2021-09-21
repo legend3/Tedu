@@ -4,16 +4,16 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
+/**
+ * 文本文件写
+ */
 public class Demo01 {
 
-	public static void main(String[] args)
-		throws Exception {
+	public static void main(String[] args) throws Exception {
 		
-		InputStreamReader isr = 
-			new InputStreamReader(System.in);
+		InputStreamReader isr = new InputStreamReader(System.in);
 		//BufferedReader依赖于isr
-		BufferedReader in = 
-			new BufferedReader(isr);
+		BufferedReader in = new BufferedReader(isr);
 		//从控制台读取一行文本信息
 		String s = in.readLine();
 		//System.out.println(s);
@@ -30,6 +30,3 @@ public class Demo01 {
 	}
 
 }
-
-
-

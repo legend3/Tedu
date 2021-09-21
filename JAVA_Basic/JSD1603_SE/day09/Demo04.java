@@ -12,13 +12,12 @@ public class Demo04 {
 		String s = "你吃了吗？\n";
 //		FileOutputStream fos = new FileOutputStream("d.txt");
 		//字符输出流(输出到文件)
-		OutputStreamWriter writer = new OutputStreamWriter(
-				new FileOutputStream("d.txt"),"UTF-8");
+		OutputStreamWriter writer =
+				new OutputStreamWriter(
+					new FileOutputStream("d.txt"),"UTF-8");
 		//字符流将字符数据编码为byte写到低级流
 		writer.write(s);
 		writer.close();
-
-
 	}
 
 }

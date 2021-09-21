@@ -32,6 +32,6 @@ public enum CodeEnum implements SystemCode{
     }
 
     public static void main(String[] args) {
-
+        System.out.println(CodeEnum.ERROR);
     }
 }

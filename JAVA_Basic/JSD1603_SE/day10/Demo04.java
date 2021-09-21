@@ -7,8 +7,7 @@ import java.io.IOException;
 
 public class Demo04 {
 	public static void main(String[] args){
-		//将in和out在try外部创建，才能在finally
-		//中使用这两个变量
+		//将in和out在try外部创建，才能在finally中使用这两个变量
 		FileInputStream in = null;
 		FileOutputStream out = null;
 		try{
