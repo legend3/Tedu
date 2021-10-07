@@ -47,19 +47,23 @@ public class PbPayFactory {
      * 因为编译器会根据switch中payType的类型来判定每个枚举类型，在case中必须直接给出与payType相同类型的枚举选项，而不能再有类型。
      *
      */
-    public static Pay getPay(PayEmun payType){
+    public static Pay getPay(PayEnum payType){
         //支付对象
         Pay pay = null;
 
         switch (payType){
             case WEIXINPAY:
                 System.out.println("构造一个微信支付对象");
+                break;
             case ALIPAY:
                 System.out.println("构造一个阿里支付对象");
+                break;
             case UNIONPAY:
                 System.out.println("构造一个银联支付对象");
+                break;
             default:
                 System.out.println("不在支付方式中");
+                break;
         }
         return pay;
     }

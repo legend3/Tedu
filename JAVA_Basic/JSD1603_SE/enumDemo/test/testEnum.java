@@ -1,5 +1,7 @@
 import enumDemo.case01.CodeEnum;
 import enumDemo.case01.SystemCode;
+import enumDemo.case02.PayEnum;
+import enumDemo.case02.PbPayFactory;
 import org.testng.annotations.Test;
 
 public class testEnum {
@@ -35,4 +37,22 @@ public class testEnum {
         System.out.println(CodeEnum.ERROR.name());
     }
 
+    @Test
+    public void PayEnumTest() {
+        PayEnum weixinPay = PayEnum.WEIXINPAY;//枚举项就是一个对象
+        System.out.println(PayEnum.WEIXINPAY.getName());
+        System.out.println(PayEnum.WEIXINPAY.getPayUrl());
+
+        //枚举项之间如何比较呢？
+        PayEnum aliPay = PayEnum.ALIPAY;
+        System.out.println(aliPay == PayEnum.ALIPAY);
+    }
+    @Test
+    public void PbPayFactoryTest() {
+        /*
+            验证switch支持枚举项
+         */
+        PbPayFactory.getPay(PayEnum.WEIXINPAY);
+        PbPayFactory.getPay(PayEnum.ALIPAY);
+    }
 }
