@@ -22,10 +22,17 @@ public class testEnum {
         System.out.println("通过下标获取：" + cs[1]);//可以通过下标找到枚举项
         System.out.println("SUCCESSFUL的下标：" + CodeEnum.SUCCESSFUL.ordinal());//返回SUCCESSFUL枚举项的下标
         //枚举类.valueOf()通过枚举常量的名字返回Direction常量，注意，这个方法与Enum类中的valueOf()方法的参数个数不同
-        System.out.println(CodeEnum.valueOf("SUCCESSFUL"));//指定枚举项的字符串，返回枚举项常量
+        System.out.println(CodeEnum.valueOf("SUCCESSFUL"));//把字符串转换成枚举常量
 
         //调用抽象方法
-        CodeEnum.SUCCESSFUL.("提示语");
+        CodeEnum.SUCCESSFUL.getMessage("提示语");
+        CodeEnum.ERROR.getMessage("提示语");
+        CodeEnum.FAILURE.getMessage("提示语");
+
+        //其他API
+        System.out.println(CodeEnum.SUCCESSFUL.toString());//把枚举常量转换成字符串
+        System.out.println(CodeEnum.FAILURE.name());//返回枚举常量的名字
+        System.out.println(CodeEnum.ERROR.name());
     }
 
 }
