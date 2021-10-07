@@ -19,7 +19,7 @@ class Thread3 extends Thread{
 			 * 在运行期间，让出当前线程正在占用的
 			 * 处理器资源。
 			 */
-			yield();//(当前线程)返回Runnable状态
+//			yield();//(当前线程)返回Runnable状态
 		}
 	}
 }

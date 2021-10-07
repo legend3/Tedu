@@ -12,7 +12,7 @@ public enum CodeEnum implements SystemCode{
 
     private CodeEnum() {
     }
-
+//枚举类的构造器不可以添加访问修饰符，枚举类的构造器默认是private的。但你自己不能添加private来修饰构造器
     private CodeEnum(int code, String desc) {
         this.code = code;
         this.desc = desc;
@@ -32,6 +32,6 @@ public enum CodeEnum implements SystemCode{
     }
 
     public static void main(String[] args) {
-        System.out.println(CodeEnum.ERROR);
+
     }
 }

@@ -9,12 +9,11 @@
         <module name="jdbc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="01JAVA_BASIC_JSD1603" target="8" />
-      <module name="jdbc" target="8" />
-      <module name="JSD1603_SE" target="8" />
-      <module name="JSD1603_XML" target="8" />
-      <module name="TETRIS" target="8" />
+    <bytecodeTargetLevel target="17">
+      <module name="01JAVA_BASIC_JSD1603" target="17" />
+      <module name="jdbc" target="17" />
+      <module name="JSD1603_XML" target="17" />
+      <module name="TETRIS" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
