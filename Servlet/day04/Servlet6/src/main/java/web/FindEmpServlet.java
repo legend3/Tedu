@@ -11,9 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 public class FindEmpServlet extends HttpServlet {
 
 	@Override
-	protected void service(
-		HttpServletRequest req, 
-		HttpServletResponse res) throws ServletException, IOException {
+	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		//从web.xml中读取分页条件
 		ServletContext ctx = getServletContext();
 		String size = ctx.getInitParameter("size");

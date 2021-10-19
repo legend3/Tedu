@@ -1,1 +1,0 @@
-Oracle_day05.sql

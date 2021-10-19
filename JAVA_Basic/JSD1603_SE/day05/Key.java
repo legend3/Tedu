@@ -175,15 +175,15 @@ public class Key {
 	 */
 	@Override
 	public boolean equals(Object otherObj) {//不被重写（原生）的equals方法是严格判断一个对象是否相等的方法（object1 == object2）。
-		if (this == otherObj) //测试检测的对象是否为空，是就返回false
+		if (this == otherObj) //
 			return true;
-		if (otherObj == null) //测试两个对象所属的类是否相同，否则返回false
+		if (otherObj == null) //测试检测的对象是否为空，是就返回false
 			return false;
-		if (getClass() != otherObj.getClass())  //是否同类型
+		if (this.getClass() != otherObj.getClass())  //测试两个对象所属的类是否相同，否则返回false
 			return false;
 		if (otherObj instanceof Key) {	//再判断是不是Key类,提高代码的健壮性
 			Key other = (Key) otherObj;    //对otherObject进行类型转换以便和类Key的对象进行比较
-			return other.getAge()==this.getAge() && other.getSex()==this.getSex();
+			return other.getAge()==this.getAge() && other.getSex()==this.getSex();//比较
 		}
 		return true;
 	}

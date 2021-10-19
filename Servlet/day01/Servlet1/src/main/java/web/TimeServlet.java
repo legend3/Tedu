@@ -16,8 +16,7 @@ public class TimeServlet extends HttpServlet {
 	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		//创建当前系统时间
 		Date date = new Date();
-		SimpleDateFormat sdf = 
-			new SimpleDateFormat("HH:mm:ss");
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
 		String now = sdf.format(date);
 		//向浏览器输出一个HTML，内含当前系统时间
 		res.setContentType("text/html");
@@ -27,6 +26,9 @@ public class TimeServlet extends HttpServlet {
 		w.close();
 		System.out.println(1);
 	}
+
+	
+	
 }
 
 

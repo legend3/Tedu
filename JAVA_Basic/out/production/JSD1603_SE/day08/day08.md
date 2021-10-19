@@ -211,7 +211,7 @@ OutputStream 定义了基本的数据写出方法 write 其写出规则与 RAF �
 
 OutputStream是抽象类，不能直接使用，使用的都是其子类。
 
-## FileOutputStream 文件输出流
+## FileOutputStream 文件输出流(低级流)
 
 文件输出流是 OutputStream 的子类，实现了其约定的抽象方法：write
 
@@ -244,7 +244,7 @@ OutputStream是抽象类，不能直接使用，使用的都是其子类。
 	out.write("Hello World!".getBytes());
 	out.close();//使用后务必关闭文件流
 
-### FileInputStream 文件输入流
+### FileInputStream 文件输入流(低级流)
 
 文件输入流继承了抽象类InputStream，实现了其全部的抽象方法。可以从文件中读取byte数据。
 
@@ -295,7 +295,8 @@ API方法
 
 ### 缓冲流
 
-缓冲流是一种扩展流，其在基本的byte节点流的基础上扩展了自动化缓冲区管理功能。使用缓冲流可以简化缓冲区的管理，提高流的IO性能。工作中使用的非常广泛。
+缓冲流是一种扩展流，其在基本的byte节点流的基础上扩展了自动化缓冲区管理功能。
+使用缓冲流可以简化缓冲区的管理，提高流的IO性能。工作中使用的非常广泛。
 
 > 缓冲流有两个类 BufferedInputStream 和BufferedOutputStream 分别是输入缓冲流和输出缓冲流。输入缓冲流为输入流扩展了缓冲区功能，输出缓冲流为输入流扩展了缓冲区功能。
 

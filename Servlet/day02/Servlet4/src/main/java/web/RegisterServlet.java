@@ -19,11 +19,13 @@ public class RegisterServlet extends HttpServlet {
 		String sex = req.getParameter("sex");
 		String[] interests = req.getParameterValues("interest");
 		
-		//处理中文乱码
-		//byte[] bs = name.getBytes("iso8859-1");
-		//name = new String(bs,"utf-8");
+		//处理中文乱码(String(按照指定编码格式)转字符数组)
+		byte[] bs = name.getBytes("iso8859-1");//String的getBytes()方法是得到一个操作系统默认的编码格式的字节数组。
+												//这表示在不同的操作系统下,返回的东西不一样!
+													//String.getBytes(Stringdecode)方法会根据指定的decode编码返回某字符串在该编码下的byte数组表示
+		name = new String(bs,"UTF-8");
 		
-		//2.处理业务(对浏览器发往服务器的请求参数经行处理)
+		//2.处理业务(对浏览器发往服务器的请求参数进行处理)
 		//此处省略保存业务，仅以输出代替
 		System.out.println(name);
 		System.out.println(pwd);

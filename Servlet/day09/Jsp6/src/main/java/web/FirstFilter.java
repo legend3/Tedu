@@ -16,11 +16,7 @@ public class FirstFilter implements Filter {
 		System.out.println("销毁FirstFilter");
 	}
 
-	public void doFilter(
-		ServletRequest req, 
-		ServletResponse res, 
-		FilterChain chain)
-		throws IOException, ServletException {
+	public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain)throws IOException, ServletException {
 		System.out.println(req);
 		System.out.println(res);
 		
@@ -38,6 +34,3 @@ public class FirstFilter implements Filter {
 	}
 
 }
-
-
-

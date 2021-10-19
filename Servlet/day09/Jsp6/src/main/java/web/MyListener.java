@@ -14,22 +14,14 @@ public class MyListener
 	implements ServletRequestListener {
 
 	//request销毁事件
-	public void requestDestroyed(
-			ServletRequestEvent arg0) {
+	public void requestDestroyed(ServletRequestEvent arg0) {
 		System.out.println("request被销毁");
 	}
 
 	//request初始化事件
-	public void requestInitialized(
-			ServletRequestEvent e) {
+	public void requestInitialized(ServletRequestEvent e) {
 		System.out.println("request初始化");
 		System.out.println(e.getServletRequest());
 	}
 
 }
-
-
-
-
-
-

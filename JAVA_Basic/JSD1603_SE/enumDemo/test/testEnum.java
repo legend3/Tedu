@@ -36,7 +36,6 @@ public class testEnum {
         System.out.println(CodeEnum.FAILURE.name());//返回枚举常量的名字
         System.out.println(CodeEnum.ERROR.name());
     }
-
     @Test
     public void PayEnumTest() {
         PayEnum weixinPay = PayEnum.WEIXINPAY;//枚举项就是一个对象
