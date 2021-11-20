@@ -9,8 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class LoginServlet extends HttpServlet {
-
-	
 	/**
 	 * 1.Tomcat在创建此Servlet后，会自动创建
 	 *   ServletConfig对象。

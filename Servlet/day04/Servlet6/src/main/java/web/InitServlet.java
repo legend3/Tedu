@@ -6,7 +6,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 
 /**
- *	通常在Tomcat启动时调用某Servlet时，
+ *	通常在Tomcat启动时每次调用某Servlet时，
  *	专门用来在此阶段初始化项目所需要的变量。
  */
 public class InitServlet extends HttpServlet {

@@ -11,9 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 public class ModifyServlet extends HttpServlet {
 
 	@Override
-	protected void service(
-		HttpServletRequest req, 
-		HttpServletResponse res) throws ServletException, IOException {
+	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		Cookie[] cs = req.getCookies();
 		if(cs != null) {
 			for(Cookie c : cs) {
