@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="JSD1603_XML" />
         <module name="jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
-      <module name="01JAVA_BASIC_JSD1603" target="17" />
-      <module name="jdbc" target="17" />
-      <module name="JSD1603_XML" target="17" />
-      <module name="TETRIS" target="17" />
+      <module name="01JAVA_BASIC_JSD1603" target="8" />
+      <module name="TETRIS" target="8" />
+      <module name="ThreadDemo.main" target="8" />
+      <module name="ThreadDemo.test" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
