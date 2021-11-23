@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ThreadDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/ToOffer" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
