@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
+    implementation 'junit:junit:4.13.2'
 
 }
 
