@@ -3,8 +3,6 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="8">
       <module name="01JAVA_BASIC_JSD1603" target="8" />
-      <module name="org.legend.ToOffer.main" target="1.8" />
-      <module name="org.legend.ToOffer.test" target="1.8" />
       <module name="TETRIS" target="8" />
     </bytecodeTargetLevel>
   </component>
