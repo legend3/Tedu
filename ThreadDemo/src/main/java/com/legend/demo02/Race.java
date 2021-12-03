@@ -1,4 +1,4 @@
-package com.legend;
+package com.legend.demo02;
 
 public class Race implements Runnable{
     private String winner;

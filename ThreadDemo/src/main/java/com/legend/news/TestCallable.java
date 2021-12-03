@@ -1,4 +1,4 @@
-package com.legend;
+package com.legend.news;
 
 import org.apache.commons.io.FileUtils;
 

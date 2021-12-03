@@ -1,6 +1,6 @@
 package com.legend.status;
 
-import com.legend.TestThread04;
+import com.legend.news.TestThread04;
 
 //模拟网络延时: (线程是不安全的, 通过模拟延时)放大问题的发生性
 public class TestSleep implements Runnable{

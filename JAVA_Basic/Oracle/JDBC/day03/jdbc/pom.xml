@@ -3,6 +3,10 @@
   <groupId>cn.tedu</groupId>
   <artifactId>jdbc</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<maven.complier.source>8</maven.complier.source>
+		<maven.complier.target>8</maven.complier.target>
+	</properties>
   <dependencies>
 <!--  	<dependency>-->
 <!--  		<groupId>com.oracle</groupId>-->
@@ -31,6 +35,5 @@
 		  <version>7.4.0</version>
 <!--		  <scope>test</scope>-->
 	  </dependency>
-
   </dependencies>
 </project>

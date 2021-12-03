@@ -1,4 +1,4 @@
-package com.legend;
+package com.legend.demo02;
 
 public class TestLambda01 {
     //1.2 静态内部类

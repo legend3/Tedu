@@ -1,4 +1,4 @@
-package com.legend;
+package com.legend.news;
 
 public class TestThread03 implements Runnable{
     @Override

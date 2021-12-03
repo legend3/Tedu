@@ -378,7 +378,7 @@ class Emp{ //Emp就是自己造的数据类型名字
   }
 }
 
-class Demo{
+class Chapter9_Closure.Demo{
   public static void main(String[] args){
     Emp e = new Emp(); //创建一个Emp的对象
     e.name="zhangsan";

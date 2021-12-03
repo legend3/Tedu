@@ -1,4 +1,4 @@
-package com.legend;
+package com.legend.demo02;
 
 /**
  * 静态代理模式:

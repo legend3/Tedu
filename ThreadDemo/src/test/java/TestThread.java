@@ -1,4 +1,4 @@
-import com.legend.TestLambda03;
+import com.legend.demo02.TestLambda03;
 import org.junit.Test;
 
 public class TestThread {

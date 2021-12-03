@@ -154,7 +154,5 @@ public class DataTypeDemo {
 //		System.out.println("这是int类型的内容！");
 //		System.out.println(Integer.MAX_VALUE);	//最大值
 
-
-
 	}
 }

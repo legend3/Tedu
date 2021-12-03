@@ -5,6 +5,8 @@ public class InterfaceDemo {
 		//Inter5 o1 = new Inter5(); //编译错误，接口不能被实例化
 		Inter6 o2 = new Foo(); //向上造型
 		Inter5 o3 = new Foo(); //向上造型
+
+
 		
 		
 		/*
@@ -41,6 +43,7 @@ class Foo implements Inter6{//两个都要实现
 
 //演示先继承后实现
 interface Inter3{
+	public static final int NUM = 250; //常量
 	void a();
 	void b();
 }
@@ -82,21 +85,3 @@ interface Inter1{
 	//int a; //编译错误，a默认为常量，但未初始化
 	//void say(){} //编译错误，只能包含抽象方法
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

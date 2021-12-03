@@ -1,3 +1,4 @@
+package Chapter9_Closure
 /**
  * Groovy的类：
  * Groovy 自动提供一个构造函数，构造函数接受一个名称-值对的映射，这些名称-值对与类的属性相对应。

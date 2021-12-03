@@ -1,4 +1,4 @@
-package com.legend;
+package com.legend.demo02;
 
 public class TestLambda03 {
     //重写run()方法的属性

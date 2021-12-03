@@ -1,4 +1,4 @@
-package com.legend;
+package com.legend.demo02;
 
 /**
  * 总结: Runnable接口就是一个函数式接口

@@ -1,4 +1,4 @@
-package com.legend;
+package com.legend.news;
 
 //多线程操作同一个实例对象
 //模拟买票

@@ -15,8 +15,8 @@ package Oop.day06;
 //    如下代码清单定义了一个具有默认实现的接口Animal，并定义了两个接口实现类Bird和Pig，其中Bird未重新实现接口中的方法name()，而Pig中重新实现了接口中的方法name()：
 
 interface Animal{
-    void eat();
-    void sleep();
+    void getEat();
+    void getSleep();
     /*
        接口被调用，默认实现的方法；当然也可以重写它
      */
@@ -27,25 +27,25 @@ interface Animal{
 
 class Bird implements Animal{
     @Override
-    public void eat() {
-        System.out.println("Bird is eating.");
+    public void getEat() {
+        System.out.println("Bird is getEating.");
     }
 
     @Override
-    public void sleep() {
-        System.out.println("Bird is sleeping.");
+    public void getSleep() {
+        System.out.println("Bird is getSleeping.");
     }
 }
 
 class Pig implements Animal{
     @Override
-    public void eat() {
-        System.out.println("Pig is eating.");
+    public void getEat() {
+        System.out.println("Pig is getEating.");
     }
 
     @Override
-    public void sleep() {
-        System.out.println("Pig is sleeping.");
+    public void getSleep() {
+        System.out.println("Pig is getSleeping.");
     }
 
     @Override
@@ -57,15 +57,15 @@ class Pig implements Animal{
 public class VirtualImpl {
     public static void main(String[] args) {
         Bird bird = new Bird();
-        bird.eat();
-        bird.sleep();
+        bird.getEat();
+        bird.getSleep();
         bird.name();
 
         System.out.println();
 
         Pig pig = new Pig();
-        pig.eat();
-        pig.sleep();
+        pig.getEat();
+        pig.getSleep();
         pig.name();
     }
 }
