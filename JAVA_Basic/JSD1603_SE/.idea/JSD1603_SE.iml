@@ -12,7 +12,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Apache/apache-maven-3.8.1/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -21,7 +21,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.4.0/testng-7.4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Apache/apache-maven-3.8.1/repository/org/testng/testng/7.4.0/testng-7.4.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -30,7 +30,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.78/jcommander-1.78.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Apache/apache-maven-3.8.1/repository/com/beust/jcommander/1.78/jcommander-1.78.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

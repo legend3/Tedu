@@ -25,11 +25,15 @@ public class FileDemo1 {
 		/*
 		 * 路径应当写相对路径。避免系统差异。
 		 */
-		File file = new File("."+File.separator+ "demo.txt"
-		);
+		File file = new File("." + File.separator + "demo.txt");
+		//获取文件的路径
+
+//		System.out.println("文件的绝对路径: " + file.getAbsolutePath());
+//		System.out.println(file.getPath());
+//		System.out.println(file.toPath());
 		//获取文件或目录的名字
 		String name = file.getName();
-		System.out.println("name:"+name);	
+		System.out.println("FileName: "+name);
 		//获取大小(字节量)
 		long length = file.length();
 		System.out.println("大小:"+length+"字节");
@@ -45,8 +49,7 @@ public class FileDemo1 {
 		//最后修改 时间2016年4月29日, 09:32:04
 		long time = file.lastModified();
 		Date date = new Date(time);
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy年M月d日, HH:mm:ss"
-			);
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy年M月d日, HH:mm:ss");
 		System.out.println("最后修改时间:"+sdf.format(date));
 	}
 }
