@@ -30,8 +30,6 @@ public class FileDemo2 {
 		}else{
 			System.out.println("该文件已存在!");
 		}
-
-
 	}
 }
 
