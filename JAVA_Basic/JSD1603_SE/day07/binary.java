@@ -131,18 +131,6 @@ public class binary {
 		String str1=new String(buf1,0,n1,"GBK");//会默认，所以注意指定编码。
 		System.out.println(str1);
 		raf1.close();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 }
