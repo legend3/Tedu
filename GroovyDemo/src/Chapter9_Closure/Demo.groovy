@@ -1,5 +1,7 @@
 package Chapter9_Closure
 
+import groovy.transform.Canonical
+
 println("Hello World!")
 
 for(i in 0..5){
@@ -252,3 +254,20 @@ def c1 = {x1 ->
     println "嵌套闭包结果: ${c3(c2(x1+1))}"//$取值运算
 }
 c1(1)
+
+
+
+@Canonical
+class Student {
+    String firstName
+    String lastName
+    int age
+    String address
+}
+
+def student = new Student(firstName: "Zhang",
+        lastName: "Sanfeng",
+        age: 16,
+        address: "China")
+
+println student
