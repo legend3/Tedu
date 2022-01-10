@@ -1,6 +1,9 @@
 //import org.junit.Test
 
+
+import Chapter12_Class.A
 import Chapter12_Class.Account
+import Chapter12_Class.B
 import Chapter12_Class.propertiesGetSet
 import Chapter9_Closure.Song
 import org.testng.annotations.Test
@@ -58,5 +61,11 @@ class groovyTest {
         def c = "c"
         def pgs = new propertiesGetSet(c)
         println pgs.a//getA方法名的A自动就是类的一个属性！(仅在Groovy脚本中可以这么调，(在Groovy脚本中)调java类也可以！)
+    }
+    @org.junit.Test
+    void test09() {
+        A aa = new A(one: 1)
+        B b = new B(2, aa)
+        println b.getA()
     }
 }
