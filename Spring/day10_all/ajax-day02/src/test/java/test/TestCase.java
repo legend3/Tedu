@@ -20,8 +20,7 @@ public class TestCase {
 		s.setName("万科A");
 		s.setPrice(10);
 		//使用json官方提供的工具来转换
-		JSONObject obj = 
-				JSONObject.fromObject(s);
+		JSONObject obj = JSONObject.fromObject(s);
 		String jsonStr = obj.toString();
 		System.out.println(jsonStr);
 	}
@@ -31,8 +30,7 @@ public class TestCase {
 	 * 转换成json字符串。
 	 */
 	public static void test2(){
-		List<Stock> stocks = 
-				new ArrayList<Stock>();
+		List<Stock> stocks = new ArrayList<Stock>();
 		for(int i = 0; i < 3; i ++){
 			Stock s = new Stock();
 			s.setCode("00000" + (i + 1));
@@ -40,8 +38,7 @@ public class TestCase {
 			s.setPrice(10+ i);
 			stocks.add(s);
 		}
-		JSONArray  arr = 
-				JSONArray.fromObject(stocks);
+		JSONArray  arr = JSONArray.fromObject(stocks);
 		String jsonStr = arr.toString();
 		System.out.println(jsonStr);
 	}

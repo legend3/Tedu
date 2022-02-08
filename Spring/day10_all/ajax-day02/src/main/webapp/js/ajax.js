@@ -6,8 +6,7 @@ function getXhr(){
 		xhr = new XMLHttpRequest();
 	}else{
 		//ie浏览器
-		xhr = new ActiveXObject(
-				"MicroSoft.XMLHttp");
+		xhr = new ActiveXObject("MicroSoft.XMLHttp");
 	}
 	return xhr;
 }

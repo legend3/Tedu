@@ -66,8 +66,7 @@ public class ActionServlet extends HttpServlet{
 			System.out.println(jsonStr);
 			out.println(jsonStr);
 		}else if("/getFlights".equals(action)){
-			String flight = 
-					request.getParameter("flight");
+			String flight = request.getParameter("flight");
 			System.out.println("flight:" + flight);
 			if("CA1204".equals(flight)){
 				out.println("头等舱:￥2400<br/>"

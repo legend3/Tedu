@@ -14,9 +14,7 @@
 			//step1. 获得ajax对象。
 			var xhr = getXhr();
 			//step2. 利用ajax对象发请求。
-			xhr.open('get',
-					'check_uname.do?username='
-							+ $F('username'),true);
+			xhr.open('get', 'check_uname.do?username=' + $F('username'),true);
 			xhr.onreadystatechange=function(){
 				//step4 处理服务器返回的数据
 				if(xhr.readyState == 4 && 
@@ -45,9 +43,5 @@
 		<br/>
 		<input type="submit" value="注册"/>
 	</form>
-	
-	
-	
-	
 </body>
 </html>

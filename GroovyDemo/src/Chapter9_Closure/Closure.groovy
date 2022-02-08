@@ -14,7 +14,7 @@ println "凡是集合或一系列的内容，都可以使用下面这样的代�
 }
 "amosli".each{
     content ->
-        println content.toUpperCase();
+        println content.toUpperCase()
 }
 // excite(延迟执行)的闭包
 def s = {

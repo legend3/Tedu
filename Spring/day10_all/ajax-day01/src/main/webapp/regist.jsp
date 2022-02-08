@@ -4,7 +4,7 @@
 <html>
 <head>
 	<title>Insert title here</title>
-	<script type="text/javascript" 
+	<script type="text/javascript"
 	src="js/ajax.js">
 	</script>
 	<script type="text/javascript">
@@ -14,15 +14,13 @@
 			//step1. 获得ajax对象。
 			var xhr = getXhr();
 			//step2. 利用ajax对象发请求。
-			var uri = 'check_uname.do?username='
-				+ $F('username');
+			var uri = 'check_uname.do?username=' + $F('username');
 			//encodeURI函数会检查uri中的字符，如果
 			//是非ascii字符，都会统一使用utf-8来编码。
 			xhr.open('get',encodeURI(uri),true);
 			xhr.onreadystatechange=function(){
 				//step4 处理服务器返回的数据
-				if(xhr.readyState == 4 && 
-						xhr.status == 200){
+				if(xhr.readyState == 4 && xhr.status == 200){
 					//获得服务器返回的数据
 					var txt = xhr.responseText;
 					//更新页面
@@ -31,25 +29,16 @@
 			};
 			xhr.send(null);
 		}
-		
-		
 	</script>
 </head>
 <body style="font-size:30px;">
 	<form action="" method="post">
-		用户名:<input id="username" 
-		name="username" 
-		onblur="check_uname();"/>
-		<span style="color:red;" 
-		id="username_msg"></span>
+		用户名:<input id="username" name="username" onblur="check_uname();"/>
+		<span style="color:red;" id="username_msg"></span>
 		<br/>
 		密码:<input type="password" name="pwd"/>
 		<br/>
 		<input type="submit" value="注册"/>
 	</form>
-	
-	
-	
-	
 </body>
 </html>

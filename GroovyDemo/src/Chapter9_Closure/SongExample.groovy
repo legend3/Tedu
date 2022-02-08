@@ -10,5 +10,9 @@ class SongExample {
         song3.name = "雨一直下"
         song3.artist = "张宇"
         song3.genre = "pop"
+        println song3.getArtist()
+        def song4 = new Song()
+        println(song4)
+
     }
 }
