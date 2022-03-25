@@ -46,9 +46,9 @@ public class OperDemo {
 		 *         若为false，则整个的结果为数2的值
 		 */
 		// 数据类型 变量 = 表达式: 表达式true时给变量赋值的返回值:表达式false时给变量赋值的返回值
-		int a=55,b=8;
-		int max = a>b?a:b; //找a和b中的最大值
-		System.out.println("max="+max);
+//		int a=55,b=8;
+//		int max = a>b?a:b; //找a和b中的最大值
+//		System.out.println("max="+max);
 
 		/**
 		 * 5.字符串连接运算符:

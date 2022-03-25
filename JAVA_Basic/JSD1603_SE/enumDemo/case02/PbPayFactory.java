@@ -52,7 +52,7 @@ public class PbPayFactory {
         Pay pay = null;
 
         switch (payType){
-            case WEIXINPAY:
+            case WEIXINPAY://直接填写与枚举类名称一致名称即可
                 System.out.println("构造一个微信支付对象");
                 break;
             case ALIPAY:

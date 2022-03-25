@@ -21,7 +21,7 @@ public class NstInnerClassDemo {
 		};
 
 //		final int num = 5;
-		int num = 5;
+		int num = 5;//被匿名内部类调用时会自动追加final
 
 		//1.创建Inter3的一个子类，没有名字
 		//2.为该子类创建了一个对象，名为o3
@@ -39,7 +39,7 @@ public class NstInnerClassDemo {
 		o3.show();
 
 		//2.继承某类方式
-		Come c = new Come(){//继承C4，重写C4的方法
+		Come c = new Come(){//继承Come，重写c4的方法
 			@Override
 			public void c4() {
 				System.out.println("C4匿名内部类重写c4方法");
@@ -49,7 +49,7 @@ public class NstInnerClassDemo {
 //			}
 		};
 		c.c4();
-		System.out.println(c.getClass());//class Oop.day06.NstInnerClassDemo$4	第四个匿名类
+		System.out.println(c.getClass().getName());//class Oop.day06.NstInnerClassDemo$4	第四个匿名类
 		if(c instanceof Come){
 			System.out.println("True");
 		}
@@ -67,9 +67,9 @@ public class NstInnerClassDemo {
 		});
 	}
 
-	public static void test(Inter4 i) {//Inter4的实例对象作为参数
-		i.show();
-	}
+		public static void test(Inter4 i) {//Inter4的实例对象作为参数
+			i.show();
+		}
 }
 
 interface Inter3{
@@ -90,7 +90,6 @@ class C5 extends Come {
 	public void c5() {
 		System.out.println("c5方法......");
 	}
-
 }
 
 interface Inter4{

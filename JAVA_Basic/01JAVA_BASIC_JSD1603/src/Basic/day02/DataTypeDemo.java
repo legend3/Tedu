@@ -22,7 +22,9 @@ public class DataTypeDemo {
 		 * 于是我们就得出：大写字母=小写字母-32 ；这个公式了。当然这里的32我也可以这么写‘Z’=‘z’-'空格'。
 		 * 因为空格的ASCII码是32对应的二进制编码。
 		 */
-		char c = 'a';
+		char c = '8';
+		char a = '0';
+		System.out.println(c - a);
 //			System.out.println("" + (c2-32));//65,A
 		System.out.println(Character.toChars(c - 32));//A
 		/**

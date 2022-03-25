@@ -1,7 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad4b61d4-3251-4b4b-a712-0e5af089ab59" name="Default Changelist" comment="" />
+    <list default="true" id="ad4b61d4-3251-4b4b-a712-0e5af089ab59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/day10_all/.idea/day10_all.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/day10_all/ajax-day01/ajax-day01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Spring/day10_all/ajax-day02/ajax-day02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basic/day02/DataTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/day02/DataTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basic/day03/OperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/day03/OperDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day05/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day05/ShapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day05/ooDay05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day05/ooDay05.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day06/NstInnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/NstInnerClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day06/ooDay06.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/ooDay06.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case01/CodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case01/CodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case02/PayEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case02/PayEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case02/PbPayFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case02/PbPayFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/test/testEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/test/testEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/枚举.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/枚举.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day02/DataTypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day02/DataTypeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day03/OperDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day03/OperDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/Addition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/ForDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/ForDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/Guessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/Guessing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day05/ArrayDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day05/ArrayDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day01/ooDay01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day01/ooDay01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day02/ooDay02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day02/ooDay02.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day03/ooDay03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day03/ooDay03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day04/ooDay04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day04/ooDay04.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Coo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Coo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Doo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Doo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Eoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Eoo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Foo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Foo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Inter3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Inter3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/InterfaceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/InterfaceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/ShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/ShapeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/ooDay05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/ooDay05.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Aoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Aoo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Bird.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Boo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Boo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/C5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/C5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Come.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Come.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Coo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Coo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/InnerClassDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/InnerClassDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama$Baby.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama$Baby.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/MulTypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/MulTypeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Pig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/VirtualImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/VirtualImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/ooDay06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/Oop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01pics/null和NullPointerException.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01pics/基本类型与引用类型.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01pics/基本类型与引用类型之间画等号.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day02/ooDay02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day02/ooDay02pics/基本类型数组.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day02/ooDay02pics/引用类型数组.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/堆-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/堆-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/方法区.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/栈.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day04/ooDay04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day04/ooDay04pics/静态变量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day05/ooDay05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day06/ooDay06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/MyFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/binary.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/binary.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,17 +125,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1eEgImfyJIjIDrBCJmMW3AKM4TJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -56,13 +163,27 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\JAVA_Basic\01JAVA_BASIC_JSD1603\src\Oop\day06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NstInnerClassDemo">
+  <component name="RunManager" selected="Application.DataTypeDemo">
+    <configuration name="DataTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic.day02.DataTypeDemo" />
+      <module name="01JAVA_BASIC_JSD1603" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Oop.day05.InterfaceDemo" />
       <module name="01JAVA_BASIC_JSD1603" />
@@ -115,36 +236,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oop.day05.ShapeTest" />
-      <module name="01JAVA_BASIC_JSD1603" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oop.day05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ShapeTest" />
       <item itemvalue="Application.MulTypeDemo" />
       <item itemvalue="Application.Mama" />
       <item itemvalue="Application.NstInnerClassDemo" />
       <item itemvalue="Application.InterfaceDemo" />
+      <item itemvalue="Application.DataTypeDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataTypeDemo" />
         <item itemvalue="Application.NstInnerClassDemo" />
         <item itemvalue="Application.Mama" />
         <item itemvalue="Application.MulTypeDemo" />
         <item itemvalue="Application.InterfaceDemo" />
-        <item itemvalue="Application.ShapeTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -204,44 +313,15 @@
       <workItem from="1625060813552" duration="638000" />
       <workItem from="1625151221181" duration="515000" />
       <workItem from="1625235751366" duration="78000" />
+      <workItem from="1644303649628" duration="5550000" />
+      <workItem from="1644381430962" duration="6000" />
+      <workItem from="1644389172705" duration="2236000" />
+      <workItem from="1644478579130" duration="1331000" />
+      <workItem from="1644558774893" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1621113239266">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1621113239266" />
-    <state x="442" y="96" key="FileChooserDialogImpl" timestamp="1624975315300">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="442" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1624975315300" />
-    <state width="1237" height="143" key="GridCell.Tab.0.bottom" timestamp="1621116684818">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="143" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621116684818" />
-    <state width="1237" height="143" key="GridCell.Tab.0.center" timestamp="1621116684818">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="143" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621116684818" />
-    <state width="1237" height="143" key="GridCell.Tab.0.left" timestamp="1621116684818">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="143" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621116684818" />
-    <state width="1237" height="143" key="GridCell.Tab.0.right" timestamp="1621116684818">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="143" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621116684818" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1624975354533">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1624975354533" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1621092529597">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1621092529597" />
+    <option name="version" value="3" />
   </component>
 </project>

@@ -451,12 +451,6 @@ class Fish extends Animal{
 }
 
 
-
-
-
-
-
-
 给我一组图形，求这一组图形的最大面积
 Square[] ss = new Square[3];
 ss[0] = new Square(1);

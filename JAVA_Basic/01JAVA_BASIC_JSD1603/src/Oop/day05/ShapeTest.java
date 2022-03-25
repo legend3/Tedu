@@ -1,7 +1,5 @@
 package Oop.day05;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 //求一组图形的最大面积
 public class ShapeTest {
 	public static void main(String[] args) {

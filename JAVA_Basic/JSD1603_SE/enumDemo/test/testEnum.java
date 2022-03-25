@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class testEnum {
     @Test
-    public void CodeEnum(){
+    public void CodeEnumTest(){
         System.out.println(CodeEnum.ERROR.getCode());
         System.out.println(CodeEnum.SUCCESSFUL.getCode());
 

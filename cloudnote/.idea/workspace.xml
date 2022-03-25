@@ -1,7 +1,442 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cloudnote:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="232d3803-1d75-437c-9155-779ceb66f313" name="Default Changelist" comment="" />
+    <list default="true" id="232d3803-1d75-437c-9155-779ceb66f313" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCodeAcc/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCodeAcc/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCodeAcc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCodeAcc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCodeAcc/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCodeAcc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/day10_all/.idea/day10_all.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/day10_all/ajax-day01/ajax-day01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/day10_all/ajax-day02/ajax-day02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/cloudnote_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Basic/day02/DataTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Basic/day02/DataTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Basic/day03/OperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Basic/day03/OperDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day05/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day05/ShapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day05/ooDay05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day05/ooDay05.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day06/NstInnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day06/NstInnerClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day06/ooDay06.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day06/ooDay06.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/enumDemo/case01/CodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/enumDemo/case01/CodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/enumDemo/case02/PayEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/enumDemo/case02/PayEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/enumDemo/case02/PbPayFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/enumDemo/case02/PbPayFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/enumDemo/test/testEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/enumDemo/test/testEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/enumDemo/枚举.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/enumDemo/枚举.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day02/DataTypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day02/DataTypeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day03/OperDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day03/OperDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day04/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day04/Addition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day04/ForDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day04/ForDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day04/Guessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day04/Guessing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day05/ArrayDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Basic/day05/ArrayDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day01/ooDay01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day01/ooDay01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day02/ooDay02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day02/ooDay02.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day03/ooDay03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day03/ooDay03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day04/ooDay04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day04/ooDay04.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Coo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Coo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Doo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Doo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Eoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Eoo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Foo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Foo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Inter3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Inter3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/InterfaceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/InterfaceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/ShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/ShapeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/Square.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/ooDay05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day05/ooDay05.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Aoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Aoo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Bird.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Boo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Boo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/C5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/C5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Come.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Come.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Coo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Coo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/InnerClassDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/InnerClassDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama$Baby.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama$Baby.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/MulTypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/MulTypeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/Pig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/VirtualImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/VirtualImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/day06/ooDay06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/Oop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01pics/null和NullPointerException.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01pics/基本类型与引用类型.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01pics/基本类型与引用类型之间画等号.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day02/ooDay02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day02/ooDay02pics/基本类型数组.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day02/ooDay02pics/引用类型数组.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/堆-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/堆-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/方法区.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/栈.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day04/ooDay04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day04/ooDay04pics/静态变量.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day05/ooDay05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day06/ooDay06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/FileDemo6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day06/MyFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day07/binary.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/day07/binary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/base.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/base.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/common/BaseReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/common/BaseReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/common/BusinessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/common/BusinessException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/common/ExceptionLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/common/ExceptionLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/common/Md5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/common/Md5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/common/SystemConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/common/SystemConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/common/UUIDUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/common/UUIDUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/ActivityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/ActivityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/ActivityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/ActivityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/MyBatisRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/MyBatisRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/NoteBookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/NoteBookMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/NoteBookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/NoteBookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/NoteBookTypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/NoteBookTypeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/NoteBookTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/NoteBookTypeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/NoteMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/NoteMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/NoteMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/NoteMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/ShareMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/ShareMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/ShareMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/ShareMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/entity/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/entity/Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/entity/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/entity/Entity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/entity/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/entity/Note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/entity/NoteActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/entity/NoteActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/entity/NoteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/entity/NoteBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/entity/NoteBookType.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/entity/NoteBookType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/entity/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/entity/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/entity/Share.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/entity/Share.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/service/ActivityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/service/ActivityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/service/NoteBookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/service/NoteBookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/service/NoteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/service/NoteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/web/ActivityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/web/ActivityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/web/NoteBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/web/NoteBookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/web/NoteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/web/NoteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/tarena/web/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/web/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/test/TestNoteBookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/test/TestNoteBookMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/test/TestNoteBookTypeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/test/TestNoteBookTypeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/test/TestNoteMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/test/TestNoteMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/test/TestShareMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/test/TestShareMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/test/TestUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/test/TestUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/aopalliance.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/aspectjweaver.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-collections-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-dbcp-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-logging.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/commons-pool.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jackson-annotations-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jackson-core-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jackson-databind-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/log4j-1.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mybatis-3.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mybatis-spring-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.8-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-aop-3.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-aspects-3.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-beans-3.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-context-3.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-core-3.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-expression-3.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-jdbc-3.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-tx-3.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-web-3.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/spring-webmvc-3.2.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/activity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/activity_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/activity_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/alert/alert_delete_like.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_like.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/alert/alert_delete_note.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_note.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/alert/alert_delete_notebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_notebook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/alert/alert_delete_rollback.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_delete_rollback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/alert/alert_error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/alert/alert_like.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_like.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/alert/alert_move.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_move.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/alert/alert_note.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_note.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/alert/alert_notebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_notebook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/alert/alert_rename.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_rename.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/alert/alert_replay.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/alert/alert_replay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/change_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/ico/favico-114-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ico/favico-114-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/ico/favico-144-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ico/favico-144-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/ico/favico-57-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ico/favico-57-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/ico/favico-72-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ico/favico-72-precomposed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/ico/favico.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ico/favico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/ico/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ico/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/08f8695d.select2-spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/08f8695d.select2-spinner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/156cc09f.spritemap.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/156cc09f.spritemap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/314be2a9.divider.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/314be2a9.divider.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/424387e9.sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/424387e9.sort_asc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/424387e9.sort_asc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/424387e9.sort_asc_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/728a75d4.sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/728a75d4.sort_desc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/85509794.jquery.minicolors.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/85509794.jquery.minicolors.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/a45183a1.select2x2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/a45183a1.select2x2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/a4d7e44b.switch.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/a4d7e44b.switch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/acc49d9a.select2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/acc49d9a.select2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/ca21017c.sort_both.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/ca21017c.sort_both.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/ca6a03e3.noise.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/ca6a03e3.noise.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/d85fba58.sort_desc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/d85fba58.sort_desc_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/07cb4eaa.img8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/07cb4eaa.img8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/08f814dd.img12.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/08f814dd.img12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/0ab5f292.header-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/0ab5f292.header-background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/0c31c9dc.profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/0c31c9dc.profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/0c31c9dc.uifaces22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/0c31c9dc.uifaces22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/1166769f.img11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/1166769f.img11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/1a6d8f34.img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/1a6d8f34.img1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/212fa4f2.logo-inverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/212fa4f2.logo-inverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/2590d12d.img2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/2590d12d.img2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/3498f5b6.uifaces16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/3498f5b6.uifaces16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/3a93212e.uifaces3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/3a93212e.uifaces3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/3e4d8287.img3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/3e4d8287.img3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/4206586f.stilearn-logo-alt-inverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/4206586f.stilearn-logo-alt-inverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/48ae2c25.uifaces1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/48ae2c25.uifaces1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/48f4bb8e.Stilearn-logo-primary.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/48f4bb8e.Stilearn-logo-primary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/4c7c0245.img4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/4c7c0245.img4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/4e4046ef.uifaces15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/4e4046ef.uifaces15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/4e81cd8d.img6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/4e81cd8d.img6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/598c0714.uifaces7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/598c0714.uifaces7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/6139681b.stilearn-logo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/6139681b.stilearn-logo3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/637ebb33.stilearn-logo-inverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/637ebb33.stilearn-logo-inverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/690243f1.uifaces6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/690243f1.uifaces6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/6e33211b.stilearn-logo-alt-default.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/6e33211b.stilearn-logo-alt-default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/738072ec.uifaces13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/738072ec.uifaces13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/75ccb40a.img5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/75ccb40a.img5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/782e8c3f.stilearn-logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/782e8c3f.stilearn-logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/7b14b475.img7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/7b14b475.img7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/8986f28e.stilearn-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/8986f28e.stilearn-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/8af46bf8.uifaces21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/8af46bf8.uifaces21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/96a1517e.img9.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/96a1517e.img9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/9c06e6a0.uifaces11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/9c06e6a0.uifaces11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/a0c1c960.uifaces9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/a0c1c960.uifaces9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/a448a7ef.uifaces10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/a448a7ef.uifaces10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/b0f7e705.uifaces5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/b0f7e705.uifaces5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/b7f97507.uifaces4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/b7f97507.uifaces4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/c0647842.uifaces17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/c0647842.uifaces17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/ce4e1a92.img10.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/ce4e1a92.img10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/e05590e7.stilearn-logo4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e05590e7.stilearn-logo4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/e326dfc8.logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e326dfc8.logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/e7dd5f45.uifaces8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e7dd5f45.uifaces8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/e8253fc8.uifaces18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e8253fc8.uifaces18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/e9cc6303.uifaces20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e9cc6303.uifaces20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/e9d19848.uifaces19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/e9d19848.uifaces19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/f5a2c818.uifaces14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/f5a2c818.uifaces14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/f61536ae.uifaces2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/f61536ae.uifaces2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/f71e3e28.stilearn-logo-default.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/f71e3e28.stilearn-logo-default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/dummy/fb3f89d7.uifaces12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/dummy/fb3f89d7.uifaces12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/f5c1e285.spritemap@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/f5c1e285.spritemap@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/activity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/js-prototype.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/js-prototype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/theme-setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/theme-setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/emotion/emotion.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/emotion/emotion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/emotion/emotion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/emotion/emotion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/emotion/images/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/emotion/images/bface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/emotion/images/cface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/emotion/images/fface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/emotion/images/jxface2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/emotion/images/tface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/emotion/images/wface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/emotion/images/yface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/formula/formula.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/formula/formula.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/formula/formula.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/formula/formula.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/formula/formula.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/formula/formula.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/formula/images/formula.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/formula/images/formula.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/image/image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/image/image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/image/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/image/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/image/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/image/images/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/image/images/upload1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/image/images/upload1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/image/images/upload2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/image/images/upload2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/link/link.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/link/link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/map/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/map/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/map/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/map/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/video/images/center_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/video/images/left_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/video/images/none_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/video/images/right_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/video/video.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/video/video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/dialogs/video/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/dialogs/video/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/addimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/addimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/alldeletebtnupskin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/button.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/deletedisable.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/deletedisable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/deleteenable.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/deleteenable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/imglabel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/imglabel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/listbackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/listbackground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/localimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/localimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/music.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/music.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/rotateleftdisable.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/rotateleftenable.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/rotaterightdisable.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/rotaterightenable.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/en/images/upload.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/en/images/upload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/zh-cn/images/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/zh-cn/images/imglabel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/zh-cn/images/imglabel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/zh-cn/images/localimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/zh-cn/images/music.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/zh-cn/images/music.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/zh-cn/images/upload.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/lang/zh-cn/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/umeditor.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/umeditor.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/common/ue/umeditor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/common/ue/umeditor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/local.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/local.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/note.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/note.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/scripts/notebook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/notebook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/login_ghost.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/login_ghost.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/styles/umeditor.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/umeditor.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudnote.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudnote.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/base.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/base.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/common/BaseReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/common/BaseReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/common/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/common/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/common/ExceptionLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/common/ExceptionLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/common/Md5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/common/Md5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/common/SystemConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/common/SystemConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/common/UUIDUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/common/UUIDUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/ActivityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/ActivityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/ActivityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/ActivityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/MyBatisRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/MyBatisRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/NoteBookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/NoteBookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/NoteBookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/NoteBookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/NoteBookTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/NoteBookTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/NoteBookTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/NoteBookTypeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/NoteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/NoteMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/NoteMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/NoteMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/ShareMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/ShareMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/ShareMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/ShareMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/tarena/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/entity/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/entity/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/entity/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/entity/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/entity/NoteActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/entity/NoteActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/entity/NoteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/entity/NoteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/entity/NoteBookType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/entity/NoteBookType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/entity/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/entity/Share.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/entity/Share.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/service/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/service/ActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/service/NoteBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/service/NoteBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/service/NoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/service/NoteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/web/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/web/ActivityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/web/NoteBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/web/NoteBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/web/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/web/NoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tarena/web/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/web/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestNoteBookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNoteBookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestNoteBookTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNoteBookTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestNoteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNoteMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestShareMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestShareMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestUserMapper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,40 +445,172 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\apache-maven-3.8.1\repository" />
-        <option name="mavenHome" value="E:/apache-maven-3.8.1" />
-        <option name="userSettingsFile" value="E:\apache-maven-3.8.1\conf\settings.xml" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../../Apache/apache-maven-3.8.1/repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Apache/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../Apache/apache-maven-3.8.1/conf/settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-        <option name="jdkForImporter" value="#JAVA_HOME" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1vrbgZskwQCDxjnnYD6okKJjYik" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DT/spring/SpringMybatisProject" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2557298" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.22933644" />
+    <property name="project.structure.side.proportion" value="0.4361979" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\Tedu\cloudnote\src\main\resources" />
+      <recent name="E:\workspace\Tedu\cloudnote\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn compile" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="E:\Java\jdk1.8.0_301\jre" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/cloudnote" />
+      <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="cloudnote:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/cloudnote" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="3a0e0a68-cd85-4788-8dbc-9372d9de7435" />
+        <option name="JNDI_PORT" value="1009" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cloudnote:war exploded" />
+        </option>
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -57,6 +624,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -68,16 +636,16 @@
       <option name="presentableId" value="Default" />
       <updated>1627323266205</updated>
       <workItem from="1627323268781" duration="109000" />
+      <workItem from="1648222287579" duration="317000" />
+      <workItem from="1648223012409" duration="7207000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="121" y="0" key="SettingsEditor" timestamp="1627323374325">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1627323374325" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
