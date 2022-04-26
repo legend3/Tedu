@@ -5,96 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad4b61d4-3251-4b4b-a712-0e5af089ab59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring/day10_all/.idea/day10_all.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring/day10_all/ajax-day01/ajax-day01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring/day10_all/ajax-day02/ajax-day02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/CaseInsensitiveString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/ColorPonit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic/day02/DataTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/day02/DataTypeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basic/day03/OperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/day03/OperDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oop/day05/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day05/ShapeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oop/day05/ooDay05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day05/ooDay05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oop/day06/NstInnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/NstInnerClassDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oop/day06/ooDay06.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/ooDay06.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day04/ooDay04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day04/ooDay04.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day06/MulTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/MulTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day06/ooDay06.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/ooDay06.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case01/CodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case01/CodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case02/PayEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case02/PayEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case02/PbPayFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case02/PbPayFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/test/testEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/test/testEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/枚举.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/枚举.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day02/DataTypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day02/DataTypeDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day03/OperDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day03/OperDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/Addition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/ForDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/ForDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/Guessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day04/Guessing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day05/ArrayDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Basic/day05/ArrayDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day01/ooDay01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day01/ooDay01.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day02/ooDay02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day02/ooDay02.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day03/ooDay03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day03/ooDay03.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day04/ooDay04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day04/ooDay04.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Coo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Coo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Doo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Doo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Eoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Eoo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Foo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Foo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Inter3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Inter3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/InterfaceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/InterfaceDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/ShapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/ShapeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/ooDay05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day05/ooDay05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Animal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Aoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Aoo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Bird.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Boo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Boo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/C5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/C5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Come.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Come.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Coo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Coo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/InnerClassDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/InnerClassDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama$Baby.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama$Baby.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Mama.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/MulTypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/MulTypeDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/NstInnerClassDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Pig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/VirtualImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/VirtualImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/ooDay06.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/Oop.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01pics/null和NullPointerException.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01pics/基本类型与引用类型.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day01/ooDay01pics/基本类型与引用类型之间画等号.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day02/ooDay02.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day02/ooDay02pics/基本类型数组.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day02/ooDay02pics/引用类型数组.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/堆-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/堆-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/方法区.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day03/ooDay03pics/栈.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day04/ooDay04.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day04/ooDay04pics/静态变量.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day05/ooDay05.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/out/production/Oop/day06/ooDay06.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/FileDemo6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day06/MyFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/binary.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/binary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day05/Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day05/Key.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,26 +95,13 @@
       <recent name="E:\workspace\JAVA_Basic\01JAVA_BASIC_JSD1603\src\Oop\day06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataTypeDemo">
+  <component name="RunManager" selected="Application.MulTypeDemo">
     <configuration name="DataTypeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Basic.day02.DataTypeDemo" />
       <module name="01JAVA_BASIC_JSD1603" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Basic.day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oop.day05.InterfaceDemo" />
-      <module name="01JAVA_BASIC_JSD1603" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oop.day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,20 +148,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Oop.day05.singleton" />
+      <module name="01JAVA_BASIC_JSD1603" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oop.day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MulTypeDemo" />
       <item itemvalue="Application.Mama" />
       <item itemvalue="Application.NstInnerClassDemo" />
-      <item itemvalue="Application.InterfaceDemo" />
       <item itemvalue="Application.DataTypeDemo" />
+      <item itemvalue="Application.singleton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MulTypeDemo" />
+        <item itemvalue="Application.singleton" />
         <item itemvalue="Application.DataTypeDemo" />
         <item itemvalue="Application.NstInnerClassDemo" />
         <item itemvalue="Application.Mama" />
-        <item itemvalue="Application.MulTypeDemo" />
-        <item itemvalue="Application.InterfaceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -318,6 +243,8 @@
       <workItem from="1644389172705" duration="2236000" />
       <workItem from="1644478579130" duration="1331000" />
       <workItem from="1644558774893" duration="24000" />
+      <workItem from="1650867087498" duration="12561000" />
+      <workItem from="1650974876376" duration="2548000" />
     </task>
     <servers />
   </component>

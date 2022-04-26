@@ -1,7 +1,7 @@
 package enumDemo.case01;
 
 /**
- * 系统代码的枚举类型：
+ * 系统代码的枚举类型:
  *      不同对象的统一接口方法的实现！
  */
 public enum CodeEnum implements SystemCode{
@@ -28,7 +28,7 @@ public enum CodeEnum implements SystemCode{
     private CodeEnum() {
     }
 //枚举类的构造器不可以添加访问修饰符，枚举类的构造器默认是private的。但你自己不能添加private来修饰构造器
-    private CodeEnum(int code, String desc) {
+    CodeEnum(int code, String desc) {
         this.code = code;
         this.desc = desc;
     }
