@@ -14,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/src/Oop/day06/MulTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/MulTypeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Oop/day06/ooDay06.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/ooDay06.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case01/CodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case01/CodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/枚举.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/枚举.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day04/ooDay04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day04/ooDay04.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Aoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Aoo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Boo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/01JAVA_BASIC_JSD1603/Oop/day06/Boo.class" afterDir="false" />
@@ -244,7 +245,7 @@
       <workItem from="1644478579130" duration="1331000" />
       <workItem from="1644558774893" duration="24000" />
       <workItem from="1650867087498" duration="12561000" />
-      <workItem from="1650974876376" duration="2548000" />
+      <workItem from="1650974876376" duration="2984000" />
     </task>
     <servers />
   </component>
