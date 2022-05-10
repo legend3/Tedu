@@ -190,9 +190,9 @@ Java平台允许我们在内存中创建可复用的Java对象，但一般情况
 		new FileInputStream("d.txt");
 	InputStreamReader reader = 
 		new InputStreamReader(fis, "UTF-8");
-	int c;
-	while((c = reader.read())!=-1){
-		char ch = (char)c;
+	int CC;
+	while((CC = reader.read())!=-1){
+		char ch = (char)CC;
 		System.out.print(ch);
 	}
 	reader.close();

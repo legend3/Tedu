@@ -1,0 +1,73 @@
+package effective_java.Eight;
+
+
+import java.util.Objects;
+
+//public class ColorPonit extends Point{
+public class ColorPoint {//test08
+    private final Color color;//(增加的)值组件
+    private final Point point;//test08
+
+    public ColorPoint(int x, int y, Color color) {
+        if(color == null)//test08
+            throw new NullPointerException();
+        point = new Point(x,y);//test08
+        this.color = color;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public Point asPoint() {
+        return point;
+    }
+    //不满足对称性
+//    @Override
+//    public boolean equals(Object o) {
+//        if (!(o instanceof ColorPonit)) return false;
+//        ColorPonit that = (ColorPonit) o;
+//        return super.equals(o) && (Color)((ColorPonit) o).color == color;
+//    }
+    //提供了对称性
+//    @Override
+//    public boolean equals(Object o) {
+//        if (!(o instanceof Point)) return false;
+//        if (!(o instanceof ColorPonit)) return o.equals(this);
+//        return super.equals(o) && ((ColorPonit) o).color == color;
+//    }
+
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (!(o instanceof ColorPonit)) return false;
+//        if (!super.equals(o)) return false;
+//        ColorPonit that = (ColorPonit) o;
+//        return color == that.color;
+//    }
+
+    /*
+                虽然没有一种令人满意的办法可以既扩展不可实例化的类，又增加值组件，但还是有一种不
+                错的权宜之计（workaround）。根据第16条的建议：复合优先于继承。我们不再
+                让 CounterPoint 扩展 Point ，而是在 CounterPoint 中加入一个私有的 Point 域，以及一个公
+                有的视图（view）方法（见第5条），此方法返回一个与该有色点处在相同位置的普
+                通 Point 对象
+     */
+//    @Override public boolean equals(Object o) {//test08
+//        if (!(o instanceof ColorPoint))
+//            return false;
+//        ColorPoint cp = (ColorPoint) o;
+//        return cp.point.equals(point) && cp.color.equals(color);
+//    }
+
+    /*
+        最终equals编写
+     */
+    @Override
+    public boolean equals(Object o) {//5. 不要将 equals 声明中的 Object 对象替换为其他的类型；不然就是一个重载（overload）了 的Object.equals
+        if (this == o) return true;//1.使用 == 操作符检查“参数是否为这个对象的引用”
+        if (!(o instanceof ColorPoint)) return false;//2.使用 instanceof 操作符检查“参数是否为正确的类型”
+        ColorPoint that = (ColorPoint) o;//3.把参数转换成正确的类型
+        return color == that.color && Objects.equals(point, that.point);//4.类中每个“关键（significant）域的比较
+    }
+}

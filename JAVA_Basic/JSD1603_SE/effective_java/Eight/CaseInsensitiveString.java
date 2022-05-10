@@ -1,4 +1,4 @@
-package effective_java;
+package effective_java.Eight;
 
 import org.testng.annotations.Test;
 import java.util.ArrayList;
@@ -21,7 +21,15 @@ public class CaseInsensitiveString {
         }
         this.s = s;
     }
-//    @Override
+
+    public String getS() {
+        return s;
+    }
+
+    public void setS(String s) {
+        this.s = s;
+    }
+    //    @Override
 //    public boolean equals(Object o) {//test01
 //        if (o instanceof CaseInsensitiveString) {
 //            return s.equalsIgnoreCase(//如果两个字符串的长度相同，并且两个字符串中的对应字符相等，忽略大小写，则认为两个字符串相等。

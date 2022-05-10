@@ -24,7 +24,9 @@
           <root url="jar://$MODULE_DIR$/../../../../Apache/apache-maven-3.8.1/repository/org/testng/testng/7.4.0/testng-7.4.0.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/testng-7.4.0-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
