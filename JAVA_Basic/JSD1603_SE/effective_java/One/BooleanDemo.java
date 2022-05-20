@@ -11,7 +11,7 @@ public class BooleanDemo {
     /*
        静态工厂方法替代构造方法创建实例
     */
-    public static Boolean getBoolean(boolean b) {//好处1.
+    public static Boolean getBoolean(boolean b) {//好处1.(BooleanDemo其实就是演示Boolean类的例子)
         return b ? Boolean.TRUE : Boolean.FALSE;
     }
 
@@ -20,10 +20,10 @@ public class BooleanDemo {
     }
 
     public static BooleanDemo getBoolean3() {//好处3.
-        return new X();
+        return new X();//X是BooleanDemo子类
     }
 
-    public static BooleanDemo getBoolean4(String type) {//好处4.
+    public static BooleanDemo getBoolean4(String type) {//好处4.(多个子类时)
         BooleanDemo booleanDemo;
         switch (type) {
             case "X":
