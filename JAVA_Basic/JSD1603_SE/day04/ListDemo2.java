@@ -42,10 +42,3 @@ public class ListDemo2 {
 		System.out.println(list);
 	}
 }
-
-
-
-
-
-
-

@@ -69,8 +69,3 @@ public class ListDemo1 {
 		System.out.println("old:"+old);
 	}
 }
-
-
-
-
-
