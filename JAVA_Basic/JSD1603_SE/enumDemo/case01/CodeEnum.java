@@ -25,16 +25,17 @@ public enum CodeEnum implements SystemCode{
         }
     };
 
+    private int code;//系统代码
+    private String desc;//代码对应的描述信息
+
     private CodeEnum() {
     }
+
 //枚举类的构造器不可以添加访问修饰符，枚举类的构造器默认是private的。但你自己不能添加private来修饰构造器
     CodeEnum(int code, String desc) {
         this.code = code;
         this.desc = desc;
     }
-
-    private int code;//系统代码
-    private String desc;//代码对应的描述信息
 
     @Override
     public int getCode() {

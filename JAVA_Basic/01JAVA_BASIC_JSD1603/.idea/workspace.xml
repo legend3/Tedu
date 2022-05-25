@@ -5,70 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad4b61d4-3251-4b4b-a712-0e5af089ab59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/day07/位移运算符.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/day07/位移运算符的细节.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/day07/十进制算二进制.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eight/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eight/ColorPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eight/CounterPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eight/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eight/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eight/testCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eighteen/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eighteen/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eighteen/ForwardingSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eighteen/InstrumentedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eighteen/InstrumentedSet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eighteen/testCases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Nine/PhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Nine/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Nine/testCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/One/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/One/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/One/BooleanDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/One/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/One/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/One/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/One/X.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/One/testCases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Twelve/LandlinePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Twelve/PhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Twelve/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Twelve/SmallTelephone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Twelve/TestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/EnglishNameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/Lexicon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/SpellChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/TestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Four/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Four/TestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Four/UtilityClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Three/Elvis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Three/Elvis01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Three/Elvis02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Three/Elvis03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Three/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Three/TestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Two/Calzone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Two/NyPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Two/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Two/TestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Two/递归泛型/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/jdk8.assets/1583460022040.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/jdk8.assets/1583469965192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/jdk8.assets/1583471864090.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/jdk8.assets/wps1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/jdk8.assets/wps2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/jdk8.assets/wps3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/jdk8.assets/wps4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/JSD1603_SE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/.idea/JSD1603_SE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day05/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day07/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day07/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day07/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day07/Demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day07/bin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day07/bin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day07/bin.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day07/bin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day07/nonA.md.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day07/nonA.md.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day09/day09.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day09/day09.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day09/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day09/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day09/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day09/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day09/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day09/Foo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day09/day09.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day09/day09.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day09/day09.md.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day09/day09.md.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day10/day10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day10/day10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day10/day10.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day10/day10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day10/day10.md.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day10/day10.md.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/CaseInsensitiveString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eight/CaseInsensitiveString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/ColorPonit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/.idea/JSD1603_SE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/.idea/JSD1603_SE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/Demo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/Demo01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/Demo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/Demo02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/bin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/bin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/bin.md" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/bin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/nonA.md.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day07/nonA.md.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day09/day09.html" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day09/day09.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Two/NutritionFacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Two/NutritionFacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Two/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Two/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Two/递归泛型/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Two/递归泛型/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case01/CodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case01/CodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day09/Demo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day09/Demo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day09/Foo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day09/Foo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day09/day09.md" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day09/day09.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day09/day09.md.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day09/day09.md.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day10/day10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day10/day10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day10/day10.md" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day10/day10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/day10/day10.md.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/day10/day10.md.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/enumDemo/case01/CodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/enumDemo/case01/CodeEnum.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,6 +274,7 @@
       <workItem from="1651475371543" duration="254000" />
       <workItem from="1651744439827" duration="146000" />
       <workItem from="1652204479000" duration="449000" />
+      <workItem from="1653461760723" duration="843000" />
     </task>
     <servers />
   </component>

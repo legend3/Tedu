@@ -1,7 +1,7 @@
 package effective_java.Two;
 
 /**
- * builder模式
+ * 1.builder模式
  */
 public class NutritionFacts {
     private final int servingSize;
@@ -21,8 +21,8 @@ public class NutritionFacts {
         private int sodium = 0;
         private int carbohydrate = 0;
 
-        public Builder(int servingSize, int servings) {//2.
-            this.servingSize = servingSize;//必需参数设置
+        public Builder(int servingSize, int servings) {//2.必需参数设置
+            this.servingSize = servingSize;
             this.servings = servings;
         }
         public Builder calories(int val) {//2.1 setter相似方法设置每个可选参数
@@ -45,7 +45,7 @@ public class NutritionFacts {
             return new NutritionFacts(this);
         }
     }
-        private NutritionFacts(Builder builder) {//4.
+        private NutritionFacts(Builder builder) {//4.(NutritionFacts的)构造方法（可私有）
             servingSize = builder.servingSize;
             servings = builder.servings;
             calories = builder.calories;
@@ -53,9 +53,4 @@ public class NutritionFacts {
             sodium = builder.sodium;
             carbohydrate = builder.carbohydrate;
         }
-
-    public static void main(String[] args) {
-        //通过内部静态类Builder设置(构造方法)参数，通过build方法创建NutritionFacts实例！
-        NutritionFacts nutritionFacts = new NutritionFacts.Builder(240, 8).calories(100).sodium(35).carbohydrate(27).build();
-    }
 }
