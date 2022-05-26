@@ -1,6 +1,6 @@
 package effective_java.Five;
 
-public class englishDictionary extends Lexicon {
+public class EnglishDictionary extends Lexicon {
     private final String[] dictionary = {
                                             "Aaron",
                                             "Vivian"
@@ -11,8 +11,8 @@ public class englishDictionary extends Lexicon {
     }
 
     //单例
-    private static englishDictionary instance = englishDictionary.getInstance();
-    public static englishDictionary getInstance() {
+    private static EnglishDictionary instance = EnglishDictionary.getInstance();
+    public static EnglishDictionary getInstance() {
         return instance;
     }
 }

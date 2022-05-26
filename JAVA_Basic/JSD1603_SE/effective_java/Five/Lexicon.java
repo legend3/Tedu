@@ -3,7 +3,7 @@ package effective_java.Five;
 public class Lexicon {
     //实例化子类
     public static Lexicon getEnglishDictionary() {
-        return new englishDictionary();
+        return new EnglishDictionary();
     }
 
     public String[] getDictionary() {
