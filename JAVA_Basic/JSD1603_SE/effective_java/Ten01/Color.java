@@ -1,4 +1,4 @@
-package effective_java.Eight;
+package effective_java.Ten01;
 
 public enum Color {
     RED("红色"), YELLOW("黄色"), GREEN("绿色"), BLACK("黑色");

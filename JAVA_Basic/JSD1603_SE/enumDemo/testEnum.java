@@ -1,3 +1,5 @@
+package enumDemo;
+
 import enumDemo.case01.CodeEnum;
 import enumDemo.case01.SystemCode;
 import enumDemo.case02.PayEnum;

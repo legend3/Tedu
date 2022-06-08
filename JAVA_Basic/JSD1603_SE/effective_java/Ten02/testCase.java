@@ -1,4 +1,4 @@
-package effective_java.Nine;
+package effective_java.Ten02;
 
 import org.testng.annotations.Test;
 

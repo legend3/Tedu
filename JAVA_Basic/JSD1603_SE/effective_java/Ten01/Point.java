@@ -1,4 +1,4 @@
-package effective_java.Eight;
+package effective_java.Ten01;
 
 
 import java.util.HashSet;

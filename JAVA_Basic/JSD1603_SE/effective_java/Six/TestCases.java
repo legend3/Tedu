@@ -64,7 +64,23 @@ public class TestCases {
     @Test
     public void test04() {
         /*基本类型与包装类型使用时避免创建不必要的对象*/
+        //1.执行时间巨大差异
         sum();
+
+        // 2.不相等
+        // 使用带参构造器
+        Integer a1 = new Integer("1");
+        Integer a2 = new Integer("1");
+
+        //使用valueOf()静态工厂方法
+        Integer a3 = Integer.valueOf("1");
+        Integer a4 = Integer.valueOf("1");
+
+        //结果为false，因为创建了不同的对象
+        System.out.println(a1 == a2);
+
+        //结果为true，因为不会新建对象
+        System.out.println(a3 == a4);
     }
     @Test
     public void test05() {
