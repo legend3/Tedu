@@ -2,45 +2,46 @@ package com.tarena.tetris;
 
 import java.util.Arrays;
 import java.util.Random;
-//ÈÎºÎÀàĞÍ¶¼¼Ì³ĞÓÚObject == É¶¶¼ÊÇ¶«Î÷ 
-//==Î¨ÎïÖ÷Òå!== Ò»ÇĞ½Ô
-public abstract class Tetromino 
+
+//ä»»ä½•ç±»å‹éƒ½ç»§æ‰¿äºObject == å•¥éƒ½æ˜¯ä¸œè¥¿ 
+//==å”¯ç‰©ä¸»ä¹‰!== ä¸€åˆ‡çš†
+public abstract class Tetromino // å››(å°æ ¼å­)è”ç‰Œ
 	/*extends Object*/ {
 	protected Cell[] cells = new Cell[4];
 	protected State[] states;
 	protected int index = 10000;
-	protected class State{
-		int row0,col0,row1,col1,
-			row2,col2,row3,col3;
-		public State(int row0, int col0, int row1, int col1, int row2, int col2,
-				int row3, int col3) {
+
+	protected class State {
+		int row0,col0,row1,col1,row2,col2,row3,col3;
+
+		public State(int row0, int col0, int row1, int col1, int row2, int col2, int row3, int col3) {
 			this.row0 = row0;	this.col0 = col0;
 			this.row1 = row1;	this.col1 = col1;
-			this.row2 = row2; this.col2 = col2;
+			this.row2 = row2; 	this.col2 = col2;
 			this.row3 = row3;	this.col3 = col3;
 		}
 	}
 	
-	/** Ëæ»ú"Éú³É"7ÖÖ·½¿éÖ®Ò», ÊÇ¹«¹²·½·¨
-	 * ¹¤³§·½·¨: ÓÃÓÚÉú²ú(´´½¨)Ò»¸ö¶ÔÏóµÄ·½·¨
-	 *     ·â×°ÁË¸´ÔÓµÄ´´½¨¹ı³Ì. Ê¹ÓÃ·½±ã.
-	 *     ÓÃÔÚ´´½¨¶ÔÏó¹ı³Ì¸´ÔÓµÄÇé¿ö.
+	/** éšæœº"ç”Ÿæˆ"7ç§æ–¹å—ä¹‹ä¸€, æ˜¯å…¬å…±æ–¹æ³•
+	 * ï¼ˆé™æ€ï¼‰å·¥å‚æ–¹æ³•: ç”¨äºç”Ÿäº§(åˆ›å»º)ä¸€ä¸ªå¯¹è±¡çš„æ–¹æ³•
+	 *  å°è£…äº†å¤æ‚çš„åˆ›å»ºè¿‡ç¨‹. ä½¿ç”¨æ–¹ä¾¿.
+	 *  ç”¨åœ¨åˆ›å»ºå¯¹è±¡è¿‡ç¨‹å¤æ‚çš„æƒ…å†µ.
 	 **/
 	public static Tetromino randomOne(){
 		Random random = new Random();
 		int type = random.nextInt(7);//[0,7)
-		switch(type){
-		case 0: return new T();
-		case 1: return new I();
-		case 2: return new S();
-		case 3: return new Z();
-		case 4: return new J();
-		case 5: return new L();
-		case 6: return new O();
+		switch(type){//è¿”å›å­ç±»å®ä¾‹
+			case 0: return new T();
+			case 1: return new I();
+			case 2: return new S();
+			case 3: return new Z();
+			case 4: return new J();
+			case 5: return new L();
+			case 6: return new O();
 		}
 		return null;
 	}
-	/** ÎªÁË±ãÓÚ²âÊÔµÄ·½±ã */
+	/** ä¸ºäº†ä¾¿äºæµ‹è¯•çš„æ–¹ä¾¿ */
 	public String toString(){
 		return Arrays.toString(cells);
 		//return "["+cells[0].toString()+","+
@@ -49,38 +50,39 @@ public abstract class Tetromino
 		//cells[3].toString()+"]";
 	}
 	
-	/** µ±Ç°Õâ¸ö¶ÔÏóµÄ4¸ñ·½¿éÕûÌåÏò×óÒÆ¶¯ */
+	/** å½“å‰è¿™ä¸ªå¯¹è±¡çš„4æ ¼æ–¹å—æ•´ä½“å‘å·¦ç§»åŠ¨ */
 	public void moveLeft(){
 		cells[0].moveLeft();
 		cells[1].moveLeft();
 		cells[2].moveLeft();
 		cells[3].moveLeft();
 	}
+	/** å½“å‰è¿™ä¸ªå¯¹è±¡çš„4æ ¼æ–¹å—æ•´ä½“å‘å³ç§»åŠ¨ */
 	public void moveRight(){
 		for(int i=0; i<cells.length; i++){
 			this.cells[i].moveRight();
 		}
 	}
+	/** å½“å‰è¿™ä¸ªå¯¹è±¡çš„4æ ¼æ–¹å—æ•´ä½“å‘ä¸‹ç§»åŠ¨ */
 	public void softDrop(){
 		for(int i=0; i<cells.length; i++){
 			cells[i].softDrop();
 		}
 	}
-	//ÔÚTetromino ÖĞÌí¼ÓĞı×ªËã·¨
-	/** ÏòÓÒĞı×ªËã·¨ */
+	//åœ¨Tetromino ä¸­æ·»åŠ æ—‹è½¬ç®—æ³•
+	/** å‘å³æ—‹è½¬ç®—æ³• */
 	public void rotateRight(){
-		//¼ÆËãindex++
-		//»ñÈ¡Sn(4×éÊı¾İ 0 1 2 3)
-		//»ñÈ¡µ±Ç°µÄÖá
-		//¸ñ×Ó0 ÊÇÖá ²»±ä
-		//¸ñ×Ó1 µÄĞĞÁĞ±äÎª: Öá + Sn[1]
-		//¸ñ×Ó2 µÄĞĞÁĞ±äÎª: Öá + Sn[2]
-		//¸ñ×Ó3 µÄĞĞÁĞ±äÎª: Öá + Sn[3]
+		//è®¡ç®—index++
+		//è·å–Sn(4ç»„æ•°æ® 0 1 2 3)
+		//è·å–å½“å‰çš„è½´
+		//æ ¼å­0 æ˜¯è½´ ä¸å˜
+		//æ ¼å­1 çš„è¡Œåˆ—å˜ä¸º: è½´ + Sn[1]
+		//æ ¼å­2 çš„è¡Œåˆ—å˜ä¸º: è½´ + Sn[2]
+		//æ ¼å­3 çš„è¡Œåˆ—å˜ä¸º: è½´ + Sn[3]
 		index++;
-		//System.out.println(
-		//		"index:"+(index % states.length));
+		//System.out.println("index:"+(index % states.length));
 		State s = states[index % states.length];
-		Cell o = cells[0];
+		Cell o = cells[0];//è½´
 		int row = o.getRow();
 		int col = o.getCol();
 		//System.out.println(this);

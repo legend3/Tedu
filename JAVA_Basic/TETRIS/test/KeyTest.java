@@ -5,11 +5,11 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 /**
- * KeyListener ÊÇ½Ó¿Ú, ½Ó¿ÚÊÇÒ»ÖÖ¼«¶ËµÄ³éÏóÀà, ½Ó¿Ú: 1) È«²¿µÄ·½·¨ÊÇ³éÏó·½·¨, È«²¿µÄÊôĞÔÊÇ³£Á¿ 2)
- * ¿ÉÒÔ±»ÀàÊµÏÖ(implements ¼Ì³Ğ) 3) ½Ó¿Ú¿ÉÒÔ¶¨Òå±äÁ¿, ÒıÓÃ×ÓÀàÊµÀı 4) ½Ó¿ÚÖ»ÄÜ±»ÊµÏÖ, ²»ÄÜÖ±½ÓÊµÀı»¯ 5) ÊµÏÖ½Ó¿Ú,
- * ¾Í±ØĞëÊµÏÖÈ«²¿µÄ³éÏó·½·¨ ½Ó¿ÚµÄ³éÏó·½·¨, ÊÇ¶Ô×ÓÀàµÄÔ¼¶¨ Èç: KeyListener ½Ó¿ÚÖĞÔ¼¶¨ÁË×ÓÀà ±ØĞë°üº¬3¸ö·½·¨ keyPressed
- * keyTyped keyReleased KeyListenerÊÇ´¦Àí¼üÅÌÊÂ¼şµÄ½Ó¿Ú, ÊÇJava Swing¶ÔÓÃ»§ ÈçºÎ»ñÈ¡¼üÅÌÇÃ»÷Çé¿öµÄÔ¼¶¨.
- * ¾ÍÊÇËµ: Swing ÔÚ·¢ÏÖÓĞ¼üÅÌ ÇÃ»÷Ê±ºò, »áµ÷ÓÃµÄ·½·¨.
+ * KeyListener æ˜¯æ¥å£, æ¥å£æ˜¯ä¸€ç§æç«¯çš„æŠ½è±¡ç±», æ¥å£: 1) å…¨éƒ¨çš„æ–¹æ³•æ˜¯æŠ½è±¡æ–¹æ³•, å…¨éƒ¨çš„å±æ€§æ˜¯å¸¸é‡ 2)
+ * å¯ä»¥è¢«ç±»å®ç°(implements ç»§æ‰¿) 3) æ¥å£å¯ä»¥å®šä¹‰å˜é‡, å¼•ç”¨å­ç±»å®ä¾‹ 4) æ¥å£åªèƒ½è¢«å®ç°, ä¸èƒ½ç›´æ¥å®ä¾‹åŒ– 5) å®ç°æ¥å£,
+ * å°±å¿…é¡»å®ç°å…¨éƒ¨çš„æŠ½è±¡æ–¹æ³• æ¥å£çš„æŠ½è±¡æ–¹æ³•, æ˜¯å¯¹å­ç±»çš„çº¦å®š å¦‚: KeyListener æ¥å£ä¸­çº¦å®šäº†å­ç±» å¿…é¡»åŒ…å«3ä¸ªæ–¹æ³• keyPressed
+ * keyTyped keyReleased KeyListeneræ˜¯å¤„ç†é”®ç›˜äº‹ä»¶çš„æ¥å£, æ˜¯Java Swingå¯¹ç”¨æˆ· å¦‚ä½•è·å–é”®ç›˜æ•²å‡»æƒ…å†µçš„çº¦å®š.
+ * å°±æ˜¯è¯´: Swing åœ¨å‘ç°æœ‰é”®ç›˜ æ•²å‡»æ—¶å€™, ä¼šè°ƒç”¨çš„æ–¹æ³•.
  */
 public class KeyTest {
 	public static void main(String[] args) {
@@ -19,31 +19,31 @@ public class KeyTest {
 		frame.setSize(300, 200);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
-		// °ó¶¨¼üÅÌÊÂ¼şµ½Ãæ°å
+		// ç»‘å®šé”®ç›˜äº‹ä»¶åˆ°é¢æ¿
 		KeyListener l = new KeyChecker();
 		panel.addKeyListener(l);
-		panel.requestFocus();// panelÇëÇó ¼üÅÌÊäÈëµÄ½¹µã
+		panel.requestFocus();// panelè¯·æ±‚ é”®ç›˜è¾“å…¥çš„ç„¦ç‚¹
 	}
 }
 
 class KeyChecker implements KeyListener {
 	@Override
-	// e ¶ÔÏóÖĞ°üº¬: Ê±¼ä, µØµã, ÈËÎï
+	// e å¯¹è±¡ä¸­åŒ…å«: æ—¶é—´, åœ°ç‚¹, äººç‰©
 	public void keyTyped(KeyEvent e) {
-		// °´¼üÇÃ»÷
+		// æŒ‰é”®æ•²å‡»
 		System.out.println(e.getWhen());
 		System.out.println("Typed:" + e.getKeyChar());
 	}
 
 	@Override
 	public void keyPressed(KeyEvent e) {
-		// °´¼ü°´ÏÂ
+		// æŒ‰é”®æŒ‰ä¸‹
 		System.out.println("Pressed" + e.getKeyChar());
 	}
 
 	@Override
 	public void keyReleased(KeyEvent e) {
-		// °´¼üÊÍ·Å
+		// æŒ‰é”®é‡Šæ”¾
 		System.out.println("Released" + e.getKeyChar());
 	}
 }

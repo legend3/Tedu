@@ -2,13 +2,12 @@ package com.tarena.tetris;
 
 import java.awt.image.BufferedImage;
 
-public class Cell {
-	private int row;
-	private int col;// Column ��
-	private BufferedImage image; // ��ͼ
+public class Cell {//小格子
+	private int row;//行(游戏屏幕上的格子位置，起步：0)
+	private int col;// Column 列(游戏屏幕上的格子位置，起步：3)
+	private BufferedImage image; // 贴图
 	
-	public Cell(int row, int col, 
-			BufferedImage image) {
+	public Cell(int row, int col, BufferedImage image) {
 		super();
 		this.row = row;
 		this.col = col;

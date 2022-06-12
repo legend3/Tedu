@@ -1,6 +1,7 @@
 <component name="libraryTable">
-  <library name="tetris">
+  <library name="TETRIS">
     <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JAVA_Basic/TETRIS/tetrisDemo.jar!/" />
       <root url="jar://$PROJECT_DIR$/JAVA_Basic/TETRIS/tetris.jar!/" />
     </CLASSES>
     <JAVADOC />
