@@ -45,6 +45,9 @@ Collections.sort排序底层调用的是Arrays.sort方法
 6. 要比较**对象**引用属性，请**递归**调用 compareTo 方法。
 7. 如果一个属性(field)没有实现 _Comparable_，或者 你需要一个非标准的顺序，那么使用 _Comparator_ 接口，可以编写自己
    的比较器或使用现有的比较器(**消除耦合，利于维护！**)
+   1. 代码参考：https://vimsky.com/examples/usage/comparator-comparingint-in-java-with-examples.html
+
+    
 ## 如何重写compareTo方法
 1. 从最重要的属性开始，逐步比较所有的重要属性。 如果比较结果不是零（零表示相等），则表示比较完成; 只是返回结果。
 2. 如果最重要的字段是相等的，比较下一个重要的属性，依此类推直到找到不相等的属性或比较剩余不那么重要的属性。
