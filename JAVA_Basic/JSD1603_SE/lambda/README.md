@@ -17,7 +17,7 @@
     */
 public class Demo01 {
     public static void test01(){
-        new Thread(new Runnable() {
+        new Thread(new Runnable() {//完成形式--匿名块方形式
             @Override
             public void run() {
                 System.out.println("run....");
@@ -26,8 +26,8 @@ public class Demo01 {
     }
     public static void test02(){
         new Thread(
-//           ()  -> { System.out.println("run....");  }
-             ()  ->  System.out.println("run....")
+//           ()  -> { System.out.println("run....");  }//lambda完整形式
+             ()  ->  System.out.println("run....")//lambda简化形式
         ).start(); ;
     }
     public static void main(String[] args) {
@@ -43,17 +43,18 @@ public class Demo01 {
     ).start();
 `
 
-以上述为例， new Thread(  )中是一个接口、抽象类。但是为了避免  不能区分 lambda到底是重写的哪个方法，语法上lambda要求 重写的 接口、抽象类中  有且只能有一个 抽象方法。 
+以上述为例，new Thread(  )中是一个接口、抽象类。_但是为了避免不能区分lambda到底是重写的哪个方法，语法上lambda要求 重写的 接口、抽象类中
+有且只能有一个 抽象方法_。  
 
-仔细观察，lambda重写的接口、抽象类中 会标识一个@FunctionalInterface，称为函数式接口。  
+仔细观察，lambda重写的*接口、抽象类*中 会标识一个@FunctionalInterface，称为**函数式接口**。  
 
-函数式接口：标注@FunctionalInterface，有且只有一个 抽象方法。  
+>函数式接口：标注@FunctionalInterface，有且只有一个 抽象方法。  
 
-**lambda表达式重写的 必须是 函数式接口（或者 只有一个抽象方法的抽象类）**  
+1. **lambda表达式重写的 必须是 函数式接口（或者 只有一个抽象方法的抽象类）**  
 
-函数式接口要注意以下几点：
-- 即使没有标注@FunctionalInterface，但是只有一个抽象方法，也称之为函数式接口  
-- 特殊情况：如果某个接口中有多个抽象方法，但只有1个抽象方法是本接口新定义的，其他抽象方法和Object中已有的方法重复，那么该接口仍然是函数式接口。  
+>函数式接口要注意以下几点：
+2. 即使没有标注@FunctionalInterface，但是只有一个抽象方法，也称之为函数式接口  
+3 .特殊情况：如果某个接口中有多个抽象方法，但只有1个抽象方法是本接口新定义的，其他抽象方法和Object中已有的方法重复，那么该接口仍然是函数式接口。  
 
 `   
     java
@@ -84,7 +85,7 @@ public class Demo01 {
     }
 `
 
-MyInterface中的a()方法是 自己定义的，而其他equals()、toString()方法可以理解为 从Object中继承而来，因此 MyInterface虽然显示了3个抽象，但其实只有1个抽象。  
+MyInterface中的a()方法是 **自己定义的**，而其他equals()、toString()方法可以理解为 从Object中继承而来，因此 MyInterface虽然显示了3个抽象，但其实只有1个抽象。  
 `()  { return }`
 
 
@@ -111,7 +112,7 @@ MyInterface中的a()方法是 自己定义的，而其他equals()、toString()�
       T get();
 }
   `
-- 
+
 - 有参，有返回值  (函数型)  
 `java
   @FunctionalInterface
@@ -129,7 +130,7 @@ MyInterface中的a()方法是 自己定义的，而其他equals()、toString()�
       ...
   }
 `
-- 除了上述4种JDK8自带的函数式接口可直接用，还可以自定义！！！
+- 除了上述4种JDK8自带的函数式接口可直接用，**还可以自定义**！！！
   - 如何使用(如下)
 
 ## lambda表达式的使用方式
@@ -143,7 +144,7 @@ MyInterface中的a()方法是 自己定义的，而其他equals()、toString()�
         //   boolean test(T t);
         Predicate<Integer> p = (num) ->  {return num < 10;} ;
         //Predicate<Integer> p = num ->  num < 10  ;
-        System.out.println( p.test( 3  )   );
+        System.out.println( p.test(3));
     }
 `
 
@@ -204,7 +205,7 @@ MyInterface中的a()方法是 自己定义的，而其他equals()、toString()�
     new Thread(()  ->  System.out.println("run....")).start(); ;
 `
 
-将lambda表达式所代表的函数式接口，作为一个方法的参数存在。  
+将lambda表达式所代表的函数式接口(自带的+自定义的！)，作为一个方法的参数存在。  
 理解：方法B( 方法A(就是一个lambda实现) )：函数式编程。scala  javascript本身就支持函数式编程。  
 形式：(编写定义时)方法(函数式接口)  
 

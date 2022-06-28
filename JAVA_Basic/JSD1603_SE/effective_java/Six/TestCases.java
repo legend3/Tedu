@@ -5,18 +5,19 @@ import org.testng.annotations.Test;
 import java.util.regex.Pattern;
 
 public class TestCases {
-    // Performance can be greatly improved!
+    // Performance can be greatly improved! （问题）性能可以大大提
     static boolean isRomanNumeral01(String s) {
         return s.matches("^(?=.)M*(C[MD]|D?C{0,3})"
                 + "(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$");
     }
 
-    // Reusing expensive object for improved performance
-    private static final Pattern ROMAN = Pattern.compile(
-            "^(?=.)M*(C[MD]|D?C{0,3})"
+
+    // Reusing expensive object for improved performance    （解决）重新使用昂贵的对象来改进性能！
+    private static final Pattern ROMAN = Pattern.compile("^(?=.)M*(C[MD]|D?C{0,3})"
                     + "(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$");
+
     static boolean isRomanNumeral02(String s) {
-        System.identityHashCode(ROMAN);
+//        System.out.println(System.identityHashCode(ROMAN));//每次都是同一个Pattern.compile()
         return ROMAN.matcher(s).matches();
     }
 

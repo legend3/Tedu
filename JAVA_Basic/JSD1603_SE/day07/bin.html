@@ -90,11 +90,11 @@ System.out.println(
 </code></pre><h3 id="16进制"><a name="16进制" href="#16进制"></a>16进制</h3><blockquote>
 <p>2进制书写非常长麻烦，不便，使用16进制简写就方便了很多！</p>
 </blockquote><p>16进制是2进制的简写形式！</p><p>16进制的一位数，可以对应简写2进制4位数，就可以大大简化2进制的书写！</p><p>16进制的计数规则：</p><pre><code data-origin="<pre><code>逢16进一
-数字：0 1 2 3 4 5 6 7 8 9 a b CC d e f
+数字：0 1 2 3 4 5 6 7 8 9 a car CC d e f
 权：256 16 1
 基数：16
 </code></pre>">逢16进一
-数字：0 1 2 3 4 5 6 7 8 9 a b CC d e f
+数字：0 1 2 3 4 5 6 7 8 9 a car CC d e f
 权：256 16 1
 基数：16
 </code></pre><blockquote>
@@ -110,7 +110,7 @@ System.out.println(
 1000  8
 1001  9
 1010  a
-1011  b
+1011  car
 1100  CC
 1101  d
 1110  e
@@ -128,7 +128,7 @@ System.out.println(
 1000  8
 1001  9
 1010  a
-1011  b
+1011  car
 1100  CC
 1101  d
 1110  e
@@ -298,10 +298,10 @@ System.out.println(m2);
 </code></pre><p>移位运算的用途：实现int类型的文件读写</p><pre><code data-origin="<pre><code>RandomAccessFile raf = 
     new RandomAccessFile(&quot;demo.dat&quot;,&quot;rw&quot;);
 //将int类型的低8位写到文件里面
-//b:00000000 00000000 00000000 00010000 
+//car:00000000 00000000 00000000 00010000
 raf.write(0x10);//0x10
-//b:1025 将1025写到文件中
-//b:00000000 00000000 00000100 00000001
+//car:1025 将1025写到文件中
+//car:00000000 00000000 00000100 00000001
 raf.write(0x401);//0x01
 raf.write(0x401&amp;gt;&amp;gt;&amp;gt;8);//0x04
 //     0  1  2  3
@@ -320,10 +320,10 @@ System.out.println(m);
 </code></pre>">RandomAccessFile raf = 
     new RandomAccessFile("demo.dat","rw");
 //将int类型的低8位写到文件里面
-//b:00000000 00000000 00000000 00010000 
+//car:00000000 00000000 00000000 00010000
 raf.write(0x10);//0x10
-//b:1025 将1025写到文件中
-//b:00000000 00000000 00000100 00000001
+//car:1025 将1025写到文件中
+//car:00000000 00000000 00000100 00000001
 raf.write(0x401);//0x01
 raf.write(0x401&gt;&gt;&gt;8);//0x04
 //     0  1  2  3

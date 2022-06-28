@@ -42,10 +42,13 @@ Collections.sort排序底层调用的是Arrays.sort方法
    - 如果参数为 null，则调用应该抛出一个 NullPointerException 异常，并且一旦该方法尝试访
      问其成员，它就会立即抛出这个异常。
 5. 在 compareTo 方法中，比较属性的顺序而不是相等(返回一个+、0、-，而不是判断是否相等！)
-6. 要比较对象引用属性，请**递归**调用 compareTo 方法。
-7. 如果一个属性没有实现 _Comparable_，或者你需要一个非标准的顺序，那么使用 _Comparator_ 接口，可以编写自己
+6. 要比较**对象**引用属性，请**递归**调用 compareTo 方法。
+7. 如果一个属性(field)没有实现 _Comparable_，或者 你需要一个非标准的顺序，那么使用 _Comparator_ 接口，可以编写自己
    的比较器或使用现有的比较器(**消除耦合，利于维护！**)
-8. 
+## 如何重写compareTo方法
+1. 从最重要的属性开始，逐步比较所有的重要属性。 如果比较结果不是零（零表示相等），则表示比较完成; 只是返回结果。
+2. 如果最重要的字段是相等的，比较下一个重要的属性，依此类推直到找到不相等的属性或比较剩余不那么重要的属性。
+
 
 
 
@@ -89,7 +92,6 @@ TreeSet依赖于树存储。在这种树形结构中，无论是二叉查找树�
 ![05.png](pictures/05.png)
 
 总结：
-1. 按照元素的访问顺序，List是有序的，Set是无序的。
-2. 根据元素之间的关系，List是无序的(通过Collections.sort使其有序)，TreeSet是有序的。
-然而，HashSet是无序的(转成List通过Collections.sort使其有序、转成TreeSet自动排序)。
-
+1. 按照元素的访问顺序，List是有序的，Set是无序的。  
+2. 根据元素之间的关系，List是无序的(通过Collections.sort使其有序)，TreeSet是有序的。  
+然而，HashSet是无序的(转成List通过Collections.sort使其有序、转成TreeSet自动排序)。  

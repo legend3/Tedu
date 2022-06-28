@@ -20,8 +20,17 @@ public class testCases {
     public void test02() {
         Set<Instant> times = new InstrumentedSet2<Instant>(new TreeSet<Instant>());
         System.out.println(times.size());
-        Set<String> s = new InstrumentedSet2<String>(new HashSet<String>());
-        System.out.println(s.size());
 
+        Set<String> s2 = new InstrumentedSet2<String>(new HashSet<String>());
+        s2.addAll(Arrays.asList("Snap", "Crackle", "Pop"));
+        System.out.println(s2.size());//3
+    }
+    @Test
+    public void test03() {
+        CarStyleBrake carStyleBrake = new CarStyleBrake();
+
+        Car car = new Car();
+        IBrakeBehavior csb =  car.setBrakeBehavior(carStyleBrake);
+        csb.brake();
     }
 }

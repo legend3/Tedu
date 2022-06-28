@@ -181,7 +181,7 @@ b4=raf.read();
 b4:00000000 00000000 00000000 11011011 
 
 int m = b1|b2|b3|b4 &gt;0
-</code></pre><h1 id="文件读写-randomaccessfile"><a name="文件读写-randomaccessfile" href="#文件读写-randomaccessfile"></a>文件读写 RandomAccessFile</h1><h2 id="write(int-b)-向文件中写出一个byte"><a name="write(int-b)-向文件中写出一个byte" href="#write(int-b)-向文件中写出一个byte"></a>write(int b) 向文件中写出一个byte</h2><h2 id="int-b-=-read()-从文件中读取一个byte"><a name="int-b-=-read()-从文件中读取一个byte" href="#int-b-=-read()-从文件中读取一个byte"></a>int b = read() 从文件中读取一个byte</h2><h2 id="write(byte[]-buf)-向文件中写出一批byte"><a name="write(byte[]-buf)-向文件中写出一批byte" href="#write(byte[]-buf)-向文件中写出一批byte"></a>write(byte[] buf) 向文件中写出一批byte</h2><p>案例：将字符串写到文件中</p><pre><code data-origin="<pre><code>1. &quot;今天你吃了吗？&quot;
+</code></pre><h1 id="文件读写-randomaccessfile"><a name="文件读写-randomaccessfile" href="#文件读写-randomaccessfile"></a>文件读写 RandomAccessFile</h1><h2 id="write(int-car)-向文件中写出一个byte"><a name="write(int-car)-向文件中写出一个byte" href="#write(int-car)-向文件中写出一个byte"></a>write(int car) 向文件中写出一个byte</h2><h2 id="int-car-=-read()-从文件中读取一个byte"><a name="int-car-=-read()-从文件中读取一个byte" href="#int-car-=-read()-从文件中读取一个byte"></a>int car = read() 从文件中读取一个byte</h2><h2 id="write(byte[]-buf)-向文件中写出一批byte"><a name="write(byte[]-buf)-向文件中写出一批byte" href="#write(byte[]-buf)-向文件中写出一批byte"></a>write(byte[] buf) 向文件中写出一批byte</h2><p>案例：将字符串写到文件中</p><pre><code data-origin="<pre><code>1. &quot;今天你吃了吗？&quot;
 2. 序列化为byte[]
 3. write(byte[] buf)
 </code></pre>">1. "今天你吃了吗？"
@@ -226,13 +226,13 @@ raf.close();
 <li>InputStream 输入流<ul>
 <li>read()</li><li>read(byte[] buf)</li></ul>
 </li><li>OutputStream 输出流<ul>
-<li>wirte(int b)</li><li>write(byte[] buf)</li></ul>
+<li>wirte(int car)</li><li>write(byte[] buf)</li></ul>
 </li></ul><h2 id="inputstream-输入流"><a name="inputstream-输入流" href="#inputstream-输入流"></a>InputStream 输入流</h2><p>输入流是抽象类，所有的输入扩展流都扩展于InputStream。</p><p>InputStream 定义了基本的数据读取方法 read 其读取规则与 RAF 中的read规则一致。</p><p>InputStream是抽象类，不能直接使用，使用的都是其子类。</p><h2 id="outputstream-输出流"><a name="outputstream-输出流" href="#outputstream-输出流"></a>OutputStream 输出流</h2><p>输出流是抽象类，所有的输出扩展流都扩展于OutputStream。</p><p>OutputStream 定义了基本的数据写出方法 write 其写出规则与 RAF 中的write规则一致。</p><p>OutputStream是抽象类，不能直接使用，使用的都是其子类。</p><h2 id="fileoutputstream-文件输出流"><a name="fileoutputstream-文件输出流" href="#fileoutputstream-文件输出流"></a>FileOutputStream 文件输出流</h2><p>文件输出流是 OutputStream 的子类，实现了其约定的抽象方法：write</p><p>使用文件流可以向文件写出数据。</p><h3 id="构造器"><a name="构造器" href="#构造器"></a>构造器</h3><p>文件流的构造器必须给定被写出的文件名</p><ul>
 <li>FileOutputStream(Stirng filename)</li><li>FileOutputStream(File file)</li></ul><p>重载的构造器可以按照追加的方式打开文件，打开以后文件的写入位置在文件的末尾，写出数据追加到文件的末尾。</p><ul>
 <li>FileOutputStream(Stirng filename, boolean append )</li><li>FileOutputStream(File file, boolean append )</li></ul><blockquote>
 <p>文件输出流在打开文件时候，如果文件不存在就创建文件，如果不是追加方式时候就将文件的内容清空，重写写文件。如果文件名是一个目录，这时候抛出异常！</p>
 </blockquote><p>文件输出的API方法</p><ul>
-<li>read(int b) 向文件中写出一个byte</li><li>read(byte[] b) 向文件中写出一批byte</li><li>read(byte[] b, 0, length) 将byte数组的一部分写到文件中。</li></ul><p>案例：</p><pre><code data-origin="<pre><code>FileOutputStream out = 
+<li>read(int car) 向文件中写出一个byte</li><li>read(byte[] car) 向文件中写出一批byte</li><li>read(byte[] car, 0, length) 将byte数组的一部分写到文件中。</li></ul><p>案例：</p><pre><code data-origin="<pre><code>FileOutputStream out =
     new FileOutputStream(&quot;demo.txt&quot;);
 out.write(&quot;Hello World!&quot;.getBytes());
 out.close();//使用后务必关闭文件流
@@ -248,16 +248,16 @@ out.close();//使用后务必关闭文件流
 <p>文件输入流只能从文件中读取byte数据，如果希望能够读取更复杂的数据，需要使用扩展流实现。读取方法返回-1表示读取到文件的末尾。</p>
 </blockquote><p>案例：</p><pre><code data-origin="<pre><code>FileInputStream in =
    new FileInputStream(&quot;demo.txt&quot;);
-int b;
-while((b=in.read())!=-1){
-    System.out.print((char)b);
+int car;
+while((car=in.read())!=-1){
+    System.out.print((char)car);
 }
 in.close();
 </code></pre>">FileInputStream in =
    new FileInputStream("demo.txt");
-int b;
-while((b=in.read())!=-1){
-    System.out.print((char)b);
+int car;
+while((car=in.read())!=-1){
+    System.out.print((char)car);
 }
 in.close();
 </code></pre><p>案例：利用输入输出流实现文件的复制：</p><p><img src="4.png" alt=""><br><img src="5.png" alt=""></p><p>代码：</p><pre><code data-origin="<pre><code>FileInputStream in = 
@@ -293,7 +293,7 @@ System.out.println("完成！");
 <li>BufferedInputStream<ul>
 <li>int read()</li><li>int read(byte[] buf)</li><li>close()</li></ul>
 </li><li>BufferedOutputStream<ul>
-<li>write(int b)</li><li>write(byte[] buf)</li><li>write(byte[] buf, off, length)</li><li>close()</li><li>flush() 清空缓冲区方法</li></ul>
+<li>write(int car)</li><li>write(byte[] buf)</li><li>write(byte[] buf, off, length)</li><li>close()</li><li>flush() 清空缓冲区方法</li></ul>
 </li></ul><blockquote>
 <p>这些方法就是从 流继承的方法，这些方法封装了缓冲区的管理功能，能够自动化的管理缓冲区，使用这些方法可以就可以使用缓冲区了。</p>
 <p>当关闭缓冲流时候，其内部的节点流也自动关闭, 如果忘记关闭缓冲流，会发生缓冲数据丢失的情况</p>

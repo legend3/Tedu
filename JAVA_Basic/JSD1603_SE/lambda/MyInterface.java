@@ -1,12 +1,12 @@
 package lambda;
 
 /*
- * Created by 颜群
+ * 自定的函数式接口
  */
 
 @FunctionalInterface
 public interface MyInterface  {//everything is an Object
-    public abstract void a() ;//本接口新定义的抽象
+    public abstract void a() ;//本接口新定义的抽象(函数式接口方法)
 
     public abstract String toString() ;//和Object中重名(实际会调用Object中的toString())
     public abstract boolean equals(Object obj) ;//和Object中重名
@@ -20,6 +20,7 @@ class MyInterfaceImpl implements  MyInterface{
         System.out.println("a...");
     }
 }
+
 class TestMyInterface{
     public static void main(String[] args) {
 

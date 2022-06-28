@@ -129,9 +129,9 @@
 
 # 文件读写 RandomAccessFile
 
-## write(int b) 向文件中写出一个byte
+## write(int car) 向文件中写出一个byte
 
-## int b = read() 从文件中读取一个byte
+## int car = read() 从文件中读取一个byte
 
 ## write(byte[] buf) 向文件中写出一批byte
 
@@ -192,7 +192,7 @@
 	- read()
 	- read(byte[] buf)
 - OutputStream 输出流
-	- wirte(int b)
+	- wirte(int car)
 	- write(byte[] buf)
 
 ## InputStream 输入流
@@ -233,9 +233,9 @@ OutputStream是抽象类，不能直接使用，使用的都是其子类。
 
 文件输出的API方法
 
-- read(int b) 向文件中写出一个byte
-- read(byte[] b) 向文件中写出一批byte
-- read(byte[] b, 0, length) 将byte数组的一部分写到文件中。
+- read(int car) 向文件中写出一个byte
+- read(byte[] car) 向文件中写出一批byte
+- read(byte[] car, 0, length) 将byte数组的一部分写到文件中。
 
 案例：
 	
@@ -266,9 +266,9 @@ API方法
 
 	FileInputStream in =
 	   new FileInputStream("demo.txt");
-	int b;
-	while((b=in.read())!=-1){
-		System.out.print((char)b);
+	int car;
+	while((car=in.read())!=-1){
+		System.out.print((char)car);
 	}
 	in.close();
 
@@ -314,7 +314,7 @@ API方法：
 	- int read(byte[] buf)
 	- close()
 - BufferedOutputStream
-	- write(int b)
+	- write(int car)
 	- write(byte[] buf)
 	- write(byte[] buf, off, length)
 	- close()

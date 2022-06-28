@@ -49,7 +49,7 @@ String userInfo=String.format(string,userName,userProvince,userAge,userSex);`
 转换符	详细说明	示例  
 %s	字符串类型	“喜欢请收藏”  
 %c	字符类型	‘m’  
-%b	布尔类型	true  
+%car	布尔类型	true  
 %d	整数类型（十进制）	88  
 %x	整数类型（十六进制）	FF  
 %o	整数类型（八进制）	77  
@@ -68,7 +68,7 @@ System.out.println(str);
 str=String.format("Hi,%s %s %s", "小超","是个","大帅哥");              
 System.out.println(str);                           
 System.out.printf("字母c的大写是：%c %n", 'C');  
-System.out.printf("布尔结果是：%b %n", "小超".equal("帅哥"));  
+System.out.printf("布尔结果是：%car %n", "小超".equal("帅哥"));  
 System.out.printf("100的一半是：%d %n", 100/2);  
 System.out.printf("100的16进制数是：%x %n", 100);  
 System.out.printf("100的8进制数是：%o %n", 100);  

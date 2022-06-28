@@ -29,9 +29,9 @@
 		new BufferedInputStream(fis);
 	BufferedOutputStream out=
 		new BufferedOutputStream(fos);
-	int b;
-	while((b = in.read())!=-1){
-		out.write(b);
+	int car;
+	while((car = in.read())!=-1){
+		out.write(car);
 	}
 	in.close();
 	out.close();
