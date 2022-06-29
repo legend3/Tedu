@@ -29,7 +29,7 @@ public class TestCase {
     @Test
     public void test02() {
         PhoneNumber phoneNumber01 = new PhoneNumber(707, 867, 5309);
-        PhoneNumber phoneNumber02 = new PhoneNumber(707, 867, 5309);
+        PhoneNumber phoneNumber02 = new PhoneNumber(707, 877, 5379);
         System.out.println(phoneNumber01.compareTo(phoneNumber02));
     }
 }
