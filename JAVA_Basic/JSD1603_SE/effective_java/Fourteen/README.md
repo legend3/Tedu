@@ -42,7 +42,7 @@ Collections.sort排序底层调用的是Arrays.sort方法
    - 如果参数为 null，则调用应该抛出一个 NullPointerException 异常，并且一旦该方法尝试访
      问其成员，它就会立即抛出这个异常。
 5. 在 compareTo 方法中，比较属性的顺序而不是相等(返回一个+、0、-，而不是判断是否相等！)
-6. 要比较**对象**引用属性，请**递归**调用 compareTo 方法。
+6. 要比较field时**对象引用**，请**递归**调用 compareTo 方法。
 7. 如果一个属性(field)没有实现 _Comparable_，或者 你需要一个非标准的顺序，那么使用 _Comparator_ 接口，可以编写自己
    的比较器或使用现有的比较器(**消除耦合，利于维护！**)
    1. 代码参考：https://vimsky.com/examples/usage/comparator-comparingint-in-java-with-examples.html

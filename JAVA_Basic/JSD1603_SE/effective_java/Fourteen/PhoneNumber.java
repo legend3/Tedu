@@ -7,14 +7,16 @@ public class PhoneNumber {
     private final short areaCode;
     private final short prefix;
     private final short lineNumber;
+    private A a;
 
-    public PhoneNumber(int areaCode, int prefix, int lineNumber) {
+    public PhoneNumber(int areaCode, int prefix, int lineNumber, A a) {
         rangeCheck(areaCode, 999, "area code");
         rangeCheck(prefix, 999, "prefix");
         rangeCheck(lineNumber, 9999, "line number");
         this.areaCode = (short) areaCode;
         this.prefix = (short) prefix;
         this.lineNumber = (short) lineNumber;
+        this.a = a;
     }
 
     private static void rangeCheck(int arg, int max, String name) {
@@ -33,7 +35,8 @@ public class PhoneNumber {
 //        System.out.println(System.identityHashCode(mobiles[1]));
         return pn.lineNumber == lineNumber
                 && pn.prefix == prefix
-                && pn.areaCode == areaCode;
+                && pn.areaCode == areaCode
+                && pn.a == a;
     }
 
     private volatile int hashCode; // (See item 71)
