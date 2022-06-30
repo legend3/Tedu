@@ -28,8 +28,10 @@ public class TestCase {
     }
     @Test
     public void test02() {
-        PhoneNumber phoneNumber01 = new PhoneNumber(707, 867, 5309);
-        PhoneNumber phoneNumber02 = new PhoneNumber(707, 877, 5379);
+        A a1 = new A("a1");
+        A a2 = new A("a1");
+        PhoneNumber phoneNumber01 = new PhoneNumber(707, 867, 5309, a1);
+        PhoneNumber phoneNumber02 = new PhoneNumber(707, 867, 5309, a2);
         System.out.println(phoneNumber01.compareTo(phoneNumber02));
     }
 }

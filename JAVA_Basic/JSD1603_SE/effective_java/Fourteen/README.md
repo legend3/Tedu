@@ -23,7 +23,12 @@ Collections.sort排序底层调用的是Arrays.sort方法
     - 所有比较相等的对象与任何其他对象相比，都必须得到相同的结果
 ### 区别：
 - equals 方法在所有对象上施加了全局等价关系，compareTo 不必跨越不同类型的对象：当遇到不同类型的对象时，compareTo 被允许抛出 ClassCastException 异常
-  -  约定确实允许进行不同类型间比较: 由被比较的对象实现的接口中定义compareTo方法
+  - 约定确实允许进行不同类型间比较: 由被比较的对象实现的接口中定义compareTo方法
+
+### 如何重写compareTo方法
+1. 从最重要的属性开始，逐步比较所有的重要属性。 如果比较结果不是零（零表示相等），则表示比较完成; 只是返回结果。
+2. 如果最重要的字段是相等的，比较下一个重要的属性，依此类推直到找到不相等的属性或比较剩余不那么重要的属性。
+
 ### 注意事项：
 1. 正如一个违反 hashCode 约定的类可能会破坏依赖于哈希的其他类一样，违反 compareTo 约定的类可能会破坏
   依赖于比较的其他类。 依赖于比较的类，包括排序后的集合 TreeSet 和 TreeMap 类，以及包含搜索和排序算法的
@@ -45,12 +50,44 @@ Collections.sort排序底层调用的是Arrays.sort方法
 6. 要比较field时**对象引用**，请**递归**调用 compareTo 方法。
 7. 如果一个属性(field)没有实现 _Comparable_，或者 你需要一个非标准的顺序，那么使用 _Comparator_ 接口，可以编写自己
    的比较器或使用现有的比较器(**消除耦合，利于维护！**)
-   1. 代码参考：https://vimsky.com/examples/usage/comparator-comparingint-in-java-with-examples.html
+   0. 代码参考：https://vimsky.com/examples/usage/comparator-comparingint-in-java-with-examples.html
+   1. 基本数字类型的比较器（int类型为例）：
+      1. 第一个是 **comparingInt** 方法。它是一个静态方
+         法，它使用一个键提取器函数式接口（ key extractor function）作为参数，将对象引用映射为 int 类型的键，并返回一
+         个根据该键排序的实例的比较器。
+      2. 如果两个电话号码实例具有相同的区号，则需要进一步细化比较，这正是第二个比较器构建方法，即
+         **thenComparingInt** 方法做的。 它是 Comparator 上的一个实例方法，接受一个 int 类型键提取器函数式接口（
+         key extractor function）作为参数，并返回一个比较器，该比较器首先应用原始比较器，然后使用提取的键来打破连
+         接。
+      3. 对于 long 和 double 基本类型，也有对应的类似于 comparingInt 和
+         thenComparingInt 的方法，int 版本的方法也可以应用于取值范围小于 int 的类型上，如 short 类型，如
+         PhoneNumber 实例中所示。对于 double 版本的方法也可以用在 float 类型上。这提供了所有 Java 的基本数字类型的
+         覆盖。
+      4. 对象引用类型的比较器构建方法，静态方法 comparing 有两个重载方式，thenComparing 方法有
+         三种重载。
+8. 可能会看到 **compareTo** 或 **compare** 方法依赖于两个值之间的差值，如果第一个值小于第二个值，
+   则为负；如果两个值相等则为零，如果第一个值大于，则为正值：（不要使用这种技术！它可能会导致整数最大长度溢出和 IEEE 754 浮点运算失真的危险[JLS 15.20.1,15.21.1]！而且慢）  
+   `// BROKEN difference-based comparator - violates transitivity!
+   static Comparator<Object> hashCodeOrder = new Comparator<>() {
+       public int compare(Object o1, Object o2) {
+           return o1.hashCode() - o2.hashCode();
+       }
+   };`
+   1. 要使用静态 compare 方法：
+   `return Integer.compare(o1.hashCode(), o2.hashCode());`
+   2. 或使用Comparator 的构建方法：
+   `// Comparator based on Comparator construction method
+      static Comparator<Object> hashCodeOrder =
+      Comparator.comparingInt(o -> o.hashCode());
+      `
+## 总结：
+   1. 无论何时实现具有合理排序的值类，你都应该让该类实现 Comparable 接口，以便在基于比较的集
+      合中轻松对其实例进行排序，搜索和使用
+   2. 比较 compareTo 方法的实现中的字段值时，请避免使用"<"和">"运算
+      符。
+   3. 使用包装类中的静态 compare 方法或 Comparator 接口中的构建方法(比实现Comparable接口重写compare方法性能慢！)
 
-    
-## 如何重写compareTo方法
-1. 从最重要的属性开始，逐步比较所有的重要属性。 如果比较结果不是零（零表示相等），则表示比较完成; 只是返回结果。
-2. 如果最重要的字段是相等的，比较下一个重要的属性，依此类推直到找到不相等的属性或比较剩余不那么重要的属性。
+
 
 
 

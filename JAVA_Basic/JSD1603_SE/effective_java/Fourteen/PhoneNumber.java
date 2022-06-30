@@ -1,6 +1,8 @@
 package effective_java.Fourteen;
 
 import java.util.Comparator;
+
+import static java.util.Comparator.comparing;
 import static java.util.Comparator.comparingInt;
 
 public class PhoneNumber {
@@ -36,7 +38,7 @@ public class PhoneNumber {
         return pn.lineNumber == lineNumber
                 && pn.prefix == prefix
                 && pn.areaCode == areaCode
-                && pn.a == a;
+                && pn.a.equals(a);//递归调用
     }
 
     private volatile int hashCode; // (See item 71)
@@ -48,6 +50,7 @@ public class PhoneNumber {
             result = 31 * result + Short.hashCode(areaCode);
             result = 31 * result + Short.hashCode(prefix);
             result = 31 * result + Short.hashCode(lineNumber);
+            result = 31 * result + a.hashCode();
             hashCode = result;//把散列码缓存在对象内部
         }
         return result;//返回结果
@@ -80,7 +83,9 @@ public class PhoneNumber {
     private static final Comparator<PhoneNumber> COMPARATOR =
             comparingInt((PhoneNumber pn) -> pn.areaCode)
                     .thenComparingInt(pn -> pn.prefix)//该比较器首先应用原始比较器(compare(c1, c2))，(pn.areaCode相等时)然后使用提取的键(再用comparingInt的比较器比较pn.prefix)来打破连接
-                    .thenComparingInt(pn -> pn.lineNumber);//多次调用，(上一层相等时)再比较新的提取的键
+                    .thenComparingInt(pn -> pn.lineNumber)//多次调用，(上一层相等时)再比较新的提取的键
+                    .thenComparing(comparing(pn -> pn.a));//thenComparing(Comparator<? super T> other)//
+
     //通过Java 8 中 Comparator 接口提供了一系列比较器方法构建的比较器，实现compareTo方法(而不是实现Comparable接口的方式！)
     public int compareTo(PhoneNumber pn) {
         return COMPARATOR.compare(this, pn);

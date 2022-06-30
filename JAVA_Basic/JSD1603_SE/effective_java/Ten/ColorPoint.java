@@ -11,7 +11,7 @@ public class ColorPoint {//test08
     private final Point point;//父类，应用组合优于继承，test08
 
     public ColorPoint(int x, int y, Color color) {
-        point = new Point(x,y);//test08
+        point = new Point(x,y);//通过组合组合的方式创建一个父类实例,test08
         this.color = Objects.requireNonNull(color);//检查指定的对象引用不为空。此方法主要用于在方法和构造函数中进行参数验证
     }
 
