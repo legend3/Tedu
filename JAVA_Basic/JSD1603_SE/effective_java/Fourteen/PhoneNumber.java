@@ -67,8 +67,10 @@ public class PhoneNumber {
 //    }
 
     /**
-     * 利用java8里给定的比较器:
-     * 例如，comparingInt方法：接受从类型 T 中提取 int 排序键的函数，并返回按该排序键(Integer.compare(x,y))进行比较的 Comparator<T>。
+     * 利用java8里给定的基本数字类型-int类型的比较器:
+     *
+     * comparingInt方法：接受从类型 T 中提取 int 排序键的函数，并返回按该排序键(Integer.compare(x,y))进行比较的 Comparator<T>；
+     * thenComparingInt方法：将返回字典顺序比较器，并带有提取int排序键的函数。
      */
     // Comparable with comparator construction methods，在使用这种方法(Java 8 中 Comparator 接口)时，考虑使用 Java
     //的静态导入，以便可以通过其简单名称来引用比较器静态方法，以使其清晰简洁
