@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad4b61d4-3251-4b4b-a712-0e5af089ab59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/SpellChecker01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/SpellChecker02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/englishDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Fifteen/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Sixteen/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Sixteen/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Sixteen/TestCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Sixteen/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Twenty-four/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oop/day05/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day05/ShapeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/EnglishNameGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/Lexicon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/Lexicon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/SpellChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/SpellChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Five/TestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/One/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/One/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Fourteen/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Fourteen/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,6 +248,7 @@
       <workItem from="1655015010063" duration="61000" />
       <workItem from="1655652799482" duration="1451000" />
       <workItem from="1655654430827" duration="1627000" />
+      <workItem from="1656777266700" duration="1235000" />
     </task>
     <servers />
   </component>
