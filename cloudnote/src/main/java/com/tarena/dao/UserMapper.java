@@ -2,7 +2,7 @@ package com.tarena.dao;
 
 import com.tarena.entity.User;
 
-@MyBatisRepository
+//@MyBatisRepository
 public interface UserMapper {
 
 	User findByName(String userName);

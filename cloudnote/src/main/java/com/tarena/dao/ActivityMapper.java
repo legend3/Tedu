@@ -6,7 +6,7 @@ import java.util.Map;
 import com.tarena.entity.Activity;
 import com.tarena.entity.NoteActivity;
 
-@MyBatisRepository
+//@MyBatisRepository
 public interface ActivityMapper {
 
 	List<Activity> findAll();

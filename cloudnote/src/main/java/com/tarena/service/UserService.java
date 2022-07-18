@@ -72,12 +72,10 @@ public class UserService {
 	 * @throws BusinessException
 	 */
 	public void addUser(User user) {
-		if(user == null)
-			throw new BusinessException("参数为空.");
+		if(user == null) throw new BusinessException("参数为空.");
 		user.setCn_user_id(UUIDUtil.getUID());
 		// 加密
-		user.setCn_user_password(
-			Md5Util.md5(user.getCn_user_password()));
+		user.setCn_user_password(Md5Util.md5(user.getCn_user_password()));
 		userMapper.save(user);
 	}
 	

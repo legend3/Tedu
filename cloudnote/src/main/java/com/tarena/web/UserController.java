@@ -17,10 +17,8 @@ import com.tarena.service.UserService;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-	
 	@Resource
 	private UserService userService;
-	
 	/**
 	 * 注册用户
 	 */
@@ -33,8 +31,7 @@ public class UserController {
 
 	@RequestMapping("/login.do")
 	@ResponseBody
-	public Result login(String userName, 
-			String password, HttpSession session) {
+	public Result login(String userName, String password, HttpSession session) {
 		Map<String, Object> data = 
 			userService.checkUser(userName, password);
 		if ("0".equals(data.get("flag").toString())) {

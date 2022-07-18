@@ -5,7 +5,7 @@ import java.util.Map;
 
 import com.tarena.entity.Share;
 
-@MyBatisRepository
+//@MyBatisRepository
 public interface ShareMapper {
 
 	void save(Share share);

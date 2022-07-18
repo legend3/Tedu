@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.tarena.entity.NoteBookType;
 
-@MyBatisRepository
+//@MyBatisRepository
 public interface NoteBookTypeMapper {
 
 	List<NoteBookType> findSpecialType();

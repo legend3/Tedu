@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.tarena.entity.NoteBook;
 
-@MyBatisRepository
+//@MyBatisRepository
 public interface NoteBookMapper {
 
 	/**

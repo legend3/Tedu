@@ -1,4 +1,6 @@
 /**
+ * JavaScript(JS/4): 让网页呈现动态的内容和效果——行为、动作
+ *
  * 页面初始化后，绑定函数。
  */
 $(function(){
@@ -40,7 +42,7 @@ function register() {
 		$("#warning_1").hide();
 	}
 	//校验密码
-	if(password.length<6 || password != password2) {
+	if(password.length < 6 || password != password2) {
 		return;
 	}
 	//进行注册
@@ -49,9 +51,9 @@ function register() {
 		"cn_user_password":password,
 		"cn_user_desc":nickname
 	};
-	$.ajax({
+	$.ajax({//页面的局部——"小页面" 向服务端发送请求，而不会刷新整个页面(或指定如何刷新).
 		type:"post",
-		url:basePath+"user/register.do",
+		url:basePath+"user/register.do",//请求
 		dataType:"json",
 		data:user,
 		success:function(result) {

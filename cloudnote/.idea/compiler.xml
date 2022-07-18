@@ -9,8 +9,5 @@
         <module name="cloudnote" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cloudnote" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
