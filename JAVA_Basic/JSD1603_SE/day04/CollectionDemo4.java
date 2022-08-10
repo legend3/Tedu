@@ -2,43 +2,41 @@ package day04;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.Iterator;
 
 /**
- * �����ʹ�õĵط����Ǽ���
- * ��������Լ�������е�Ԫ�����͡�
+ * 泛型最常使用的地方就是集合
+ * 泛型用来约束集合中的元素类型。
  * @author Administrator
  *
  */
 public class CollectionDemo4 {
 	public static void main(String[] args) {
-		Collection<String> c = new ArrayList<String>();
+		Collection<String> c
+				= new ArrayList<String>();
 		/*
 		 * boolean add(E e)
 		 */
 		c.add("one");
 		c.add("two");
 		c.add("three");
-//		c.add(1);
 		System.out.println(c);
 		/*
-		 * ������Ҳ֧�ַ��ͣ��÷��͵�ʵ������
-		 * Ӧ����������ļ��ϵķ���ʵ������һ�¡�
+		 * 迭代器也支持泛型，该泛型的实际类型
+		 * 应当与其遍历的集合的泛型实际类型一致。
 		 */
-		//1.
-		Iterator<String> it = c.iterator();
+		Iterator<String> it
+				= c.iterator();
 		while(it.hasNext()){
 			String str = it.next();
 			System.out.println(str);
-			it.remove();//���������Ա߱�����ɾ��
 		}
-//		System.out.println(c);
-		//2.
-		for(String str:c){//(��������Ԫ�ص����� Ԫ��:����)
+
+		for(String str:c){
 			System.out.println(str);
-//			c.remove("one");//���ܱ߱�����ɾ��
 		}
+
+
 	}
 }
 

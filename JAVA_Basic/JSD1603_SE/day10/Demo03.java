@@ -9,8 +9,8 @@ public class Demo03 {
 			// '0':48 '1':49 '2':50 '3':51
 			// '0'-48 '1'-48 '2'-48 ...
 			char c = str.charAt(0);
-			int n = c-'0';
-			char c2 = '是';
+			int n = c - '0';
+			char c2 = 'a';
 			System.out.println(c2);
 			System.out.println(n); //1
 		}catch(StringIndexOutOfBoundsException e){

@@ -4,8 +4,8 @@ package enumDemo.case01;
  * 系统代码的枚举类型:
  *      不同对象的统一接口方法的实现！
  */
-public enum CodeEnum implements SystemCode{
-    //枚举项
+public enum CodeEnum implements SystemCode {
+    //枚举项(其实每个枚举项都是一个匿名类的子类对象！)
     SUCCESSFUL(0, "操作成功！") {//0, "操作成功！"就是set()方法赋值！
         @Override
         public void getMessage(String message) {
@@ -39,12 +39,12 @@ public enum CodeEnum implements SystemCode{
 
     @Override
     public int getCode() {
-        return 0;
+        return this.code;
     }
 
     @Override
     public String getDes() {
-        return null;
+        return this.desc;
     }
 
     /**

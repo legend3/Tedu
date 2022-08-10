@@ -26,8 +26,3 @@ public class DocDemo {
 		return INFO+name;
 	}
 }
-
-
-
-
-

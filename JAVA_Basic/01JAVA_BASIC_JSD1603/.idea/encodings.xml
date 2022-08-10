@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/src/Basic/day04/WhileDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Basic/day03/Age.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Basic/day04/WhileDemo.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Oop/day01/Cell.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Oop/day01/CellTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Oop/day01/Student.java" charset="UTF-8" />
@@ -31,13 +32,10 @@
     <file url="file://$PROJECT_DIR$/src/Oop/day04/Tetromino.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Oop/day05/InterfaceDemo.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Oop/day05/UnionPayTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/Oop/day06/Aoo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/Oop/day06/Boo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/Oop/day06/Coo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/Oop/day06/InnerClassDemo.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Oop/day06/MulTypeDemo.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Oop/day06/NstInnerClassDemo.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Oop/day06/UnionPayTest.java" charset="UTF-8" />
-    <file url="PROJECT" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

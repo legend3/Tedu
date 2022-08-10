@@ -11,8 +11,7 @@ import java.util.Calendar;
  */
 public class CalendarDemo4 {
 	public static void main(String[] args) {
-		Calendar calendar
-			= Calendar.getInstance();
+		Calendar calendar = Calendar.getInstance();
 		
 		/*
 		 * ����3��2������25���Ժ��ǰ3��������?

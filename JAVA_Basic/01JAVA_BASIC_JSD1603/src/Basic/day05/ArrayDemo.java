@@ -80,17 +80,17 @@ public class ArrayDemo {
 //		}
 
 		//数组间的复制
-		int[] a = {10,20,30,40,50};
-		int[] a1 = new int[6]; //0,0,0,0,0,0
-		//a:源数组
-		//1:源数组的起始下标
-		//a1:目标数组
-		//0:目标数组的起始下标
-		//4:要复制的元素个数
-		System.arraycopy(a,1,a1,2,4);// 从a的第二元素开始按顺序复制4个元素到a1,填充从a1的第三项开始
-		for(int i=0;i<a1.length;i++){
-			System.out.println(a1[i]);
-		}
+//		int[] a = {10,20,30,40,50};
+//		int[] a1 = new int[6]; //0,0,0,0,0,0
+//		//a:源数组
+//		//1:源数组的起始下标
+//		//a1:目标数组
+//		//0:目标数组的起始下标
+//		//4:要复制的元素个数
+//		System.arraycopy(a,1,a1,2,4);// 从a的第二元素开始按顺序复制4个元素到a1,填充从a1的第三项开始
+//		for(int i=0;i<a1.length;i++){
+//			System.out.println(a1[i]);
+//		}
 
 		/*
 		 * 数组的练习:
@@ -143,14 +143,10 @@ public class ArrayDemo {
 		 * 1.数组的定义
 		 */
 //		String[] strArry = new String[4];
-
 //		int[] intArry = new int[]{1,2,3,4,5,6,7,8};
-
 //		String[] strArry2 = {"w","o","r","l","d"};
-
 //		int[] intArry2;
 //		intArry2 = new int[6];
-
 //		System.out.println(intArry.length);
 	}
 }

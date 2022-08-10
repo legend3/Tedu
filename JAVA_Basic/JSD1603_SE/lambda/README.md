@@ -1,6 +1,6 @@
 # lambda :简化代码
 
-##lambda   *λ*   组成：
+## lambda   *λ*   组成：
 - 逗号隔开的参数列表   (x,x,x)     ()  
 - 箭头符号   ->  
 - 方法体 （λ代码块）  
@@ -9,54 +9,53 @@
 
 ![1583460022040](jdk8.assets/1583460022040.png)
 
-`
+        java   
+        package lambda;  
+        /*  
+         * Created by 颜群  
+        */  
+    public class Demo01 {  
+        public static void test01(){  
+            new Thread(new Runnable() {//完成形式--匿名块方形式  
+                @Override  
+                public void run() {  
+                    System.out.println("run....");
+                }
+            }).start(); 
+        }
+        public static void test02(){
+            new Thread(
+    //           ()  -> { System.out.println("run....");  }//lambda完整形式
+                 ()  ->  System.out.println("run....")//lambda简化形式
+            ).start();
+        }
+        public static void main(String[] args) {
+    //        test01() ;
+              test02() ;
+        }
+    }
+
+
     java
-    package lambda;
-    /*
-     * Created by 颜群
-    */
-public class Demo01 {
-    public static void test01(){
-        new Thread(new Runnable() {//完成形式--匿名块方形式
-            @Override
-            public void run() {
-                System.out.println("run....");
-            }
-        }).start(); 
-    }
-    public static void test02(){
         new Thread(
-//           ()  -> { System.out.println("run....");  }//lambda完整形式
-             ()  ->  System.out.println("run....")//lambda简化形式
-        ).start(); ;
-    }
-    public static void main(String[] args) {
-//        test01() ;
-          test02() ;
-    }
-}
-`
+                ()  ->  System.out.println("run....")
+        ).start();
 
-`java
-    new Thread(
-            ()  ->  System.out.println("run....")
-    ).start();
-`
 
-以上述为例，new Thread(  )中是一个接口、抽象类。_但是为了避免不能区分lambda到底是重写的哪个方法，语法上lambda要求 重写的 接口、抽象类中
-有且只能有一个 抽象方法_。  
+以上述为例，new Thread()中是一个接口、抽象类。_但是为了避免不能区分lambda到底是重写的哪个方法，语法上lambda要求重写的接口、抽象类中
+有且只能有一个抽象方法_。  
 
 仔细观察，lambda重写的*接口、抽象类*中 会标识一个@FunctionalInterface，称为**函数式接口**。  
 
 >函数式接口：标注@FunctionalInterface，有且只有一个 抽象方法。  
 
-1. **lambda表达式重写的 必须是 函数式接口（或者 只有一个抽象方法的抽象类）**  
+1. **lambda表达式重写的必须是函数式接口(或者只有一个抽象方法的抽象类)**  
 
 >函数式接口要注意以下几点：
-2. 即使没有标注@FunctionalInterface，但是只有一个抽象方法，也称之为函数式接口  
-3 .特殊情况：如果某个接口中有多个抽象方法，但只有1个抽象方法是本接口新定义的，其他抽象方法和Object中已有的方法重复，那么该接口仍然是函数式接口。  
+2. _即使没有标注@FunctionalInterface，但是只有一个抽象方法，也称之为函数式接口_  
+3. 特殊情况：如果某个接口中有多个抽象方法，但**只有1个抽象方法是本接口新定义的**，其他抽象方法和Object中已有的方法重复，那么该接口仍然是函数式接口。  
 
-`   
+ 
     java
     package lambda;
     /*
@@ -83,7 +82,7 @@ public class Demo01 {
             impl.toString();
         }
     }
-`
+
 
 MyInterface中的a()方法是 **自己定义的**，而其他equals()、toString()方法可以理解为 从Object中继承而来，因此 MyInterface虽然显示了3个抽象，但其实只有1个抽象。  
 `()  { return }`
@@ -269,5 +268,3 @@ import java.util.function.Supplier;
 # 总结：
 - 函数式接口(方法) 由 lambda形式实现！
 - 函数式接口(的lambda实现)可以作为方法的参数
-
-

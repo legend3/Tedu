@@ -3,8 +3,9 @@
 <html>
 <head>
 <title>Insert title here</title>
-<script type="text/javascript" 
-src="js/jquery-1.4.3.js"></script>
+	<%--	Jquery方式--%>
+<script type="text/javascript" src="js/jquery-1.4.3.js"></script>
+
 <script type="text/javascript">
 	$(function(){
 		$('a.s1').click(f1);

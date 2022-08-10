@@ -1,15 +1,22 @@
+package Chapter9_Closure
+
+//def - 代表可选类型，也就是自动可选可以定义任何类型
+//def ss = "sdfsd"
+//print(ss)
 //闭包
-def acoll = ["Groovy", "Java", "Ruby"]
+def c = {println 'Hello World!'}
+//c.call()
+c()
+def acoll= ["Groovy", "Java", "Ruby"]
 acoll.each {
     println(it)//闭包中的 it 变量是一个关键字，指向被调用的外部集合的每个值 — 它是默认值，可以用传递给闭包的参数覆盖它
 }
 println "形参"
 acoll.each {
-    value ->
-        println(value)
+    value -> println(value)
 }
 println "凡是集合或一系列的内容，都可以使用下面这样的代码进行迭代"
-"amosli".each{
+"amosli".each {
     println it.toUpperCase();
 }
 "amosli".each{

@@ -1,4 +1,5 @@
 package Oop.day05;
+
 //接口的演示
 public class InterfaceDemo {
 	public static void main(String[] args) {
@@ -6,9 +7,6 @@ public class InterfaceDemo {
 		Inter6 o2 = new Foo(); //向上造型
 		Inter5 o3 = new Foo(); //向上造型
 
-
-		
-		
 		/*
 		 * 接口的练习:
 		 * 1.声明接口Inter1，包含常量PI和show()
@@ -30,27 +28,27 @@ public class InterfaceDemo {
 	}
 }
 //演示接口的继承
-interface Inter5{
+interface Inter5 {
 	void a();
 }
 interface Inter6 extends Inter5{//接口继承接口
 	void b();
 }
-class Foo implements Inter6{//两个都要实现
+class Foo implements Inter6 {//两个都要实现
 	public void b(){}
 	public void a(){}
 }
 
 //演示先继承后实现
-interface Inter3{
+interface Inter3 {
 	public static final int NUM = 250; //常量
 	void a();
 	void b();
 }
-interface Inter4{
+interface Inter4 {
 	void c();
 }
-abstract class Doo{
+abstract class Doo {
 	abstract void d();
 }
 class Eoo extends Doo implements Inter3, Inter4{

@@ -1,5 +1,4 @@
-<%@ page contentType="text/html; charset=utf-8"
-    pageEncoding="utf-8"%>
+<%@ page contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <html>
 <head>
 <title>Insert title here</title>
@@ -22,8 +21,9 @@
 		font-style:italic;
 	}
 </style>
-<script type="text/javascript" 
-src="js/jquery-1.4.3.js"></script>
+<%-- Jquery方式 --%>
+<script type="text/javascript" src="js/jquery-1.4.3.js"></script>
+
 <script type="text/javascript">
 	$(function(){
 		//当页加载完成，会执行这儿的代码。
@@ -53,7 +53,6 @@ src="js/jquery-1.4.3.js"></script>
 			}
 		});
 	}
-	
 </script>
 </head>
 <body style="font-size:30px;">

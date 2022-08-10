@@ -23,22 +23,23 @@ public class DataTypeDemo {
 		 * 因为空格的ASCII码是32对应的二进制编码。
 		 */
 		char c = '8';
+		System.out.println(c);
 		char a = '0';
 		System.out.println(c - a);
 //			System.out.println("" + (c2-32));//65,A
-		System.out.println(Character.toChars(c - 32));//A
+//		System.out.println(Character.toChars(c - 32));//A
 		/**
 		 * byte类型[-127~128],一个字节,最小的整数
 		 * Java中的byte，short，char进行计算时都会提升为int类型
 		 */
-		byte b = 127;
-        System.out.println(b);
-        b += 1;
-        System.out.println("溢出:" + b);
-        byte b1 = 1;
-        byte b2  = 2;
-        byte b3 = (byte) (b1 + b2); //java中进行计算时候将他们提升为int类型，再进行计算,得出int结果再赋值给byte需要强转
-		System.out.println(b3);//Java中的byte，short，char进行计算时都会提升为int类型
+//		byte b = 127;
+//        System.out.println(b);
+//        b += 1;
+//        System.out.println("溢出:" + b);
+//        byte b1 = 1;
+//        byte b2  = 2;
+//        byte b3 = (byte) (b1 + b2); //java中进行计算时候将他们提升为int类型，再进行计算,得出int结果再赋值给byte需要强转
+//		System.out.println(b3);//Java中的byte，short，char进行计算时都会提升为int类型
 
 		/*
 		 * boolean、char的练习:
@@ -56,29 +57,29 @@ public class DataTypeDemo {
 		 */
 		
 
-		System.out.println('2'); //字符2
-		System.out.println('2'+'2'); //数字100
-
-		
-		//5.char:字符型，2个字节
-		char c1 = '女';//字符直接量必须放在单引号中
-        System.out.println("女：" + c1);
-		char c2 = 'f';
-        System.out.println(c2);
-		char c3 = '5';
-        System.out.println(c3);
-		char c4 = ' ';
-        System.out.println("空：" + c4);//空
-		//char c5 = ''; //编译错误，必须有字符
-		//char c6 = '女性'; //编译错误，只能有一个字符
-		//char c7 = 女; //编译错误，必须放在单引号中
-
-		char c8 = 65;
-		System.out.println(c8); //A
+//		System.out.println('2'); //字符2
+//		System.out.println('2'+'2'); //数字100
 //
+//
+//		//5.char:字符型，2个字节
+//		char c1 = '女';//字符直接量必须放在单引号中
+//        System.out.println("女：" + c1);
+//		char c2 = 'f';
+//        System.out.println(c2);
+//		char c3 = '5';
+//        System.out.println(c3);
+//		char c4 = ' ';
+//        System.out.println("空：" + c4);//空
+//		//char c5 = ''; //编译错误，必须有字符
+//		//char c6 = '女性'; //编译错误，只能有一个字符
+//		//char c7 = 女; //编译错误，必须放在单引号中
+//
+//		char c8 = 65;
+//		System.out.println(c8); //A
+////
 //		System.out.println(2+2); //4
 //		System.out.println('2'+'2'); //100--'2'的码50，加上，'2'的码50
-//
+////
 //		char c9 = '\\';
 //		System.out.println(c9); //\
 //		char c10 = '\"';
@@ -124,15 +125,16 @@ public class DataTypeDemo {
 //		double e = 2.9;
 //		System.out.println(d-e); //0.1000000000009---舍入误差
 
-//		//2.long:长整型，8个字节，很大很大
+		//2.long:长整型，8个字节，很大很大
 //        long l = 250;//默认为int
 //        System.out.println(l);
 //		long a = 250L; //250L为长整型直接量
+//		System.out.println(a);
 ////		long b = 10000000000; //编译错误，100亿默认为int型，但是超范围了
 //		long c = 10000000000L;
 //
 //		long d = 1000000000*2*10L;//200亿范围内，还是int类型
-//		System.out.println(d); //200亿
+//		System.out.println("d: " + d);//200亿
 //		long e = 1000000000*3*10L;
 //		System.out.println(e); //1000000000*3超出200亿，不是(long)300亿，溢出了
 //		long f = 1000000000L*3*10;

@@ -4,9 +4,9 @@
 <html>
 <head>
 	<title>Insert title here</title>
-	<script type="text/javascript" 
-	src="js/ajax.js">
-	</script>
+	<%--  js方式	--%>
+	<script type="text/javascript" src="js/ajax.js"></script>
+
 	<script type="text/javascript">
 		function check_uname(){
 			//step1. 获得ajax对象

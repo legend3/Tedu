@@ -12,7 +12,7 @@ import java.util.Scanner;
  * @author Administrator
  *
  */
-public class Demo1 {
+public class Demo {
 	public static void main(String[] args) throws ParseException {
 		Scanner scanner 
 			= new Scanner(System.in);

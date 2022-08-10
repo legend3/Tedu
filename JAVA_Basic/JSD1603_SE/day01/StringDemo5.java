@@ -1,6 +1,6 @@
 package day01;
 /**
- * char charAt(int index)		与undexOf()相反
+ * char charAt(int index)与 indexOf()相反
  * 获取当前字符串中指定位置上的字符
  * @author Administrator
  *

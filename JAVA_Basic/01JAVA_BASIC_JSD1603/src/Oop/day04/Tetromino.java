@@ -5,7 +5,6 @@ public class Tetromino {
 	Tetromino(){
 		cells = new Cell[4];	
 	}
-	
 	void drop(){
 		for(int i=0;i<this.cells.length;i++){
 			this.cells[i].row++;

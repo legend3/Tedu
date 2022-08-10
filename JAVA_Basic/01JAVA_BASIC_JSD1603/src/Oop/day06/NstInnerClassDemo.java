@@ -26,11 +26,11 @@ public class NstInnerClassDemo {
 		//1.创建Inter3的一个子类，没有名字
 		//2.为该子类创建了一个对象，名为o3
 		//3.大括号中的为子类的类体
-		Inter3 o3 = new Inter3(){
+		Inter3 o3 = new Inter3(){//o3临时实现一次Inter3接口
 			@Override
 			public void show(){
 				System.out.println("showshow");
-//				num = 6;
+//				num = 6;//num变量是final，不能被修改
 				System.out.println(num);//Java 8更加智能：如果局部变量被匿名内部类访问，
 											// 那么该局部变量相当于自动使用了final修饰。
 										//因此，匿名类中只能调用final变量
@@ -39,7 +39,7 @@ public class NstInnerClassDemo {
 		o3.show();
 
 		//2.继承某类方式
-		Come c = new Come(){//继承Come，重写c4的方法
+		Come c = new Come(){//继承Come，临时重写一次c4的方法
 			@Override
 			public void c4() {
 				System.out.println("C4匿名内部类重写c4方法");

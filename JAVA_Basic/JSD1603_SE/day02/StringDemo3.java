@@ -1,8 +1,7 @@
 package day02;
 /**
  * String replaceAll(String regex,String str)
- * 将当前字符串中满足正则表达式的部分替换为
- * 给定的字符串
+ * 将当前字符串中满足正则表达式的部分替换为给定的字符串
  * @author Administrator
  *
  */

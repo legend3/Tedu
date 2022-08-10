@@ -1,5 +1,5 @@
 package Basic.day04;
-//whileµÄÑÝÊ¾
+//whileçš„æ¼”ç¤º
 public class WhileDemo {
 	public static void main(String[] args) {
 
@@ -11,27 +11,27 @@ public class WhileDemo {
 		System.out.println("over");
 
 		/*
-		int times=0;     //1.Ñ­»·±äÁ¿µÄ³õÊ¼»¯
-		while(times<10){ //2.Ñ­»·µÄÌõ¼þ
-			System.out.println("ÐÐ¶¯ÊÇ³É¹¦µÄ½×ÌÝ");
-			times++;     //3.Ñ­»·±äÁ¿µÄ¸Ä±ä
+		int times=0;     //1.å¾ªçŽ¯å˜é‡çš„åˆå§‹åŒ–
+		while(times<10){ //2.å¾ªçŽ¯çš„æ¡ä»¶
+			System.out.println("è¡ŒåŠ¨æ˜¯æˆåŠŸçš„é˜¶æ¢¯");
+			times++;     //3.å¾ªçŽ¯å˜é‡çš„æ”¹å˜
 		}
 		System.out.println("over");
 		*/
 		/*
-		 * Ö´ÐÐ¹ý³Ì:
-		 * times=0 true Êä³ö
-		 * times=1 true Êä³ö
-		 * times=2 true Êä³ö
-		 * times=3 true Êä³ö
-		 * times=4 true Êä³ö
-		 * times=5 true Êä³ö
-		 * times=6 true Êä³ö
-		 * times=7 true Êä³ö
-		 * times=8 true Êä³ö
-		 * times=9 true Êä³ö
-		 * times=10 false whileÑ­»·½áÊø
-		 * Êä³öover
+		 * æ‰§è¡Œè¿‡ç¨‹:
+		 * times=0 true è¾“å‡º
+		 * times=1 true è¾“å‡º
+		 * times=2 true è¾“å‡º
+		 * times=3 true è¾“å‡º
+		 * times=4 true è¾“å‡º
+		 * times=5 true è¾“å‡º
+		 * times=6 true è¾“å‡º
+		 * times=7 true è¾“å‡º
+		 * times=8 true è¾“å‡º
+		 * times=9 true è¾“å‡º
+		 * times=10 false whileå¾ªçŽ¯ç»“æŸ
+		 * è¾“å‡ºover
 		 */
 	}
 }

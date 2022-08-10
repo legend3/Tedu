@@ -19,13 +19,10 @@ import com.tarena.entity.User;
 
 @Service
 public class UserService {
-
 	@Resource
 	private UserMapper userMapper;
-	
 	@Resource
 	private NoteBookTypeMapper noteBookTypeMapper;
-	
 	@Resource
 	private NoteBookMapper noteBookMapper;
 

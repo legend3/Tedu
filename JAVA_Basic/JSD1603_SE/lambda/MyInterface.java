@@ -14,11 +14,16 @@ public interface MyInterface  {//everything is an Object
     //重点：toString()和equals()看似是抽象方法，实则是 有方法体的具体方法
 }
 
-class MyInterfaceImpl implements  MyInterface{
+class MyInterfaceImpl implements MyInterface{
     @Override
     public void a() {
         System.out.println("a...");
     }
+//    public void test() {
+//        MyInterface m = () -> System.out.println("a...");
+//        m.a();
+//    }
+
 }
 
 class TestMyInterface{
@@ -26,7 +31,10 @@ class TestMyInterface{
 
         MyInterfaceImpl impl = new MyInterfaceImpl();
         impl.a();
-        impl.equals("")  ;
+//        impl.test();
+        impl.equals("");
         impl.toString();
+        MyInterface m = () -> System.out.println("a...");//相当于实现了a(),然后new MyInterface()子实例m;
+        m.a();//实现后的子类实例调用实现了的a()方法
     }
 }

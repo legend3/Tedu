@@ -19,7 +19,7 @@ class Leader {
         System.out.println("领导的普通工作");
     }
 
-    static class Staff extends Thread{
+    static class Staff extends Thread {//静态内部类
         private String name;
         private int age;
 
@@ -32,7 +32,7 @@ class Leader {
             System.out.println("通过内部类是外部类实现了多继承...");
         }
 
-        public void showLeader() {
+        public void showLeader() {//丰富了Leader的lname属性
             lname = "大boss";
             System.out.println("领导的名字：" + lname);
             System.out.println("员工自己的名字：" + name);

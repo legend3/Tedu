@@ -18,10 +18,7 @@ public class SimpleDateFormatDemo1 {
 		 * 2016-04-26 10:34:55
 		 * yyyy-MM-dd HH:mm:ss
 		 */
-		SimpleDateFormat sdf
-			= new SimpleDateFormat(
-				"yyyy-MM-dd HH:mm:ss"	
-			);
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		Date date = new Date();
 		System.out.println(date);
 		//Date-->String

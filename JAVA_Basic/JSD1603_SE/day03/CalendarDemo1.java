@@ -9,9 +9,9 @@ import java.util.Date;
  * 历法的时间相关操作。
  * 有很多子类实现，最长用的就是阳历历法:
  * GregroianCalendar
+ *
  * Calendar提供了静态方法来获取一个当前系统
- * 所在地区适用的日历实现类。大部分地区返回的
- * 也都是阳历立法。
+ * 所在地区适用的日历实现类。大部分地区返回的也都是阳历立法。
  * @author Administrator
  *
  */
@@ -21,11 +21,9 @@ public class CalendarDemo1 {
 		 * 获取回来的实现类表示当前系统时间。
 		 * 
 		 */
-		Calendar calendar
-			= Calendar.getInstance();
+		Calendar calendar = Calendar.getInstance();
 		/*
-		 * Calendar实现类的toString不能直观
-		 * 反映出具体时间。
+		 * Calendar实现类的toString不能直观反映出具体时间。
 		 */
 		System.out.println(calendar);
 		
@@ -44,16 +42,12 @@ public class CalendarDemo1 {
 		 * void setTime(Date date)
 		 * Calendar提供了方法setTime,可以
 		 * 将给定的Date对象传入，以使得当前
-		 * Calendar表示给定Date所表示的
-		 * 日期。
+		 * Calendar表示给定Date所表示的日期。
 		 */
 		calendar.setTime(date);
-		
 		/*
-		 * Date,SimpleDateFormat,Calendar
-		 * 配合使用的大致流程与情景。
-		 * 用户输入一个日期，然后根据一系列的
-		 * 计算，最后在将得出的日期显示给用户。
+		 * Date,SimpleDateFormat,Calendar配合使用的大致流程与情景。
+		 * 用户输入一个日期，然后根据一系列的计算，最后在将得出的日期显示给用户。
 		 * 例如:
 		 * 用户输入一个商品的生产日期，和保质期
 		 * 的天数，查看过期的日期。

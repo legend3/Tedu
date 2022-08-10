@@ -70,7 +70,7 @@ CREATE TABLE `cn_notebook` (
   `cn_notebook_type_id` varchar(100) DEFAULT NULL COMMENT '笔记本类型ID',
   `cn_notebook_name` varchar(500) DEFAULT NULL COMMENT '笔记本名',
   `cn_notebook_desc` text COMMENT '笔记本说明',
-  `cn_notebook_createtime` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
+  `cn_notebook_createtime` timestamp NOT NULL DEFAULT '2022-07-19 01:23:17' ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`cn_notebook_id`),
   KEY `FK_Note_User_Reference` (`cn_user_id`),
   KEY `FK_Reference_6` (`cn_notebook_type_id`)

@@ -1,7 +1,6 @@
 package day01;
 /**
- * StringBuilder是为了修改字符串内容
- * 而出现的类。
+ * StringBuilder是为了修改字符串内容而出现的类。
  * 该类定义了用于编辑字符串的相关方法:
  * 增，删，改，插
  * @author Administrator
@@ -11,8 +10,7 @@ public class StringBuilderDemo {
 	public static void main(String[] args) {
 		String str = "好好学习java";
 		//String-->StringBuilder
-		StringBuffer builder
-				= new StringBuffer(str);
+		StringBuffer builder = new StringBuffer(str);
 
 		//StringBuilder-->String
 		str = builder.toString();
@@ -28,14 +26,12 @@ public class StringBuilderDemo {
 		System.out.println(builder.toString());
 
 		/*
-		 * StringBuilder(
-		 *  int start,int end,String str)
-		 * 将当前字符串中指定范围内的内容替换为
-		 * 给定字符串
+		 * StringBuilder(int start,int end,String str)
+		 * 将当前字符串中指定范围内的内容替换为给定字符串
 		 * 好好学习java,为了找个好工作!
 		 * 好好学习java,就是为了改变世界!
 		 */
-		builder.replace(9, 17, "就是为了改变世界!");
+		builder.replace(10, 17, "就是为了改变世界!");
 		System.out.println(builder.toString());
 
 		/*
@@ -50,8 +46,7 @@ public class StringBuilderDemo {
 		System.out.println(builder.toString());
 
 		/*
-		 * StringBuilder insert(
-		 * 			int offset,String str)
+		 * StringBuilder insert(int offset,String str)
 		 * 向当前字符串指定位置处插入指定内容
 		 *
 		 * ,就是为了改变世界!

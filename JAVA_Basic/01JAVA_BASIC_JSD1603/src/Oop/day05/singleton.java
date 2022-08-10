@@ -11,7 +11,7 @@ public class singleton {
     private singleton() {
     }
 
-    //获取唯一可用的对象(静态方法)
+    //获取唯一可用的对象(静态工厂方法)
     public static singleton getInstance(){
         return s;
     }

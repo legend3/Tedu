@@ -32,15 +32,16 @@ public class ShapeTest {
 abstract class Shape{ //抽象类
 	protected double c; //周长
 
-	public abstract double area(); //抽象方法（不含抽象方法也可以是一个抽象类）
+	public abstract double area();//抽象方法（不含抽象方法也可以是一个抽象类）
 
+	//普通静态方法
 	public static void a() {
 		System.out.println("调用抽象类中的非抽象方法a()！");
 	}
 }
 
-class Circle extends Shape{ //方:0.0625
-	public Circle(double c){
+class Circle extends Shape { //方:0.0625
+	public Circle(double c) {
 		this.c = c;
 	}
 
@@ -50,23 +51,23 @@ class Circle extends Shape{ //方:0.0625
 	}
 }
 
-class Square extends Shape{
+class Square extends Shape {
 	public Square(double c){
 		this.c = c;
 	}
 	@Override
-	public double area(){ //重写抽象方法
+	public double area() { //重写抽象方法
 		return 0.0625*c*c;
 	}
 }
 
-abstract class A extends Shape{//不实现继承抽象类的方法的类只能是抽象类
+abstract class A extends Shape {//不实现继承抽象类的方法的类只能是抽象类
 	void nothing() {
 		System.out.println("抽象类的中不抽象方法");
 	}
 }
 
-class  B extends A {
+class B extends A {
 	@Override
 	public double area() {
 		System.out.println("继承A后实现Shape的抽象方法");

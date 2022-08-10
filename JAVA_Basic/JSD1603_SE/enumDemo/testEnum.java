@@ -12,7 +12,7 @@ public class testEnum {
         System.out.println(CodeEnum.ERROR.getCode());
         System.out.println(CodeEnum.SUCCESSFUL.getCode());
 
-        //枚举项可以向上转型为接口类型
+        //枚举项可以向上造型为接口类型
         SystemCode code = CodeEnum.SUCCESSFUL;
         System.out.println(code.getCode());
         System.out.println(code.getDes());
