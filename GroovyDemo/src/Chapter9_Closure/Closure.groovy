@@ -1,17 +1,21 @@
 package Chapter9_Closure
 
 //def - 代表可选类型，也就是自动可选可以定义任何类型
-//def ss = "sdfsd"
-//print(ss)
+def string = "字符串"
+println(string)
 //闭包
 def c = {println 'Hello World!'}
-//c.call()
-c()
+//c.call()//第一种调用
+c()//第二种
 def acoll= ["Groovy", "Java", "Ruby"]
+def acoll2= [1, 2, 3]
 acoll.each {
     println(it)//闭包中的 it 变量是一个关键字，指向被调用的外部集合的每个值 — 它是默认值，可以用传递给闭包的参数覆盖它
 }
-println "形参"
+acoll2.each {
+    println it
+}
+println "形参:"
 acoll.each {
     value -> println(value)
 }
@@ -20,98 +24,148 @@ println "凡是集合或一系列的内容，都可以使用下面这样的代�
     println it.toUpperCase();
 }
 "amosli".each{
-    content ->
-        println content.toUpperCase()
+    content -> println content.toUpperCase()
 }
+
+
 // excite(延迟执行)的闭包
 def s = {
-    word-> println "this is ${word} "
+    word -> println "this is ${word}"
 }
 //可以通过两种方法调用闭包：直接调用或者通过 call() 方法调用。
 s("Java")
 s.call("Groovy")
 
-//println("闭包")
+
+
+//Groovy的$实际用法:
+//1.字符串插值
+println "使用\$ 没有 {}来评估属性(变量)路径:"
+def date = new Date()
+println "The time is $date.time"
+
+println "如果要评估比属性(变量)路径更复杂的表达式,则必须使用\$ {},例如:"
+println "The time is ${new Date().getTime()}"
+
+//2.动态代码执行
+//动态访问属性
+def prop = "time"
+println new Date()."$prop"
+
+//动态调用方法
+def prop2 = "toString"
+println new Date()."$prop2"()
+//正如评论中所指出的,这实际上只是字符串插值的一个特例,因为以下内容也是有效的
+println new Date().'toString'()
+
+
+//0.闭包
+println("闭包")
 def clos = {println 'hello world!'}//创建一个闭包对象clos
 clos.call()//用call函数调用
 clos()//直接调用
-//闭包的自带的隐参数it
+
+//1.闭包的自带的隐参数it
+print("闭包的自带的隐参数it:")
 def clos2 = {println "Hello ${it}"}
 clos2('world!')
 clos2.call('BeiJing')
-//闭包声明中引入形参
+
+//2.闭包声明中引入形参
+print "闭包声明中引入形参:"
 def clos3 = {param -> println "Hello ${param}"}
 clos3.call("LEGEND")//调用带形参的闭包
 clos3("no call")
-//闭包中访问属性值(闭包在定义后就能引用不同的对象)
+
+
+//3.闭包中访问属性值(闭包在定义后就能引用不同的对象)
+println("闭包在定义后就能引用不同的对象:")
 def greeting = 'Hello'
 def clos4 = {param -> println "${greeting} ${param}"}
-clos4.call("World!")
+clos4.call("World!")//Hello World!
 
-greeting = 'Welcome'//第二次调用闭包之前，greeting已完成赋值
+greeting = 'greeting'//第二次调用闭包之前，greeting已完成赋值
 clos4('World!')
 
-//闭包的作用范围
+//4.闭包的作用范围
+println("闭包的作用范围:")
 def demo(clos4) {
-    def greeting = 'BonJour'//不影响clos4的调用(只有在闭包被定义且存在，而不是在被调用时，可以访问greeting的状态值；此时的greeting是在被调用时创建的)
+    //不影响clos4的调用(只有在闭包被定义且存在，而不是在被调用时，可以访问greeting的状态值；此时的greeting是在被调用时创建的)
+    def greeting = 'BonJour'
     clos4.call('Ken')
 }
 demo(clos4)//闭包调用闭包
+println("--------")
 //按照执行顺序，其实也可以这样方式实现:
 //demo()clos4//使用clos4闭包的引用，因此不能作为代码的一部分，抛出传递给所调用的闭包参数为空的错误信息
 demo(){param -> println "Welcome ${param}"}//使用闭包字面值的方法在Groovy中时可行的
-demo {param -> println "Welcome ${param}"}//将闭包作为实参，调用闭包的
+demo{param -> println "Welcome ${param}"}//将闭包作为实参，调用闭包的
 demo clos4//将闭包作为实参，调用闭包的引用
 
-//所有数字类型都支持upto方法
+//所有数字类型都支持upto方法,可用于迭代
+println("所有数字类型都支持upto方法:")
 def factorial = 1
-1.upto(5){ num2 -> factorial *= num2}//给factorial阶乘
+println "$factorial"
+println "${factorial}"
+1.upto(5){num2 -> factorial *= num2}//给factorial阶乘
 println "Factorial(5): ${factorial}"
 
 //闭包、集合和字符串
 //闭包作为参数的each方法: 常用于列表、映射和字符串，以遍历每个元素，并将闭包应用于每个元素
+println("---each---")
 [1,2,3,4].each {println it}//列表
 ['Ken':21,'John':22].each {println it}//映射
 ['lilei':22,'hangmeimei':23].each {println "${it.key} maps to: ${it.value}"}
 //条件元素
-[1,2,3,4].each {num3 -> if(num3 % 2 ==0){
-    println num3
-}
+[1,2,3,4].each{num3 -> if(num3 % 2 ==0) {
+        println num3
+    }
 }
 //形参为Map.Entry
-['Ken':21,'John':22].each{staff -> if(staff.value >=20){
+['Ken':21,'John':22].each {staff -> if(staff.value >=20){
     println staff.key
+    }
 }
-}
-//形参分别为Key于Value
-['Ken':21,'John':22].each{staffName, staffAge -> if(staffAge >=20){
+//形参分别为Key与Value
+['Ken':21,'John':22].each {
+    staffName, staffAge -> if(staffAge >=20){
     println staffName
-}
+    }
 }
 //闭包作为参数的find方法
-def value = [1,3,5,7,9].find{element -> element > 6}
+println("---find---")
+def value = [1,3,5,7,9].find {
+    element -> element > 6
+}
 println "Found: ${value}"
-value = [1,3,5,7,9].find{element -> element > 10}
+value = [1,3,5,7,9].find {
+    element -> element > 10
+}
 println "Found: ${value}"
 
-value = ['Ken':21,'John':22].find {staff -> staff.value > 21}
+value = ['Ken':21,'John':22].find {
+    staff -> staff.value > 21
+}
 println "Found: ${value}"
 //不能使用一组参数值表示键及其对应的值，会不确定所返回的值到底是键，还是与之相对应的值
 //value = ['Ken':21,'John':22].find {key,value -> value > 21}
 //println "Found: ${value}"
 
 //闭包作为参数的findAll方法
-def values = [1,2,3,4].findAll {element -> element < 4}
+println("---findAll---")
+def values = [1,2,3,4].findAll {element -> element < 4}//闭包定义
 println "FoundAll: ${values}"
-values = ['Ken':21,'John':22].findAll {staff -> staff.value > 18}
+values = ['Ken':21,'John':22].findAll {staff -> staff.value > 21}//闭包定义
 println "FoundAll: ${values}"
-values.each {println it}
+values.each {println it}//闭包
 
 //闭包作为参数的any方法: 判断对象中是否有符合要求的元素
+println("---any---")
 def anyElement = [11,12,13,14].any {element -> element > 12}
 println "anyElement: ${anyElement}"
 
 //闭包作为参数的every方法: 判断对象中所有元素是否都符合要求
+println("---every---")
 def everyElement = [11,12,13,14].every {element -> element > 10}
 println "everyElement: ${everyElement}"
 
@@ -119,20 +173,24 @@ def anyStaff = ['Ken':21,'John':22].any {staff -> staff.value > 22}
 println "anyStaff: ${anyStaff}"
 
 //闭包作为参数的collect方法: 按照闭包代码逻辑修改集合中所有元素
+println("---collect---")
 def l = [1,2,3,4].collect {element -> return element * element}//非映射，无需return
 println "l: ${l}"
 l = [1,2,3,4].collect {element -> element * element}
 println "l: ${l}"
-list = (0..<5).collect {element -> 2 * element}
+list = (0 ..< 5).collect {element -> 2 * element}
 println "list: ${list}"
 def staff = ['Ken':21,'John':22].collect {entry -> ++entry.value}
 println("staff: ${staff}")//收集return一个映射中value值的新列表
-def oldStaff = ['Ken':21,'John':22].collect {entry -> ++entry.value;return entry}
+def oldStaff= ['Ken':21,'John':22].collect {
+    entry -> ++entry.value;
+        return entry}
 println "oldStaff: ${oldStaff}"
 
 //闭包作为参数的方法inject: 第一个参数是第二个参数（闭包）的立即返回值，无需引入额外的变量就能实现累积计算
-//第一个参数: 一个起初值
-//第二个参数: 一个闭包
+println('-----inject-----')
+//第一个参数prevour: 一个起初值:1
+//第二个参数element: 一个闭包
 //方法规定的闭包的两个形参: prevour,element,集合中两个元素值
 //assert 1*1*2*3*4 == [1,2,3,4].inject(1) { acc, val -> acc * val }
 //assert 0+1+2+3+4 == [1,2,3,4].inject(0) { acc, val -> acc + val }
@@ -140,8 +198,10 @@ def factor = [2,3,4,5].inject(1) {prevour,element -> prevour * element}
 //1*2*3*4*5
 println("Factor的累加结果: ${factor}")
 
-//闭包的其他特性: 闭包作为方法的参数
+//*闭包的其他特性: 闭包作为方法的参数
+println('------闭包作为方法的参数:------')
 //声明一个集合
+println("----闭包作为方法的参数:----")
 def table = [11,12,13,14]
 //定义两个闭包
 def isEven = {x -> return (x % 2 ==0)}
@@ -153,11 +213,12 @@ def filter(l, p) {
 println "evens: " + filter(table, isEven)
 println "odds: " + filter(table, isOdd)
 
-//闭包作为另一个闭包的参数
+//*闭包作为另一个闭包的参数(p闭包作为takeWhile闭包的参数)
+println("-----闭包作为另一个闭包的参数:----")
 def takeWhile = {p,ll ->
     def result = []
     for(element in ll) {
-        if (p(element)) {
+        if (p(element)) {//通过p闭包过滤ll集合的元素
             result << element
         } else {
             return result
@@ -171,21 +232,24 @@ println "evens: " + takeWhile.call(isEven, table2)
 println "odds: " + takeWhile(isOdd, table3)
 
 //闭包作为返回值
-//方法返回闭包
+//*方法返回闭包
+println("-----方法返回闭包:----")
 def multiply(x) {
     return {y -> return x * y}
 }
-def twice = multiply(2)//x=2
-println "twice(4): ${twice(4)}"//y=4
+def twice = multiply(2)//x=2，返回是个闭包
+println "twice(4): ${twice(4)}"//y=4，给返回的闭包传参数
 //闭包返回闭包
 def multiplication = {x -> return {y -> return x * y}}
-def quadruple = multiplication(4)
-println "quadruple(3): ${quadruple(3)}"
+def quadruple = multiplication(4)//返回{y -> return x * y}闭包
+//println "quadruple(3): ${quadruple(3)}"
+println "quadruple(3): " + quadruple(3)
 
-//嵌套闭包
+//*嵌套闭包
+println("-----嵌套闭包:----")
 def c1 = {x1 ->
-    def c2 = {x2 ->
-        return x2
+    def c2 = {
+        x2 -> return x2
     }
     def c3 = {x3 ->
         return x3

@@ -1,12 +1,9 @@
-//import org.junit.Test
-
-
 import Chapter12_Class.A
 import Chapter12_Class.Account
 import Chapter12_Class.B
 import Chapter12_Class.propertiesGetSet
 import Chapter9_Closure.Song
-import org.testng.annotations.Test
+import org.junit.Test
 
 class groovyTest {
     //Groovy单元测试
