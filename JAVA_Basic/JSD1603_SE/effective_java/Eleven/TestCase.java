@@ -13,11 +13,11 @@ public class TestCase {
         mobile m = new mobile(998);
         small sm = new small(100);
         String[] s = new String[]{"p","i","m","p"};
-        //equal
-        PhoneNumber p1 = new PhoneNumber(707, 867, 5309, m, s);
+        //equal验证
+        PhoneNumber p1 = new PhoneNumber(707, 867, 5309, m, s);//基本类型 + 引用类型 + 字符串
         PhoneNumber p2 = new PhoneNumber(707, 867, 5309, m, s);
         System.out.println(p1.equals(p2));
-        //hashcode
+        //hashcode验证
         map.put(new PhoneNumber(707, 867, 5309, m, s), "Jenny");//第一个实例，被放入map中
         System.out.println(map.get(new PhoneNumber(707, 867, 5309, m, s)));//第二个实例，被用于获取
         /*

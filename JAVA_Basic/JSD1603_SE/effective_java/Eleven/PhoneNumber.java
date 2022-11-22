@@ -46,16 +46,16 @@ public class PhoneNumber {
     }
 
     private volatile int hashCode; // (See item 71)
-    @Override public int hashCode() {
+    @Override public int hashCode() {//定义对象的大小
         int result = hashCode;
         if (result == 0) {
             result = Short.hashCode(areaCode);//首个field
             //剩余的filed
-            result = 31 * result + Short.hashCode(areaCode);
+//            result = 31 * result + Short.hashCode(areaCode);
             result = 31 * result + Short.hashCode(prefix);
             result = 31 * result + Short.hashCode(lineNumber);
-            result = 31 * result + m.hashCode();//递归调用引用域的hashcode方法
-            result = 31 * result + m.hashCode();//递归调用引用域的hashcode方法,用于mobiles数组
+            result = 31 * result + m.hashCode();//递归调用引用域(mobile)的hashcode方法
+            result = 31 * result + m.hashCode();//递归调用引用域(mobile)的hashcode方法,用于mobiles数组
             result = 31 * result + Arrays.hashCode(s);//数组全是重要元素
             hashCode = result;//把散列码缓存在对象内部
         }

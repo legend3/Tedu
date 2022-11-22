@@ -11,10 +11,7 @@ import java.io.RandomAccessFile;
  */
 public class RandomAccessFileDemo2 {
 	public static void main(String[] args) throws IOException {
-		RandomAccessFile raf
-			= new RandomAccessFile(
-                "raf.dat","r"
-			);
+		RandomAccessFile raf = new RandomAccessFile("raf.dat","r");
 		/*
 		 * int read()
 		 * 读取1个字节，并将该字节内容转换成

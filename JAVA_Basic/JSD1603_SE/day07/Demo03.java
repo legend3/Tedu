@@ -4,8 +4,7 @@ import java.io.RandomAccessFile;
 
 public class Demo03 {
 
-	public static void main(String[] args)
-		throws Exception{
+	public static void main(String[] args) throws Exception{
 		RandomAccessFile raf = new RandomAccessFile("demo.dat", "rw");
 		int n = 2182218;
 		//writeInt 方法将int n拆分为4个
@@ -21,5 +20,4 @@ public class Demo03 {
 		//一个是从文件读取byte拼接为int
 		
 	}
-
 }

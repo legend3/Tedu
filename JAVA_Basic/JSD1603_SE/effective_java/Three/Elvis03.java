@@ -1,7 +1,5 @@
 package effective_java.Three;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 /**
  * 实现一个单例的第三种方法是声明单一元素的枚举类：
  * ——枚举单例

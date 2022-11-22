@@ -1,12 +1,13 @@
 package day08;
 
+import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.FileOutputStream;
 
 public class Demo07 {
 
-	public static void main(String[] args) throws Exception{
-		FileOutputStream fos = new FileOutputStream("test.txt");
+	public static void main(String[] args) throws Exception {
+		FileOutputStream fos = new FileOutputStream("test.txt");//被写入的文件
 		//创建缓冲输出流bos，必须依赖于节点流fos
 		BufferedOutputStream bos = new BufferedOutputStream(fos);
 		//bos的写出方法先将数据写到缓冲区

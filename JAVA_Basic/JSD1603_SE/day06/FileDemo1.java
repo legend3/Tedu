@@ -25,7 +25,7 @@ public class FileDemo1 {
 		/*
 		 * 路径应当写相对路径。避免系统差异。
 		 */
-		File file = new File("." + File.separator + "demo.txt");
+		File file = new File("." + File.separator + "demo.txt");//已存在的我呢见
 		//获取文件的路径
 
 //		System.out.println("文件的绝对路径: " + file.getAbsolutePath());

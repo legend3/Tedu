@@ -10,8 +10,7 @@ public class BaseReader {
 	static {
 		Properties p = new Properties();
 		try {
-			p.load(BaseReader.class.getClassLoader()
-					.getResourceAsStream("base.properties"));
+			p.load(BaseReader.class.getClassLoader().getResourceAsStream("base.properties"));
 			pageSize = Integer.valueOf(p.getProperty("page_size"));
 		} catch (IOException e) {
 			e.printStackTrace();

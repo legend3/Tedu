@@ -38,6 +38,8 @@ public class RandomAccessFileDemo5 {
 		new FileWriteThread(1024*3,s3.getBytes()).start(); // 从文件的3072字节之后开始写入数据
 		new FileWriteThread(1024*4,s4.getBytes()).start(); // 从文件的4096字节之后开始写入数据
 		new FileWriteThread(1024*5,s5.getBytes()).start(); // 从文件的5120字节之后开始写入数据
+
+//		Thread.sleep(10000);
 	}
 
 	// 利用线程在文件的指定位置写入指定数据

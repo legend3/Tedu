@@ -34,15 +34,6 @@ public class Key {
 		this.sex = sex;
 	}
 
-	@Override
-	public int hashCode() {
-		int result = 17;
-		result = 31 * result + age;
-		result = 31 * result + (sex == null ? 0 : sex.hashCode());
-//		System.out.println(result);
-		return result;
-	}
-
 	/**
 	 * 使用==操作符检查“参数是否为这个对象的引用”；
 	 * 使用instanceof操作符检查“参数是否为正确的类型”；
@@ -66,6 +57,20 @@ public class Key {
 		return true;
 	}
 
+	private volatile int hashCode;
+	@Override
+	public int hashCode() {
+//		int result = 17;
+		int result = hashCode;
+		if(result == 0) {
+			result = Integer.hashCode(age);
+//			result = 31 * result + age;
+			result = 31 * result + (sex == null ? 0 : sex.hashCode());
+			//System.out.println(result);
+			hashCode = result;//把散列码缓存在对象内部
+		}
+		return result;
+	}
 	@Override
 	public String toString() {
 		return "Key: {" +

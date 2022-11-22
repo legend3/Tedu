@@ -1,6 +1,7 @@
 package day09;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
@@ -9,10 +10,10 @@ public class Demo07 {
 	 * 文本文件读
 	 */
 	public static void main(String[] args) throws Exception{
-		BufferedReader in = 
-			new BufferedReader(
-				new InputStreamReader(
-					new FileInputStream(
+		BufferedReader in =
+			new BufferedReader(//文本文件流
+				new InputStreamReader(//字符流
+					new FileInputStream(//字节流
 			"JAVA_Basic/JSD1603_SE/day01/DocDemo.java"),
 			"GBK"));
 		String str;

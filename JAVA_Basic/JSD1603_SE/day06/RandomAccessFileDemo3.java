@@ -11,14 +11,10 @@ import java.io.RandomAccessFile;
  */
 public class RandomAccessFileDemo3 {
 	public static void main(String[] args) throws IOException {
-		RandomAccessFile raf
-			= new RandomAccessFile(
-                "raf.txt","rw"
-			);
+		RandomAccessFile raf = new RandomAccessFile("raf.txt","rw");
 		String str = "红鲤鱼绿鲤鱼与驴";
 		/*
-		 * 按照系统默认字符集将字符串转换为
-		 * 一组字节
+		 * 按照系统默认字符集将字符串转换为一组字节
 		 */
 //		byte[] data = str.getBytes();
 		//按照指定字符集转换

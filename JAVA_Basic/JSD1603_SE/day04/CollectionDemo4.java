@@ -12,8 +12,7 @@ import java.util.Iterator;
  */
 public class CollectionDemo4 {
 	public static void main(String[] args) {
-		Collection<String> c
-				= new ArrayList<String>();
+		Collection<String> c = new ArrayList<String>();
 		/*
 		 * boolean add(E e)
 		 */
@@ -25,8 +24,7 @@ public class CollectionDemo4 {
 		 * 迭代器也支持泛型，该泛型的实际类型
 		 * 应当与其遍历的集合的泛型实际类型一致。
 		 */
-		Iterator<String> it
-				= c.iterator();
+		Iterator<String> it = c.iterator();
 		while(it.hasNext()){
 			String str = it.next();
 			System.out.println(str);

@@ -3,11 +3,8 @@ package com.tarena.service;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import javax.annotation.Resource;
-
 import org.springframework.stereotype.Service;
-
 import com.tarena.common.BusinessException;
 import com.tarena.common.SystemConstant;
 import com.tarena.common.UUIDUtil;
@@ -40,7 +37,7 @@ public class ActivityService {
 			throw new BusinessException("参数为空.");
 		Map<String, Object> param = new HashMap<String, Object>();
 		param.put("activityId", activityId);
-		param.put("begin", (currentPage-1)*pageSize);
+		param.put("begin", (currentPage-1) * pageSize);
 		param.put("pageSize", pageSize);
 		return activityMapper.findNoteActivityByPage(param);
 	}
@@ -70,8 +67,7 @@ public class ActivityService {
 			
 			List<NoteBook> list = noteBookMapper.findSpecialNoteBook(userId);
 			for(NoteBook noteBook : list) {
-				if(noteBook.getCn_notebook_type_code().equals(
-						SystemConstant.NOTEBOOK_ACTION)) {
+				if(noteBook.getCn_notebook_type_code().equals(SystemConstant.NOTEBOOK_ACTION)) {
 					note.setCn_note_id(UUIDUtil.getUID());
 					note.setCn_notebook_id(noteBook.getCn_notebook_id());
 					note.setCn_note_create_time(System.currentTimeMillis());
@@ -87,18 +83,15 @@ public class ActivityService {
 	
 	public void updateForUp(String noteActivityId) {
 		NoteActivity na = this.findNoteActivity(noteActivityId);
-		int up = na.getCn_note_activity_up() == null ?
-				1 : na.getCn_note_activity_up();
+		int up = na.getCn_note_activity_up() == null ? 1 : na.getCn_note_activity_up();
 		na.setCn_note_activity_up(up + 1);
 		activityMapper.updateNoteActivity(na);
 	}
 	
 	public void updateForDown(String noteActivityId) {
 		NoteActivity na = this.findNoteActivity(noteActivityId);
-		int down = na.getCn_note_activity_down() == null ? 
-				1 : na.getCn_note_activity_down();
+		int down = na.getCn_note_activity_down() == null ? 1 : na.getCn_note_activity_down();
 		na.setCn_note_activity_down(down + 1);
 		activityMapper.updateNoteActivity(na);
 	}
-
 }

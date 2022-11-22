@@ -23,4 +23,6 @@ public enum Color {
         return this.name;
     }
     //(实例的)抽象方法
+
+    //父类可以统一重写equal(),供子类使用，因此子类就无需再重写了。
 }

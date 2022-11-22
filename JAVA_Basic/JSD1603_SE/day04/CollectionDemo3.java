@@ -31,7 +31,8 @@ public class CollectionDemo3 {
 		c.add("#");
 		c.add("four");
 		System.out.println(c);
-		
+
+		//集合的迭代器
 		Iterator it = c.iterator();
 		/*
 		 * boolean hasNext()

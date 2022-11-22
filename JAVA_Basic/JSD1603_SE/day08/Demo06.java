@@ -6,7 +6,7 @@ import java.io.FileOutputStream;
 public class Demo06 {
 
 	public static void main(String[] args) throws Exception{
-		FileInputStream in = new FileInputStream("movie.flv");
+		FileInputStream in = new FileInputStream("../../movie.flv");
 		FileOutputStream out = new FileOutputStream("new.flv");
 		int n;
 		byte[] buf = new byte[8*1024];

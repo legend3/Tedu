@@ -8,8 +8,10 @@ import java.io.RandomAccessFile;
  * java.io.RandomAccessFile
  * 1.
  * RandomAccessFile，该类是IO流体系中功能最丰富的文件内容访问类，既可以读取文件内容，也可以向文件输出数据。
- * RandomAccessFile既可以读取文件内容，也可以向文件输出数据。同时，RandomAccessFile支持“随机访问”的方式，程序快可以直接跳转到文件的任意地方来读写数据。
- * 由于RandomAccessFile可以自由访问文件的任意位置，所以如果需要访问文件的部分内容，而不是把文件从头读到尾，使用RandomAccessFile将是更好的选择。
+ * RandomAccessFile既可以读取文件内容，也可以向文件输出数据。同时，RandomAccessFile支持“随机访问”的方式，
+ * 程序快可以直接跳转到文件的任意地方来读写数据。
+ * 由于RandomAccessFile可以自由访问文件的任意位置，所以如果需要访问文件的部分内容，而不是把文件从头读到尾，
+ * 使用RandomAccessFile将是更好的选择。
  * 与OutputStream、Writer等输出流不同的是，RandomAccessFile允许自由定义文件记录指针，RandomAccessFile可以不从开始的地方开始输出，因此RandomAccessFile可以向已存在的文件后追加内容。如果程序需要向已存在的文件后追加内容，则应该使用RandomAccessFile。
  * RandomAccessFile的方法虽然多，但它有一个最大的局限，就是只能读写文件，不能读写其他IO节点。
  * RandomAccessFile的一个重要使用场景就是网络请求中的多线程下载及断点续传。
@@ -51,10 +53,7 @@ public class RandomAccessFileDemo1 {
 		 * 其中mode对应的字符串为:
 		 * r:只读模式    rw:读写模式
 		 */
-		RandomAccessFile raf
-			= new RandomAccessFile(
-                "raf.dat","rw"
-			);
+		RandomAccessFile raf = new RandomAccessFile("raf.dat","rw");
 		/*
 		 * void write(int d)
 		 * 写出一个字节，写的是给定的int值

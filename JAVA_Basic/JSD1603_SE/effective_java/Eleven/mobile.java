@@ -29,7 +29,7 @@ public class mobile {
 
     @Override
     public int hashCode() {
-        int result = 17;
+        int result = 17;//只有一个域时
         result = 31 * result + Integer.hashCode(mobileNumber);
         return result;
     }

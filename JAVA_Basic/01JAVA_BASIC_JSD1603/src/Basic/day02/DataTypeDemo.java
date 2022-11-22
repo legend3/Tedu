@@ -130,7 +130,7 @@ public class DataTypeDemo {
 //        System.out.println(l);
 //		long a = 250L; //250L为长整型直接量
 //		System.out.println(a);
-////		long b = 10000000000; //编译错误，100亿默认为int型，但是超范围了
+//		long b = 10000000000; //编译错误，100亿默认为int型，但是超范围了
 //		long c = 10000000000L;
 //
 //		long d = 1000000000*2*10L;//200亿范围内，还是int类型
@@ -139,7 +139,7 @@ public class DataTypeDemo {
 //		System.out.println(e); //1000000000*3超出200亿，不是(long)300亿，溢出了
 //		long f = 1000000000L*3*10;
 //		System.out.println(f); //300亿
-//
+
 //		//获取自1970.1.1零时到此时此刻的毫秒数
 //		long g = System.currentTimeMillis();
 //		System.out.println(g);
@@ -151,7 +151,7 @@ public class DataTypeDemo {
 //
 //		System.out.println(5/2); //2，小数位无条件舍弃了
 //		System.out.println(2/5); //0，小数位无条件舍弃了
-//
+
 //		int c = 2147483647;
 //		c=c+1;
 //		System.out.println(c); //-2147483648，溢出了，需要避免

@@ -11,7 +11,7 @@ public class Demo02 {
 		/*
 		 * 先创建低级流（节点流）
 		 */
-		FileOutputStream fos = new FileOutputStream("obj.dat");
+		FileOutputStream fos = new FileOutputStream("obj.txt");
 		/*
 		 * 创建对象输出流,是一种高级流，需要
 		 * 依赖低级流。

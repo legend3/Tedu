@@ -10,50 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cce20703-475e-4398-813b-86d30f6ca25e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/.idea/JSD1603_SE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JAVA_Basic/out/production/JSD1603_SE/JSD1603_SE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloudnote_bak/cloudnote.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpClientDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpClientDemo/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HttpClientDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HttpClientDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Basic/day02/DataTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Basic/day02/DataTypeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Basic/day04/WhileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Basic/day04/WhileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Basic/day05/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Basic/day05/ArrayDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day05/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day05/ShapeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/CalendarDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/CalendarDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/CalendarDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/CalendarDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/CalendarDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/CalendarDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/CalendarDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/CalendarDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/SimpleDateFormatDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/SimpleDateFormatDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/SimpleDateFormatDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/SimpleDateFormatDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day03/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day10/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day10/Demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/java并发编程的艺术/challenge01/Concurrency_SerialTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/java并发编程的艺术/challenge01/DeadLockDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/java并发编程的艺术/challenge01/vmstat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/java并发编程的艺术/challenge01/与volatile相关的cpu术语与说明.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/java并发编程的艺术/challenge01/并发执行与串行执行的上下文切换对比.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/java并发编程的艺术/challenge01/并发编程的挑战.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/.idea/spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/.idea/spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/day10_all/ajax-day02/src/main/java/web/ActionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/day10_all/ajax-day02/src/main/java/web/ActionServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/day10_all/ajax-day02/src/main/webapp/flight.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/day10_all/ajax-day02/src/main/webapp/flight.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/day10_all/ajax-day02/src/main/webapp/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/day10_all/ajax-day02/src/main/webapp/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring/day10_all/ajax-day02/src/main/webapp/stock.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring/day10_all/ajax-day02/src/main/webapp/stock.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day06/InnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day06/InnerClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day06/ooDay06.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/01JAVA_BASIC_JSD1603/src/Oop/day06/ooDay06.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day04/CollectionDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day04/CollectionDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day04/CollectionDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day04/CollectionDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day05/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day05/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day05/MapDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day05/MapDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day05/SortListDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day05/SortListDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day06/RandomAccessFileDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day06/RandomAccessFileDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day07/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day07/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day08/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day08/Demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day08/Demo07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day08/Demo07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day09/Demo07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/day09/Demo07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/effective_java/Eleven/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/effective_java/Eleven/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/effective_java/Eleven/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/effective_java/Eleven/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/effective_java/Eleven/mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/effective_java/Eleven/mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/effective_java/Ten/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/effective_java/Ten/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/effective_java/Ten/ColorPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVA_Basic/JSD1603_SE/effective_java/Ten/ColorPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mymetadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/com.genuitec.eclipse.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/com.genuitec.eclipse.j2eedt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/com.genuitec.jboss.ide.eclipse.xdoclet.run.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud.sql" beforeDir="false" afterPath="$PROJECT_DIR$/cloud.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tarena/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tarena/common/BaseReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/common/BaseReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tarena/dao/ActivityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/dao/ActivityMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tarena/service/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tarena/service/ActivityService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +85,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3492268" />
-    <property name="settings.editor.selected.configurable" value="jprofiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -258,6 +237,19 @@
       <workItem from="1659546156282" duration="2984000" />
       <workItem from="1660017872450" duration="507000" />
       <workItem from="1660025977941" duration="596000" />
+      <workItem from="1660206656513" duration="1172000" />
+      <workItem from="1660211699126" duration="1391000" />
+      <workItem from="1660276794874" duration="4137000" />
+      <workItem from="1660462445065" duration="5671000" />
+      <workItem from="1660498216398" duration="2001000" />
+      <workItem from="1660669837734" duration="1936000" />
+      <workItem from="1660806283472" duration="22000" />
+      <workItem from="1661229273849" duration="546000" />
+      <workItem from="1661316558418" duration="2788000" />
+      <workItem from="1661567607713" duration="608000" />
+      <workItem from="1661569266534" duration="1745000" />
+      <workItem from="1663914910817" duration="18000" />
+      <workItem from="1663914947767" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="2022.07.18 cloudnote更新">
       <created>1658151748684</created>
