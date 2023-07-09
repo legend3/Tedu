@@ -1,6 +1,8 @@
 package effective_java.Ten;
 
-import org.testng.annotations.Test;
+
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;

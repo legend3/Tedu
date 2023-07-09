@@ -1,10 +1,12 @@
 package effective_java.Ten;
 
-import org.testng.annotations.Test;
+
+
+import org.junit.Test;
 
 import java.util.*;
 
-public class testCase {
+public class TestCase {
     @Test
     public void test01() {
         /*CaseInsensitiveString-01*/

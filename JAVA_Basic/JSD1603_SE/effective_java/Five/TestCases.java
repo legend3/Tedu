@@ -1,6 +1,8 @@
 package effective_java.Five;
 
-import org.testng.annotations.Test;
+
+import org.junit.Test;
+
 import java.util.Arrays;
 
 public class TestCases {

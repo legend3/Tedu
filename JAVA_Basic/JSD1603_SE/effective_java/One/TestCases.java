@@ -1,8 +1,9 @@
 package effective_java.One;
 
-import org.testng.annotations.Test;
 
-public class testCases {
+import org.junit.Test;
+
+public class TestCases {
     @Test
     public void test01() {
         Boolean b = BooleanDemo.getBoolean(true);

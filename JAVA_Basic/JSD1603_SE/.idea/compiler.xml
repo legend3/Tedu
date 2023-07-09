@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="JSD1603_SE" target="11" />
+      <module name="JSD1603_SE" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

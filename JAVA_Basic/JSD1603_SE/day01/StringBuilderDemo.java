@@ -10,7 +10,8 @@ public class StringBuilderDemo {
 	public static void main(String[] args) {
 		String str = "好好学习java";
 		//String-->StringBuilder
-		StringBuffer builder = new StringBuffer(str);
+		StringBuilder builder = new StringBuilder(str);
+		System.out.println("builder: " + builder);
 
 		//StringBuilder-->String
 		str = builder.toString();
@@ -23,7 +24,7 @@ public class StringBuilderDemo {
 		 * 好好学习java,为了找个好工作!
 		 */
 		builder.append(",为了找个好工作!");
-		System.out.println(builder.toString());
+		System.out.println(builder.toString());//identityHashCode:2133927002
 
 		/*
 		 * StringBuilder(int start,int end,String str)
@@ -32,7 +33,7 @@ public class StringBuilderDemo {
 		 * 好好学习java,就是为了改变世界!
 		 */
 		builder.replace(10, 17, "就是为了改变世界!");
-		System.out.println(builder.toString());
+		System.out.println(builder);//identityHashCode:2133927002
 
 		/*
 		 * StringBuilder delete(
@@ -47,7 +48,7 @@ public class StringBuilderDemo {
 
 		/*
 		 * StringBuilder insert(int offset,String str)
-		 * 向当前字符串指定位置处插入指定内容
+		 * 向当前字符串指定位置处(前)插入指定内容
 		 *
 		 * ,就是为了改变世界!
 		 * 活着,就是为了改变世界!

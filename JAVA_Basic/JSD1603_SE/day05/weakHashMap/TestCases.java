@@ -1,6 +1,7 @@
 package day05.weakHashMap;
 
-import org.testng.annotations.Test;
+
+import org.junit.Test;
 
 import java.util.WeakHashMap;
 import java.util.concurrent.locks.Condition;

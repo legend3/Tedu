@@ -1,6 +1,7 @@
 package effective_java.Eighteen;
 
-import org.testng.annotations.Test;
+
+import org.junit.Test;
 
 import java.time.Instant;
 import java.util.*;

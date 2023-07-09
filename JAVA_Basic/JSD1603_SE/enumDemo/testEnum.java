@@ -4,7 +4,7 @@ import enumDemo.case01.CodeEnum;
 import enumDemo.case01.SystemCode;
 import enumDemo.case02.PayEnum;
 import enumDemo.case02.PbPayFactory;
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 public class testEnum {
     @Test

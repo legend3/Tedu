@@ -1,6 +1,7 @@
 package effective_java.Seven;
 
-import org.testng.annotations.Test;
+
+import org.junit.Test;
 
 public class TestCases {
     @Test

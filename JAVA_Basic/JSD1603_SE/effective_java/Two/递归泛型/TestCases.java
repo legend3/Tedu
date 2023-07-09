@@ -1,7 +1,8 @@
 package effective_java.Two.递归泛型;
 
 import effective_java.Two.递归泛型.Dog;
-import org.testng.annotations.Test;
+import org.junit.Test;
+
 
 public class TestCases {
     @Test

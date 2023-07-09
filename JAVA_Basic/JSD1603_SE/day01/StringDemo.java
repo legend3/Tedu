@@ -1,4 +1,5 @@
 package day01;
+
 /**
  * 字符串是不变对象
  * 意思是:当字符串对象创建后，该对象表示的
@@ -32,7 +33,7 @@ public class StringDemo {
 		String s4 = "Hello"+"World";
         System.out.println(s1==s4);//true
 		/*
-		 * 下面的操作不会在变异的时候直接计算。
+		 * 下面的操作不会在编译的时候直接计算。
 		 * 而改变字符串内容一定会创建新对象。
 		 */
 		String s5 = "Hello";
