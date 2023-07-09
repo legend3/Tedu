@@ -29,12 +29,13 @@ class Leader {
 
         @Override
         public void run() {
-            System.out.println("通过内部类是外部类实现了多继承...");
+            System.out.println("通过内部类使外部类实现了多继承...");
         }
 
         public void showLeader() {//丰富了Leader的lname属性
             lname = "大boss";
             System.out.println("领导的名字：" + lname);
+            System.out.println("领导的年龄：" + new Leader().age);
             System.out.println("员工自己的名字：" + name);
             new Leader().do02();//调用外部类的非方法，要用外部类的实例调.
             do01();//调用外部类的静态方法

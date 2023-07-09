@@ -9,7 +9,7 @@ public class MulTypeDemo {
 		o1.X();//1.1)同一类型的引用被指向不同对象时，有不同功能(方法)的实现
 		System.out.println("创建出的o1: " + o1);
 		System.out.println("o1属于哪个类：" + o1.getClass());//Boo对象
-		Boo o2 = (Boo) o1;
+		Boo o2 = (Boo) o1;//o1引用所指向的对象，就是该类型
 		System.out.println("o2:" + o2);
 		((Boo) o1).b();//1.2)同一个对象被造型为不同的类型时，有不同的功能(方法)，造型为Boo
 		if(o1 instanceof Aoo){//判断一个对象是否为一个类的实例
@@ -21,7 +21,7 @@ public class MulTypeDemo {
 		System.out.println("o1：" + o1.getClass());
 		System.out.println(o1 == o2);
 
-		Inter1 o3 = (Inter1)o1;//1.2)同一个对象被造型为不同的类型时，有不同的功能(方法),造型为Inter1
+		Inter1 o3 = (Inter1)o1;//o1引用所指向的对象，实现了该接口
 		System.out.println("o1造型成Inter1接口后的类型：" + o1.getClass());
 		System.out.println("o3属于什么类：" + o3.getClass());
 		if(o1 instanceof Inter1){//是！

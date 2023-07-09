@@ -25,18 +25,18 @@ class School {
         final double tvMoney = 10000;
         final double netMoney = 20000;
 
-    class AdverTeam {//扩充show方法功能的局部内部类
-        String teamName = "xuanchuandui";
+        class AdverTeam {//扩充show方法功能的局部内部类
+            String teamName = "xuanchuandui";
 
-        public void tvWork() {
-            System.out.println("学校: " + schoolName + "  业务内容: " + buss + " 学校人数: " + studentNum + "电视宣传费用: " + tvMoney);
+            public void tvWork() {//效果：方法中定义方法
+                System.out.println("学校: " + schoolName + "  业务内容: " + buss + " 学校人数: " + studentNum + "电视宣传费用: " + tvMoney);
+            }
+            public void netWork() {//效果：方法中定义方法
+                System.out.println("学校: " + schoolName + "  业务内容: " + buss + " 学校人数: " + studentNum + "网络宣传费用: " + netMoney);
+            }
         }
-        public void netWork() {
-            System.out.println("学校: " + schoolName + "  业务内容: " + buss + " 学校人数: " + studentNum + "网络宣传费用: " + netMoney);
-        }
-    }
-    //自动触发调用局部内部类
-    new AdverTeam().tvWork();
-    new AdverTeam().netWork();
+        //自动触发调用局部内部类
+        new AdverTeam().tvWork();
+        new AdverTeam().netWork();
     }
 }

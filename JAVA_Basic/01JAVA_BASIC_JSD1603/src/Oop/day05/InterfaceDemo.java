@@ -73,7 +73,7 @@ class Coo implements Inter2{
 }
 
 //演示接口的语法
-interface Inter1{
+interface Inter1 {
 	public static final int NUM = 250; //常量
 	public abstract void show(); //抽象方法
 	

@@ -22,10 +22,10 @@ public class DataTypeDemo {
 		 * 于是我们就得出：大写字母=小写字母-32 ；这个公式了。当然这里的32我也可以这么写‘Z’=‘z’-'空格'。
 		 * 因为空格的ASCII码是32对应的二进制编码。
 		 */
-		char c = '8';
-		System.out.println(c);
-		char a = '0';
-		System.out.println(c - a);
+//		char c = '8';
+//		System.out.println(c);
+//		char a = '0';
+//		System.out.println(c - a);
 //			System.out.println("" + (c2-32));//65,A
 //		System.out.println(Character.toChars(c - 32));//A
 		/**
@@ -126,10 +126,10 @@ public class DataTypeDemo {
 //		System.out.println(d-e); //0.1000000000009---舍入误差
 
 		//2.long:长整型，8个字节，很大很大
-//        long l = 250;//默认为int
-//        System.out.println(l);
-//		long a = 250L; //250L为长整型直接量
-//		System.out.println(a);
+        long l = 250;//默认为int
+        System.out.println(l);
+		long a = 250L; //250L为长整型直接量
+		System.out.println(a);
 //		long b = 10000000000; //编译错误，100亿默认为int型，但是超范围了
 //		long c = 10000000000L;
 //
@@ -141,16 +141,16 @@ public class DataTypeDemo {
 //		System.out.println(f); //300亿
 
 //		//获取自1970.1.1零时到此时此刻的毫秒数
-//		long g = System.currentTimeMillis();
-//		System.out.println(g);
-//		System.out.println(Long.MAX_VALUE);
+		long g = System.currentTimeMillis();
+		System.out.println(g);
+		System.out.println(Long.MAX_VALUE);
 		
-		//1.int:整型，4个字节，-21个多个到21个多亿
+//		1.int:整型，4个字节，-21个多个到21个多亿
 //		int a = 250; //250为整数直接量，默认int型
-//		//int b = 10000000000; //编译错误，100亿默认为int型，但是超范围了
-//
-//		System.out.println(5/2); //2，小数位无条件舍弃了
-//		System.out.println(2/5); //0，小数位无条件舍弃了
+		//int b = 10000000000; //编译错误，100亿默认为int型，但是超范围了
+
+		System.out.println(5/2); //2，小数位无条件舍弃了
+		System.out.println(2/5); //0，小数位无条件舍弃了
 
 //		int c = 2147483647;
 //		c=c+1;

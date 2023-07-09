@@ -3,22 +3,26 @@ package Oop.day06;
 //匿名内部类的演示
 public class NstInnerClassDemo {
 
+	public static void test(Inter4 i) {//Inter4的实例对象作为参数
+		i.show();
+	}
+
 	public static void main(String[] args) {
 		//1.实现了某接口的匿名内部类
-		//1.创建了Inter2的子类，没有名字
 		//2.为该子类创建了一个对象，叫o1
 		//3.大括号中的为子类的类体
-		Inter2 o1 = new Inter2(){
-		};
+		Inter2 o1 = new Inter2() {
+			};
 
 		//1.创建了Inter2的子类，没有名字
 		//2.为该子类创建了一个对象，叫o2
 		//3.大括号中的为子类的类体
-		new Inter2(){
-			public void hi(){
+		Inter2 o2 = new Inter2(){//a.其实就是一个局部内部类
+			public void hi(){//b.局部内部类自定义的一个普通方法，起到扩展功能的作用
 				System.out.println("匿名内部类");
 			}
 		};
+//		o2.hi();//无法调用，实现的Inter2中没有
 
 //		final int num = 5;
 		int num = 5;//被匿名内部类调用时会自动追加final
@@ -43,6 +47,14 @@ public class NstInnerClassDemo {
 			@Override
 			public void c4() {
 				System.out.println("C4匿名内部类重写c4方法");
+				//局部内部类
+				class localClass {
+					public void c6() {
+						System.out.println("C4匿名内部类c6");
+					}
+				}
+				//自动触发调用局部内部类
+				new localClass().c6();
 			}
 //			public void c6() {
 //				System.out.println("C4匿名内部类c6");
@@ -55,21 +67,29 @@ public class NstInnerClassDemo {
 		}
 //		c4.c6();//因为匿名内部类是继承C4类，因此只有C的功能
 
-		C5 c5 = new C5();
+		//普通继承实现的情况
+		C5 c5 = new C5(){
+			@Override
+			public void c4() {
+				System.out.println("c5匿名块重写父类的c4方法...");
+			}
+
+			@Override
+			public void c5() {//也可以不重写
+				System.out.println("c5匿名块重写自己的c4方法...");
+			}
+		};
 		c5.c4();
 		c5.c5();
 
 		//匿名内部类的使用场景:当类或接口类型作为参数传递时，可以直接使用匿名内部类方式创建对应的对象
 		test(new Inter4() {
+			@Override
 			public void show(){
 				System.out.println("Inter4的匿名内部类重写show()方法.");
 			}
 		});
 	}
-
-		public static void test(Inter4 i) {//Inter4的实例对象作为参数
-			i.show();
-		}
 }
 
 interface Inter3{

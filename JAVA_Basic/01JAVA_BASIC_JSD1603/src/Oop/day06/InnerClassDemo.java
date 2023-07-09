@@ -24,7 +24,7 @@ class Mama{ //外部类
 	private int age = 30;
 	private static String id;
 
-	private Baby createBaby(){
+	private Baby createBaby() {
 		return new Baby(2); //内部类对象通常在外部类中创建
 	}
 

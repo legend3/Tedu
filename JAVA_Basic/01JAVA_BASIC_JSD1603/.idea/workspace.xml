@@ -5,57 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad4b61d4-3251-4b4b-a712-0e5af089ab59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/.idea/libraries/groovy_3_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/GroovyDemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/out/test/groovyDemo/groovyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/src/Chapter12_Class/A.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/src/Chapter12_Class/Account.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/src/Chapter12_Class/B.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/src/Chapter12_Class/propertiesGetSet.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/src/Chapter9_Closure/Closure.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/src/Chapter9_Closure/Demo.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/src/Chapter9_Closure/Song.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/src/Chapter9_Closure/SongExample.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GroovyDemo/test/groovyTest.groovy" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oop/day06/globalVariable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/01JAVA_BASIC_JSD1603.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/01JAVA_BASIC_JSD1603.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Basic/day02/DataTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/day02/DataTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day04/StaticDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day04/StaticDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day05/InterfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day05/InterfaceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day05/ooDay05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day05/ooDay05.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Oop/day06/InnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/InnerClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day06/MulTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/MulTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day06/NstInnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/NstInnerClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day06/localityClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/localityClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Oop/day06/ooDay06.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/ooDay06.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day06/staticInnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/staticInnerClassDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oop/day06/test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/JSD1603_SE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/.idea/JSD1603_SE.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day04/CollectionDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day04/CollectionDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day04/CollectionDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day04/CollectionDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day05/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day05/Key.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day05/MapDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day05/MapDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day05/SortListDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day05/SortListDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day06/RandomAccessFileDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day06/RandomAccessFileDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day07/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day07/Demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day08/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day08/Demo05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day08/Demo07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day08/Demo07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day09/Demo07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day09/Demo07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eleven/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eleven/PhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eleven/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eleven/TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eleven/mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Eleven/mobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Ten/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Ten/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Ten/ColorPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Ten/ColorPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Three/Elvis03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/effective_java/Three/Elvis03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/.idea/JSD1603_SE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/.idea/JSD1603_SE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cloudnote/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloudnote/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cloudnote/src/main/java/com/tarena/common/BaseReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloudnote/src/main/java/com/tarena/common/BaseReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cloudnote/src/main/java/com/tarena/dao/ActivityMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloudnote/src/main/java/com/tarena/dao/ActivityMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cloudnote/src/main/java/com/tarena/service/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloudnote/src/main/java/com/tarena/service/ActivityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../cloudnote/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloudnote/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_XML/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oracle/JDBC/day01/jdbc/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../Oracle/JDBC/day01/jdbc/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/target/classes/META-INF/maven/com.tedu/JSD1603_XML/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/target/classes/META-INF/maven/com.tedu/JSD1603_XML/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/target/classes/day12/ParseXmlDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/target/classes/day12/ParseXmlDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/.idea/JSD1603_SE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/JSD1603_SE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/ShootGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/ShootGame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/ShootGame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/ShootGame$2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +78,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Oop/day06/localityClass.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Oop/day06/staticInnerClassDemo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Oop/day06/shixian.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Basic/day02/DataTypeDemo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Oop/day06/InnerClassDemo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Basic/day02/ScannerDemo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Basic/day02/VarDemo.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -113,17 +103,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -131,35 +121,48 @@
       <recent name="E:\workspace\JAVA_Basic\01JAVA_BASIC_JSD1603\src\Oop\day06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InnerClassDemo">
-    <configuration name="InnerClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oop.day06.InnerClassDemo" />
-      <module name="01JAVA_BASIC_JSD1603" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oop.day06.localityClass" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oop.day06.Mama" />
-      <module name="01JAVA_BASIC_JSD1603" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oop.day06.localityClass" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NstInnerClassDemo">
     <configuration name="NstInnerClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Oop.day06.NstInnerClassDemo" />
+      <module name="01JAVA_BASIC_JSD1603" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oop.day06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Oop.day04.StaticDemo" />
+      <module name="01JAVA_BASIC_JSD1603" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oop.day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="globalVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Oop.day06.globalVariable" />
+      <module name="01JAVA_BASIC_JSD1603" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Oop.day06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="globalVariableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Oop.day06.globalVariableTest" />
       <module name="01JAVA_BASIC_JSD1603" />
       <extension name="coverage">
         <pattern>
@@ -184,33 +187,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="staticInnerClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oop.day06.staticInnerClassDemo" />
-      <module name="01JAVA_BASIC_JSD1603" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oop.day06.localityClass" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.InnerClassDemo" />
-      <item itemvalue="Application.Mama" />
-      <item itemvalue="Application.NstInnerClassDemo" />
       <item itemvalue="Application.localityClass" />
-      <item itemvalue="Application.staticInnerClassDemo" />
+      <item itemvalue="Application.globalVariableTest" />
+      <item itemvalue="Application.globalVariable" />
+      <item itemvalue="Application.StaticDemo" />
+      <item itemvalue="Application.NstInnerClassDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.staticInnerClassDemo" />
-        <item itemvalue="Application.localityClass" />
         <item itemvalue="Application.NstInnerClassDemo" />
-        <item itemvalue="Application.Mama" />
-        <item itemvalue="Application.InnerClassDemo" />
+        <item itemvalue="Application.StaticDemo" />
+        <item itemvalue="Application.globalVariable" />
+        <item itemvalue="Application.globalVariableTest" />
+        <item itemvalue="Application.localityClass" />
       </list>
     </recent_temporary>
   </component>
@@ -313,11 +303,36 @@
       <workItem from="1668538793542" duration="141000" />
       <workItem from="1668538968143" duration="2147000" />
       <workItem from="1668797901298" duration="225000" />
+      <workItem from="1670087930890" duration="601000" />
+      <workItem from="1676807979446" duration="600000" />
+      <workItem from="1678813379992" duration="783000" />
+      <workItem from="1678814187649" duration="1430000" />
+      <workItem from="1679128326300" duration="1191000" />
+      <workItem from="1679755059923" duration="674000" />
+      <workItem from="1679755985652" duration="595000" />
+      <workItem from="1679812035086" duration="3229000" />
+      <workItem from="1687545203496" duration="2796000" />
+      <workItem from="1688839710124" duration="4070000" />
+      <workItem from="1688882223132" duration="9637000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
