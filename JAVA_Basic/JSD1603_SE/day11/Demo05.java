@@ -10,7 +10,7 @@ package day11;
  */
 public class Demo05 {
 	public static void main(String[] args) throws InterruptedException{
-		Thread t1 = new Thread(){
+		Thread t1 = new Thread() {//实现了Runnable接口的匿名类
 			public void run(){
 				System.out.println("Hello!");
 				//输出正在运行状态的线程状态信息

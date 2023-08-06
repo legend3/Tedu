@@ -22,6 +22,8 @@ public class ListDemo2 {
 		 * [3,4,5,6,7]
 		 */
 		List<Integer> subList = list.subList(3, 8);
+		System.out.println(System.identityHashCode(subList));
+		System.out.println(System.identityHashCode(list));
 		System.out.println(subList==list);//false，产生了新对象
 		/*
 		 * 将子集所有元素扩大10倍

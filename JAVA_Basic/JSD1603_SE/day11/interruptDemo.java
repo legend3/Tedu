@@ -9,7 +9,7 @@ public class interruptDemo {
         Thread t1 = new Thread(s1, "T1");
         Thread t2 = new Thread(s2, "T2");
 
-        s1.otherThread = s2;
+        s1.otherThread = t2;
 
         t1.start();
         t2.start();
@@ -18,9 +18,9 @@ public class interruptDemo {
 }
 
 class ThreadDemo implements Runnable {
-    Thread t;
     int time;
-    ThreadDemo otherThread;
+    Thread otherThread;
+
     @Override
     public void run() {
         Thread thread = Thread.currentThread();
@@ -29,10 +29,10 @@ class ThreadDemo implements Runnable {
         try {
             thread.sleep(time);
             System.out.println(threadName+":还在睡呢~");
-//            otherThread.interrupt();
+            otherThread.interrupt();
         } catch (InterruptedException e) {
             e.printStackTrace();
-            System.out.println(t.getName()+":卧槽！啥事呀叫醒我");
+            System.out.println(thread.getName()+":卧槽！啥事呀叫醒我");
         }
         System.out.println(threadName+" 结束");
     }

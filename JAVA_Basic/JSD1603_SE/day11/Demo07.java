@@ -15,9 +15,11 @@ public class Demo07 {
 		t2.start();
 	}
 }
-class SleepThread extends Thread{
+class SleepThread extends Thread {
 	int time;
 	SleepThread other;
+
+	@Override
 	public void run() {
 		System.out.println(getName()+" 开始");
 		try {

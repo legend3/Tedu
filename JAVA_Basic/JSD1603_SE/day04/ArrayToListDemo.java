@@ -32,11 +32,8 @@ public class ArrayToListDemo {
 		 */
 //		list.add("five");
 		/*
-		 * 所有的集合都支持一个含有Collection类型
-		 * 作为参数的构造方法。该构造方法又称为复制
-		 * 构造器。
-		 * 可以在创建当前集合的同时包含给定集合中的
-		 * 所有元素。
+		 * 所有的集合都支持一个含有Collection类型作为参数的构造方法。该构造方法又称为复制构造器。
+		 * 可以在创建当前集合的同时包含给定集合中的所有元素。
 		 */
 		List<String> list1 = new ArrayList<String>(list);
 		System.out.println("list1:"+list1);

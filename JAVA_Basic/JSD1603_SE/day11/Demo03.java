@@ -30,11 +30,11 @@ public class Demo03 {
 		//利用Thread类提供了一个静态工具方法
 		// 获取正当调用方法的线程对象！
 		// current 当前
-		Thread t=Thread.currentThread();
-		System.out.println(t.getName()+","+t.getId());
+		Thread t = Thread.currentThread();
+		System.out.println(t.getName() + "," + t.getId());
 	}
 }
-class Thread2 extends Thread{
+class Thread2 extends Thread {
 	public void run() {
 		Demo03 d = new Demo03();
 		d.test();

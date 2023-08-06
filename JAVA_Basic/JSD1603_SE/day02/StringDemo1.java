@@ -15,7 +15,7 @@ public class StringDemo1{
 		 *  
 		 */
 		//定义正则表达式
-		String regex = "[a-zA-Z0-9_]+@[a-zA-Z0-9]+(\\.[a-zA-Z]+)+";	//	"\\\\"--->\'\"\\"(字符串中)
+		String regex = "[a-zA-Z0-9_] + @[a-zA-Z0-9] + (\\.[a-zA-Z]+)+";	//	"\\\\"--->\'\"\\"(字符串中)
 		String email = "fancq@tedu.com";//被正则表达式匹配的对象
 		boolean matches = email.matches(regex);//匹配
 		if(matches){

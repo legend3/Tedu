@@ -1,4 +1,5 @@
 package day02;
+
 /**
  * String支持正则表达式的方法2:
  * String[] split(String regex)
@@ -21,7 +22,7 @@ public class StringDemo2 {
 		 */
 		String imgName = "并发执行与串行执行的上下文切换对比.png";
 		String[] names = imgName.split("\\.");
-		imgName = System.currentTimeMillis() + "."+names[1];
+		imgName = System.currentTimeMillis() + "." + names[1];
 		System.out.println(imgName);
 		
 	}

@@ -10,6 +10,7 @@ public class InnerClassDemo {
 		//外部类创建内部类
 		Mama.Baby baby01 = m.new Baby(2);//注意这种创建形式
 		Mama.Baby baby02 = m.new Baby(5);//注意这种创建形式
+
 		baby01.setName("baby01");
 		baby02.setName("baby02");
 		baby01.start();
@@ -44,7 +45,7 @@ class Mama{ //外部类
 	//自我总结: 如何类中要频繁重复使用某一些属性、或方法且这些属性与方法与类属性间有调用关联，
 	// 就把它们封装在一个成员内部类中，避免新建类、再调用！
 	//多了一个功能更强大的baby属性
-	class Baby extends Thread{ //内部类
+	class Baby extends Thread { //内部类
 		private int age;//成员内部类自己的私有属性
 
 		public Baby(int age) {

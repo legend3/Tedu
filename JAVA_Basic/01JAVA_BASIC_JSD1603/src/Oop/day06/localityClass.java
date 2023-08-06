@@ -20,12 +20,13 @@ class School {
         this.buss = buss;
         this.studentNum = studentNum;
     }
+
     //悬窗
     public void show() {//局部内部类扩充show()
         final double tvMoney = 10000;
         final double netMoney = 20000;
 
-        class AdverTeam {//扩充show方法功能的局部内部类
+        class AdverTeam extends Thread {//扩充show方法功能的局部内部类
             String teamName = "xuanchuandui";
 
             public void tvWork() {//效果：方法中定义方法
@@ -34,9 +35,26 @@ class School {
             public void netWork() {//效果：方法中定义方法
                 System.out.println("学校: " + schoolName + "  业务内容: " + buss + " 学校人数: " + studentNum + "网络宣传费用: " + netMoney);
             }
+            @Override
+            public void run() {
+                System.out.println(Thread.currentThread().getName() + "通过局部内部类 使外部类实现了多继承...");
+            }
         }
         //自动触发调用局部内部类
-        new AdverTeam().tvWork();
-        new AdverTeam().netWork();
+        AdverTeam adverTeam1 = new AdverTeam();
+        AdverTeam adverTeam2 = new AdverTeam();
+        //主线程执行
+        adverTeam1.tvWork();
+        adverTeam2.tvWork();
+        adverTeam1.netWork();
+        adverTeam2.netWork();
+        //多线程执行
+        adverTeam1.setName("adverTeam1");
+        adverTeam2.setName("adverTeam2");
+        adverTeam1.start();
+        adverTeam1.run();
+        adverTeam2.start();
+        adverTeam2.run();
+
     }
 }

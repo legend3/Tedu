@@ -36,6 +36,10 @@ public enum CodeEnum implements SystemCode {
         this.code = code;
         this.desc = desc;
     }
+    //枚举项一个参数时
+    CodeEnum(int code) {
+        this.code = code;
+    }
 
     @Override
     public int getCode() {

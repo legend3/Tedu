@@ -36,6 +36,8 @@ public class Demo06 {
 
 class TestThread extends Thread{
 	int time;
+
+	@Override
 	public void run() {
 		System.out.println(getName()+"--Start!");
 		try {

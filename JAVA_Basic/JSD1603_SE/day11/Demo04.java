@@ -20,5 +20,4 @@ public class Demo04 {
 		t3.start();
 
 	}
-
 }

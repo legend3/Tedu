@@ -1,6 +1,6 @@
 package day04;
-//import org.apache.commons.lang.StringUtils;
-import com.sun.deploy.util.StringUtils;
+import org.apache.commons.lang.StringUtils;
+//import com.sun.deploy.util.StringUtils;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -19,7 +19,7 @@ public class StringandColletion {
         String str = StringUtils.join(list, ",");//集合转字符串
         System.out.println(str);
 
-        String str2 = "足球,篮球,排球";//字符串转集合
+        String str2 = "足球,篮球,排球";
         String[] strArray2 = str2.split(",");//字符串转数组
         List<String> list2 = Arrays.asList(strArray2);//数组转集合
         System.out.println(list2);
