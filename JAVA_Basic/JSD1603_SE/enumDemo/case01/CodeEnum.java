@@ -5,11 +5,15 @@ package enumDemo.case01;
  *      不同对象的统一接口方法的实现！
  */
 public enum CodeEnum implements SystemCode {
-    //枚举项(其实每个枚举项都是一个匿名类的子类对象！)
-    SUCCESSFUL(0, "操作成功！") {//0, "操作成功！"就是set()方法赋值！
+    //枚举项
+    SUCCESSFUL(0, "操作成功！") {
+        private String info  = "成功！";
+
         @Override
         public void getMessage(String message) {
             System.out.println("SUCCESSFUL枚举项重写getMessage抽象方法：" + message);
+            System.out.println("SUCCESSFUL枚举项自己的成员属性" + this.info);
+            System.out.println("SUCCESSFUL枚举项的获取 类 成员属性" + this.getDes());
         }
     },
     ERROR(-1, "系统错误"){

@@ -21,10 +21,8 @@ public class SortListDemo2 {
 		/*
 		 * 数值
 		 * Collections的sort方法要求
-		 * 排序的集合中元素必须实现Comparable
-		 * 接口。该接口用于表示可比较。其提供了
-		 * 一个抽象方法comparaTo用于定义比较
-		 * 规则。
+		 * 排序的集合中元素必须实现Comparable接口。
+		 * 该接口用于表示可比较。其提供了一个抽象方法comparaTo用于定义比较规则。
 		 */
 		Collections.sort(list);//按照自定义规则得出元素大小，再sort从小到大排序
 		System.out.println("比较后的集合：" + list);

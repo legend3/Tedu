@@ -35,7 +35,7 @@ class TestMyInterface{
         impl.toString();//实际会调用Object中的toString()
 
         //lamnda方式
-        MyInterface m = () -> System.out.println("a...");//相当于实现了a(),然后new MyInterface()子实例m;
+        MyInterface m = () -> System.out.println("a...");//相当于匿名块MyInterfaceImpl()实现了a(),然后new MyInterface()子实例m;
         m.a();//实现后的子类实例调用实现了的a()方法
     }
 }

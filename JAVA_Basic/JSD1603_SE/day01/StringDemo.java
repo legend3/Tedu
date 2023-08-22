@@ -31,7 +31,7 @@ public class StringDemo {
 		 * String s4 = "HelloWorld";
 		 */
 		String s4 = "Hello"+"World";
-        System.out.println(s1==s4);//true
+        System.out.println(s1 == s4);//true
 		/*
 		 * 下面的操作不会在编译的时候直接计算。
 		 * 而改变字符串内容一定会创建新对象。

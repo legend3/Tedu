@@ -48,22 +48,24 @@ public class Key {
 			return true;
 		if (otherObj == null) //测试检测的对象是否为空，是就返回false
 			return false;
-		if (this.getClass() != otherObj.getClass())  //测试两个对象所属的类是否相同，否则返回false
+		if (this.getClass() != otherObj.getClass())  //测试两个对象所属的类(getClass()代表引用指向的对象<new xxx()>))是否相同，否则返回false
 			return false;
-		if (otherObj instanceof Key) {	//再判断是不是Key类,提高代码的健壮性
+		//instanceof: 左边是对象，右边是类；当左边对象是右边类或子类所创建对象时，返回true；否则，返回false。
+		if (otherObj instanceof Key) {	//再判断是不是Key类(或Key子类)的实例,提高代码的健壮性
 			Key other = (Key) otherObj;    //对otherObject进行类型转换以便和类Key的对象进行比较
 			return other.getAge()==this.getAge() && other.getSex()==this.getSex();//比较
 		}
 		return true;
 	}
 
+	//如果一个类是不变类，并且计算hashCode码的开销也比较大，那么可以考虑将hashCode码缓存在对象内部，计算一次享用终生，而不是每次请求的时候都重新计算散列码
 	private volatile int hashCode;
 	@Override
 	public int hashCode() {
 //		int result = 17;
 		int result = hashCode;
 		if(result == 0) {
-			result = Integer.hashCode(age);
+			result = Integer.hashCode(age);//首个field
 //			result = 31 * result + age;
 			result = 31 * result + (sex == null ? 0 : sex.hashCode());
 			//System.out.println(result);
@@ -71,6 +73,7 @@ public class Key {
 		}
 		return result;
 	}
+
 	@Override
 	public String toString() {
 		return "Key: {" +

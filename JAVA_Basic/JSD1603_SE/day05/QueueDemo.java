@@ -6,7 +6,7 @@ import java.util.Queue;
 /**
  * java.util.Queue
  * 队列，用于存放一组元素，但是存取元素必须遵循:先进先出原则
- * 队列通常用来解决具有排队需求的业务逻辑
+ * 适用场景：队列通常用来解决具有排队需求的业务逻辑
  * @author Administrator
  *
  */
@@ -52,11 +52,15 @@ public class QueueDemo {
 		str = queue.peek();
 		System.out.println(str);
 		System.out.println(queue);
-		//遍历队列是一次性的
+		//遍历队列是一次性的，且可以边遍历边删除！
 		while(queue.size()>0){
 			str = queue.poll();
 			System.out.println(str);
 		}
+//		for(int i=queue.size();i==queue.size();i--) {
+//			System.out.println("队列长度：" + queue.size() + "	删除元素：" + queue.poll());
+//		}
+//		System.out.println(queue.poll());
 		System.out.println("遍历完毕!");
 		System.out.println(queue);
 	}

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+
 /**
  * Collections的sort方法有两个不足:
  * 1:要求我们的集合元素必须实现Comparable接口
@@ -14,10 +15,11 @@ import java.util.List;
  * Collections提供了一个重载的sort方法:
  * static void sort(List list,Comparator c)
  * 该重载方法要求我们传入一个额外的比较器，按照该比较器
- * 的规则来比较集合中的元素然后进行自然排序。    
+ * 的规则来比较集合中的元素然后进行自然排序。
  * @author Administrator
  *
  */
+
 public class SortListDemo3 {
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<String>();
@@ -56,9 +58,3 @@ class MyComparator implements Comparator<String>{
 		return o1.length()-o2.length();
 	}
 }
-
-
-
-
-
-

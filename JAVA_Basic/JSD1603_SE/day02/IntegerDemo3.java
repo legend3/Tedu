@@ -9,6 +9,9 @@ package day02;
 public class IntegerDemo3 {
 	public static void main(String[] args) {
 		String str = "123";
+		/*
+			字符串数字转包装类型
+		 */
 		int i = Integer.parseInt(str);//对应String.valueOf(int)
 		System.out.println(i+1);
 		

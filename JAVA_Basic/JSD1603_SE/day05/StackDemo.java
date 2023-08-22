@@ -6,9 +6,11 @@ import java.util.LinkedList;
 /**
  * 栈结构
  * 存放一组元素，但是存取元素必须遵循先进后出原则
- * java没有为栈提供专门的类，而是使用双端队列
- * 实现的。java.util.Deque
+ * java没有为栈提供专门的类，而是使用双端队列实现的。
+ *
+ * java.util.Deque
  * 双端队列:队列两端都可以进出队。
+ *
  * @author Administrator
  *
  */
@@ -24,15 +26,22 @@ public class StackDemo {
 		stack.push("three");
 		stack.push("four");
 		stack.push("five");
-		
+		stack.addFirst("six");
+		stack.addLast("zero");
+
 		System.out.println(stack);
+//		for(int i=0;i<stack.size();i++) {
+//
+//		}
 		/*
 		 * E pop()
 		 * 出栈操作，获取后该元素即从栈中被
 		 * 删除。
 		 */
-		String str = stack.pop();
+		String str = stack.pop();//首位
 		System.out.println(str);
+		System.out.println(stack);
+//		stack.push("-");//等效addFirst
 		System.out.println(stack);
 		//仅引用栈顶元素，不做出栈操作
 		str = stack.peek();

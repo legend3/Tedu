@@ -24,8 +24,7 @@ public class CollectionDemo2 {
 
 		/*
 		 * boolean addAll(Collection c)
-		 * 将给定集合中的所有元素添加到当前
-		 * 集合中
+		 * 将给定集合中的所有元素添加到当前集合中
 		 * 当添加后当前集合元素发生了变化就返回true
 		 */
 		boolean tf = c1.addAll(c2);

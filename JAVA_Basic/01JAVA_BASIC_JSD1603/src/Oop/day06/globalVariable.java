@@ -1,4 +1,5 @@
 package Oop.day06;
+
 /**
  * CLassName: globalVariable
  * Description: Java的全局变量
@@ -18,8 +19,8 @@ package Oop.day06;
  */
 
 public class globalVariable {
-    public static int id;
-    public static int name;
+    public static int id;//全局变量
+    public static int name;//全局变量
 
     public static int getId() {
         return id;
@@ -37,10 +38,12 @@ public class globalVariable {
     public static void main(String[] args) {
         globalVariable test1 = new globalVariable();
         globalVariable test2 = new globalVariable();
+
         test1.setId(1);//实例引用也可以调静态方法
+        System.out.println(test1.getId());
+        System.out.println(test2.getId());//test2实例的也变了
         test1.setId(2);//实例引用也可以调静态方法
         System.out.println(test1.getId());
         System.out.println(test2.getId());//test2实例的也变了
-
     }
 }

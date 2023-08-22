@@ -22,7 +22,7 @@ public class Demo02 {
     @Test
     public void test02(){
 //        MyMath math =  (int n1, int n2) -> {return  n1+n2;};
-        MyMath math =  (n1,n2) -> n1+n2;//（自定义）函数型
+        MyMath<Integer> math =  (n1,n2) -> n1+n2;//（自定义）函数型
         System.out.println(math.add(1,100));
     }
     @Test
@@ -41,32 +41,40 @@ public class Demo02 {
         Function<String,String> f = (s) -> s.toUpperCase();//函数型
         System.out.println(f.apply("hello world"));
     }
-    @Test
-    public void test06(){
-        String result = upper( (x) -> x.toUpperCase(),"hello");//将函数式接口new、实现、调用，全部封装在upper()方法中
-        System.out.println(result);
-    }
-    // fun:函数的逻辑   ,str:hello
-    public String upper(Function<String, String> fun, String str ) {
+    // fun:函数的逻辑, str:hello
+    public String upper(Function<String, String> fun, String str ) {//高阶函数的一种特殊形式
         return fun.apply(str);
     }
     @Test
-    public void test07(){
-        myPredicate((x) -> x>18, 10);//myPredicate(匿名内部类, num)//实参
+    public void test06(){
+        String result = upper((x) -> x.toUpperCase(),"hello");//将函数式接口new、实现、调用，全部封装在upper()方法中
+        System.out.println(result);
     }
     public void myPredicate(Predicate<Integer> pre, Integer num) {//虚参
         System.out.println(pre.test(num));
     }
-
-    public void main(String[] args) {
-        test01();
+    @Test
+    public void test07() {
+        myPredicate((x) -> x>18, 10);//myPredicate(函数式接口的实现——"类似匿名块实现", num)//实参
+    }
+    @Test
+    public void test08() {
+        /**
+         * Java方法引用: 方法引用被实现为 Lambda 表达式的语法糖，即当一个 Lambda 表达式只调用一个已经存在的方法时
+         */
         ArrayList<String> list = new ArrayList<>();
-      //  list.add(...);   参数：String，返回值:boolean
+//      list.add("...");//参数: String，返回值: boolean
 
-        Predicate<String> pre = list::add;// pre.test(  ):参数：String，返回值:boolean
+        //断言式
+        Predicate<String> pre = list::add;// pre.test(T t):参数：String，返回值:boolean
         pre.test("a");
         pre.test("b");
 
-        System.out.println(list);
+        //函数式
+        Function<String, Boolean> fun = list::add;// fun.apply(T t):参数：String，返回值:boolean
+        fun.apply("c");
+        fun.apply("d");
+
+        System.out.println(list);//[a, b, c, d]
     }
 }
