@@ -42,8 +42,8 @@
         ).start();
 
 
-以上述为例，new Thread()中是一个接口、抽象类。_但是为了避免不能区分lambda到底是重写的哪个方法，语法上lambda要求重写的接口、抽象类中
-有且只能有一个抽象方法_。  
+以上述为例，new Thread()中是一个接口、抽象类。_但是为了避免不能区分lambda到底是重写的哪个方法，
+语法上lambda要求重写的**接口、抽象类**中有且只能有一个抽象方法_。  
 
 仔细观察，lambda重写的*接口、抽象类*中 会标识一个@FunctionalInterface，称为**函数式接口**。  
 
@@ -53,7 +53,8 @@
 
 >函数式接口要注意以下几点：
 2. _即使没有标注@FunctionalInterface，但是只有一个抽象方法，也称之为函数式接口_  
-3. 特殊情况：如果某个接口中有多个抽象方法，但**只有1个抽象方法是本接口新定义的**，其他抽象方法和Object中已有的方法重复，那么该接口仍然是函数式接口。  
+3. 特殊情况：如果某个接口中有多个抽象方法，但**只有1个抽象方法是本接口新定义的**，其他抽象方法和Object中已有的方法重复，
+那么该接口仍然是函数式接口。  
 
  
     java
@@ -84,7 +85,8 @@
     }
 
 
-MyInterface中的a()方法是 **自己定义的**，而其他equals()、toString()方法可以理解为 从Object中继承而来，因此 MyInterface虽然显示了3个抽象，但其实只有1个抽象。  
+MyInterface中的a()方法是 **自己定义的**，而其他equals()、toString()方法可以理解为从Object中继承而来，
+因此 MyInterface虽然显示了3个抽象，但其实只有1个抽象。  
 `()  { return }`
 
 
@@ -139,7 +141,7 @@ MyInterface中的a()方法是 **自己定义的**，而其他equals()、toString
     Predicate<Integer> p = num -> num < 10;
 
 `java
-    public static void test01(){
+    public static void test01() {
         //   boolean test(T t);
         Predicate<Integer> p = (num) ->  {return num < 10;} ;
         //Predicate<Integer> p = num ->  num < 10  ;
@@ -250,13 +252,13 @@ import java.util.function.Supplier;
         System.out.println(result);
     }
                                                 // fun:函数的逻辑   ,str:hello
-    public static String upper( Function<String,String> fun ,String str ){
+    public static String upper( Function<String,String> fun ,String str ) {
         return  fun.apply( str  ) ;
     }
-    public static void test07(){
+    public static void test07() {
         myPredicate( (x) -> x>18   ,  10);
     }
-    public static void myPredicate(Predicate<Integer> pre,  Integer num   ){
+    public static void myPredicate(Predicate<Integer> pre,  Integer num   ) {
         System.out.println(   pre.test( num ) );
     }
         public static void main(String[] args) {
@@ -272,12 +274,13 @@ import java.util.function.Supplier;
 
 # Java方法引用：提高代码可读性和可维护性
 ##前言
-在Java 8中，可以使用方法引用（Method Reference）来简化Lambda表达式。方法引用是一种更简洁易懂的语法形式，可以通过指定方法的名称代替Lambda表达式。
+>在Java 8中，可以使用方法引用（Method Reference）来简化Lambda表达式。方法引用是一种更简洁易懂的语法形式，
+可以通过指定方法的名称代替Lambda表达式。  
 
 本文将介绍方法引用的用法和实现原理，并结合代码案例详细讲解。
 
 ##方法引用的介绍
-方法引用是Java 8中的新特性，它允许直接引用已有 Java 类或对象的方法，并传递它们作为 Lambda 表达式的参数。
+方法引用是Java 8中的新特性，它允许**直接引用已有 Java 类或对象的方法**，并传递它们作为 Lambda 表达式的参数。
 
 方法引用的语法为：对象名::方法名 或 类名::静态方法名。
 

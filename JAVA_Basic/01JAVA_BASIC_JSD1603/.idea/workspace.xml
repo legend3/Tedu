@@ -1,109 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad4b61d4-3251-4b4b-a712-0e5af089ab59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../HttpClientDemo/target/test-classes/httpClientTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../HttpClientDemo/target/test-classes/httpURLConnTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JSD1603_SE/day05/MySingleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oop/day04/ooDay04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day04/ooDay04.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oop/day05/ooDay05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day05/ooDay05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oop/day06/InnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/InnerClassDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oop/day06/localityClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/localityClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oop/day06/ooDay06.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/ooDay06.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oop/day06/staticInnerClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oop/day06/staticInnerClassDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/JSD1603_SE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/.idea/JSD1603_SE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day02/StringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day02/StringDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day02/StringDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day02/StringDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day04/ArrayToListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day04/ArrayToListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day04/ListDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day04/ListDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day04/StringandColletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day04/StringandColletion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day05/MapDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day05/MapDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day05/StackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day05/StackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day10/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day10/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day11/Demo07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day11/day11.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day11/day11.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/day11/interruptDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/day11/interruptDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case01/CodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/enumDemo/case01/CodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/lambda/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/lambda/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/Demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/lambda/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/MyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/lambda/MyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/lambda/MyMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_XML/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Oracle/JDBC/day01/jdbc/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../Oracle/JDBC/day01/jdbc/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/target/classes/META-INF/maven/com.tedu/JSD1603_XML/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/target/classes/META-INF/maven/com.tedu/JSD1603_XML/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/target/classes/day12/ParseXmlDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/target/classes/day12/ParseXmlDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/.idea/JSD1603_SE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/JSD1603_SE/.idea/JSD1603_SE.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/ShootGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/ShootGame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/ShootGame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/ShootGame$2.class" afterDir="false" />
+    <list default="true" id="cff67c60-5f7d-4b73-83a6-8382c5dbe5bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Design_Pattern/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_Pattern/src/Template_method_pattern_25/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_Pattern/src/Template_method_pattern_25/firstDemo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_Pattern/src/Template_method_pattern_25/secondDemo/DataViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design_Pattern/src/Template_method_pattern_25/secondDemo/SubDataViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/JAVA_Basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/JAVA_Basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/01JAVA_BASIC_JSD1603.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01JAVA_BASIC_JSD1603.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/Data Structures and Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Structures and Algorithms/Data Structures and Algorithms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/out/production/Data Structures and Algorithms/DesignMode/SimpleFactory/Operation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/out/production/Data Structures and Algorithms/DesignMode/SimpleFactory/OperationAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/out/production/Data Structures and Algorithms/DesignMode/SimpleFactory/OperationDiv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/out/production/Data Structures and Algorithms/DesignMode/SimpleFactory/OperationFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/out/production/Data Structures and Algorithms/DesignMode/SimpleFactory/OperationMul.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/out/production/Data Structures and Algorithms/DesignMode/SimpleFactory/OperationSub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/out/production/Data Structures and Algorithms/First/1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/out/production/Data Structures and Algorithms/META-INF/Data Structures and Algorithms.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures and Algorithms/out/production/Data Structures and Algorithms/Second/2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Design Pattern/Design Pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_Pattern/Design_Pattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Design Pattern/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Design Pattern/src/Template_method_pattern_25/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Design Pattern/src/Template_method_pattern_25/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_Pattern/src/Template_method_pattern_25/firstDemo/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Design Pattern/src/Template_method_pattern_25/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_Pattern/src/Template_method_pattern_25/firstDemo/CurrentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Design Pattern/src/Template_method_pattern_25/SavingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_Pattern/src/Template_method_pattern_25/firstDemo/SavingAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Design Pattern/src/Template_method_pattern_25/XMLUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Design_Pattern/src/Template_method_pattern_25/firstDemo/XMLUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JAVA_Basic.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JDBC/JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC/JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/JSD1603_SE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/dictionaries/Administrator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_SE/JSD1603_SE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSD1603_SE/JSD1603_SE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/emplist.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSD1603_XML/src/main/java/day12/ParseXmlDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaConcurrentProgrammingArt/JavaConcurrentProgrammingArt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaConcurrentProgrammingArt/JavaConcurrentProgrammingArt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/.idea/libraries/TETRIS.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/Wall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/cells.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/design.vsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/destroyLines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/drawString.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/moveRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/paintTetromino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/paintWall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/pause.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/rotate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/state.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/res/tetris.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/I.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/J.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/O.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/T.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/TETRIS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/Test02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/Tetris.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/Tetromino.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/Z.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/game-over.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/src/com/tarena/tetris/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/test/KeyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/test/TimerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TETRIS/tetris.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/.idea/day_xml_am.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/emplist.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/src/main/java/day12/ParseXmlDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_xml_am/JSD1603_XML/target/classes/day12/ParseXmlDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/.idea/JSD1603_SE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/JSD1603_SE/JSD1603_SE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/Debug/DebugDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/Airplane.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/Award.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/Bee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/Bullet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/FlyingObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/ShootGame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/ShootGame$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/ShootGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/airplane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/bee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/gameover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/hero0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/hero1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/bin/com/tarena/shoot/start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/Airplane.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/Award.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/Bee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/Bullet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/FlyingObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/ShootGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/airplane.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/bee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/gameover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/hero0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/hero1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/MeShoot/src/com/tarena/shoot/start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shootday03_am_2/day03_am_2/shootDay03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../threadbasic/threadbasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../threadbasic/threadbasic.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Basic/day02/VarDemo.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Basic/day02/DataTypeDemo.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Oop/day06/InnerClassDemo.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Oop/day06/shixian.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Basic/day02/ScannerDemo.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Oop/day06/staticInnerClassDemo.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Oop/day06/localityClass.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
-  <component name="ProjectId" id="1eEgImfyJIjIDrBCJmMW3AKM4TJ" />
+  <component name="ProjectId" id="2VUUVQWuMLZpSoiZSMrmaA1dijc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -112,259 +180,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HttpClientDemo" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\JAVA_Basic\01JAVA_BASIC_JSD1603\src\Oop\day06" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.localityClass">
-    <configuration name="InnerClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oop.day06.InnerClassDemo" />
-      <module name="01JAVA_BASIC_JSD1603" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oop.day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oop.day06.Mama" />
-      <module name="01JAVA_BASIC_JSD1603" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oop.day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NstInnerClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oop.day06.NstInnerClassDemo" />
-      <module name="01JAVA_BASIC_JSD1603" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oop.day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VirtualImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oop.day06.VirtualImpl" />
-      <module name="01JAVA_BASIC_JSD1603" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oop.day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="localityClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Oop.day06.localityClass" />
-      <module name="01JAVA_BASIC_JSD1603" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Oop.day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.NstInnerClassDemo" />
-      <item itemvalue="Application.VirtualImpl" />
-      <item itemvalue="Application.Mama" />
-      <item itemvalue="Application.localityClass" />
-      <item itemvalue="Application.InnerClassDemo" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.localityClass" />
-        <item itemvalue="Application.InnerClassDemo" />
-        <item itemvalue="Application.Mama" />
-        <item itemvalue="Application.VirtualImpl" />
-        <item itemvalue="Application.NstInnerClassDemo" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad4b61d4-3251-4b4b-a712-0e5af089ab59" name="Default Changelist" comment="" />
-      <created>1593892088546</created>
+      <changelist id="cff67c60-5f7d-4b73-83a6-8382c5dbe5bd" name="Changes" comment="" />
+      <created>1694890176069</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1593892088546</updated>
-      <workItem from="1593892089822" duration="22000" />
-      <workItem from="1593892136385" duration="1875000" />
-      <workItem from="1593924730066" duration="1560000" />
-      <workItem from="1593929211502" duration="17764000" />
-      <workItem from="1594304810216" duration="1688000" />
-      <workItem from="1594339884930" duration="4953000" />
-      <workItem from="1594394767908" duration="4275000" />
-      <workItem from="1594449089984" duration="12647000" />
-      <workItem from="1594536099032" duration="1278000" />
-      <workItem from="1595786043248" duration="623000" />
-      <workItem from="1595787073090" duration="1165000" />
-      <workItem from="1595788612359" duration="1681000" />
-      <workItem from="1595865212912" duration="67000" />
-      <workItem from="1597567705221" duration="61000" />
-      <workItem from="1597567825217" duration="591000" />
-      <workItem from="1597569065763" duration="603000" />
-      <workItem from="1600101958528" duration="3657000" />
-      <workItem from="1600181881231" duration="9947000" />
-      <workItem from="1600265135289" duration="1251000" />
-      <workItem from="1600641121109" duration="2777000" />
-      <workItem from="1600698978665" duration="159000" />
-      <workItem from="1601392145047" duration="2042000" />
-      <workItem from="1601533093135" duration="1546000" />
-      <workItem from="1601696553581" duration="2427000" />
-      <workItem from="1601803011587" duration="18658000" />
-      <workItem from="1601970105577" duration="13785000" />
-      <workItem from="1602402891583" duration="353000" />
-      <workItem from="1602404143367" duration="1193000" />
-      <workItem from="1602921861161" duration="6757000" />
-      <workItem from="1603203841677" duration="618000" />
-      <workItem from="1603290296026" duration="599000" />
-      <workItem from="1610465113677" duration="2612000" />
-      <workItem from="1610501241207" duration="24000" />
-      <workItem from="1610550911454" duration="698000" />
-      <workItem from="1610790488739" duration="1165000" />
-      <workItem from="1610856188510" duration="17039000" />
-      <workItem from="1610896823593" duration="4735000" />
-      <workItem from="1611995578162" duration="20714000" />
-      <workItem from="1612105821511" duration="1598000" />
-      <workItem from="1612114593378" duration="76000" />
-      <workItem from="1616829355879" duration="170000" />
-      <workItem from="1617299007983" duration="27000" />
-      <workItem from="1621092478213" duration="52000" />
-      <workItem from="1621104435459" duration="9316000" />
-      <workItem from="1622655522715" duration="1188000" />
-      <workItem from="1624975127288" duration="275000" />
-      <workItem from="1625060813552" duration="638000" />
-      <workItem from="1625151221181" duration="515000" />
-      <workItem from="1625235751366" duration="78000" />
-      <workItem from="1644303649628" duration="5550000" />
-      <workItem from="1644381430962" duration="6000" />
-      <workItem from="1644389172705" duration="2236000" />
-      <workItem from="1644478579130" duration="1331000" />
-      <workItem from="1644558774893" duration="24000" />
-      <workItem from="1650867087498" duration="12561000" />
-      <workItem from="1650974876376" duration="3082000" />
-      <workItem from="1651051238581" duration="1223000" />
-      <workItem from="1651475371543" duration="254000" />
-      <workItem from="1651744439827" duration="146000" />
-      <workItem from="1652204479000" duration="449000" />
-      <workItem from="1653461760723" duration="843000" />
-      <workItem from="1653485717205" duration="36000" />
-      <workItem from="1653495867254" duration="2304000" />
-      <workItem from="1655015010063" duration="61000" />
-      <workItem from="1655652799482" duration="1451000" />
-      <workItem from="1655654430827" duration="1627000" />
-      <workItem from="1656777266700" duration="1235000" />
-      <workItem from="1657904137959" duration="11000" />
-      <workItem from="1658968626604" duration="2808000" />
-      <workItem from="1659248434085" duration="30000" />
-      <workItem from="1659372731305" duration="9000" />
-      <workItem from="1659888762661" duration="2019000" />
-      <workItem from="1660027393789" duration="12205000" />
-      <workItem from="1660053864502" duration="607000" />
-      <workItem from="1660102961364" duration="729000" />
-      <workItem from="1660142247200" duration="1818000" />
-      <workItem from="1660153546761" duration="525000" />
-      <workItem from="1660154105337" duration="589000" />
-      <workItem from="1660206560241" duration="86000" />
-      <workItem from="1660500257219" duration="885000" />
-      <workItem from="1660501174081" duration="2022000" />
-      <workItem from="1660543884930" duration="1491000" />
-      <workItem from="1660616199916" duration="1373000" />
-      <workItem from="1660652773735" duration="2551000" />
-      <workItem from="1661321080720" duration="1285000" />
-      <workItem from="1668538793542" duration="141000" />
-      <workItem from="1668538968143" duration="2147000" />
-      <workItem from="1668797901298" duration="225000" />
-      <workItem from="1670087930890" duration="601000" />
-      <workItem from="1676807979446" duration="600000" />
-      <workItem from="1678813379992" duration="783000" />
-      <workItem from="1678814187649" duration="1430000" />
-      <workItem from="1679128326300" duration="1191000" />
-      <workItem from="1679755059923" duration="674000" />
-      <workItem from="1679755985652" duration="595000" />
-      <workItem from="1679812035086" duration="3229000" />
-      <workItem from="1687545203496" duration="2796000" />
-      <workItem from="1688839710124" duration="4070000" />
-      <workItem from="1688882223132" duration="10720000" />
-      <workItem from="1689705801824" duration="32000" />
-      <workItem from="1690639820295" duration="367000" />
-      <workItem from="1690817476647" duration="911000" />
-      <workItem from="1691231290713" duration="1631000" />
-      <workItem from="1691245340722" duration="1094000" />
-      <workItem from="1691297828174" duration="6489000" />
+      <updated>1694890176069</updated>
+      <workItem from="1694890177530" duration="18000" />
     </task>
-    <task id="LOCAL-00001" summary="Java全局变量">
-      <created>1688892987642</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1688892987642</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Java全局变量" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java全局变量" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

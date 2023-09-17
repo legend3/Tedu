@@ -3,6 +3,8 @@ package lambda;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -50,6 +52,7 @@ public class Demo02 {
         String result = upper((x) -> x.toUpperCase(),"hello");//将函数式接口new、实现、调用，全部封装在upper()方法中
         System.out.println(result);
     }
+
     public void myPredicate(Predicate<Integer> pre, Integer num) {//虚参
         System.out.println(pre.test(num));
     }
@@ -76,5 +79,25 @@ public class Demo02 {
         fun.apply("d");
 
         System.out.println(list);//[a, b, c, d]
+    }
+    @Test
+    public void test09() {
+        String str = "hello world";
+        Function<Integer, Character> fun = str::charAt;//index -> str.charAt(index);
+        fun.apply(1);
+
+    }
+    @Test
+    public void test10() {
+        List<Integer> list = Arrays.asList(1, 2, 3);
+        list.forEach(System.out::println);//list.forEach((x) -> System.out.println(x));
+        // Consumer<Integer> consumer = System.out::println;
+
+    }
+    @Test
+    public void test11() {
+//        Supplier<List<String>> supplier = () -> new ArrayList<>();
+        Supplier<List<String>> supplier = ArrayList::new;
+        supplier.get();//返回一个ArrayList空构造方法new出来的实例
     }
 }
